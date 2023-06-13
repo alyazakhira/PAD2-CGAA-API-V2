@@ -33,8 +33,9 @@ Route::prefix('v2')->group(function(){
         });
 
         Route::controller(ExamController::class)->group(function(){
-            Route::get('/exam-pusat/{user_id}', 'exam_pusat');
-            Route::get('/exam-daerah/{user_id}', 'exam_daerah');
+            Route::get('/exam-data/{session_id}', 'get_exam_question');
+            Route::get('/exam-pusat/{user_id}', 'begin_exam_pusat');
+            Route::get('/exam-daerah/{user_id}', 'begin_exam_daerah');
             Route::post('/save-answer', 'save_answer');
             Route::post('/exam-result', 'calculate_score');
             Route::get('/average-score/{user_id}', 'user_average');

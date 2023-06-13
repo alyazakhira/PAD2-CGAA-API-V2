@@ -7,6 +7,7 @@ use App\Http\Resources\ResourceWrapper;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
+use Illuminate\Support\Collection;
 use App\Models\User;
 use App\Models\Question;
 use App\Models\MultipleChoice;
@@ -16,46 +17,46 @@ use App\Models\SessionQuestion;
 
 class ExamController extends Controller
 {
-    public function exam_pusat($user_id){
-        $multipleChoices = MultipleChoice::where('question_type', 'pusat')->inRandomOrder()->limit(30);
-        $multipleChoicePaginated = $multipleChoices->paginate(1);
-        
+    public function begin_exam_pusat($user_id){
+        $multipleChoices = MultipleChoice::where('question_type', 'pusat')->inRandomOrder()->limit(30)->get();
+
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
+        $examSession->type = 'pusat';
         $examSession->save();
 
         $mpPack = new SessionQuestion;
         $mpPack->id = $examSession->id;
-        $mpPack->quest_id_1 = $multipleChoices->skip(0)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_2 = $multipleChoices->skip(1)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_3 = $multipleChoices->skip(2)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_4 = $multipleChoices->skip(3)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_5 = $multipleChoices->skip(4)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_6 = $multipleChoices->skip(5)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_7 = $multipleChoices->skip(6)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_8 = $multipleChoices->skip(7)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_9 = $multipleChoices->skip(8)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_10 = $multipleChoices->skip(9)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_11 = $multipleChoices->skip(10)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_12 = $multipleChoices->skip(11)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_13 = $multipleChoices->skip(12)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_14 = $multipleChoices->skip(13)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_15 = $multipleChoices->skip(14)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_16 = $multipleChoices->skip(15)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_17 = $multipleChoices->skip(16)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_18 = $multipleChoices->skip(17)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_19 = $multipleChoices->skip(18)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_20 = $multipleChoices->skip(19)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_21 = $multipleChoices->skip(20)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_22 = $multipleChoices->skip(21)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_23 = $multipleChoices->skip(22)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_24 = $multipleChoices->skip(23)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_25 = $multipleChoices->skip(24)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_26 = $multipleChoices->skip(25)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_27 = $multipleChoices->skip(26)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_28 = $multipleChoices->skip(27)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_29 = $multipleChoices->skip(28)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_30 = $multipleChoices->skip(29)->take(1)->get('id')[0]->id;
+        $mpPack->quest_id_1 = $multipleChoices[0]->id;
+        $mpPack->quest_id_2 = $multipleChoices[1]->id;
+        $mpPack->quest_id_3 = $multipleChoices[2]->id;
+        $mpPack->quest_id_4 = $multipleChoices[3]->id;
+        $mpPack->quest_id_5 = $multipleChoices[4]->id;
+        $mpPack->quest_id_6 = $multipleChoices[5]->id;
+        $mpPack->quest_id_7 = $multipleChoices[6]->id;
+        $mpPack->quest_id_8 = $multipleChoices[7]->id;
+        $mpPack->quest_id_9 = $multipleChoices[8]->id;
+        $mpPack->quest_id_10 = $multipleChoices[9]->id;
+        $mpPack->quest_id_11 = $multipleChoices[10]->id;
+        $mpPack->quest_id_12 = $multipleChoices[11]->id;
+        $mpPack->quest_id_13 = $multipleChoices[12]->id;
+        $mpPack->quest_id_14 = $multipleChoices[13]->id;
+        $mpPack->quest_id_15 = $multipleChoices[14]->id;
+        $mpPack->quest_id_16 = $multipleChoices[15]->id;
+        $mpPack->quest_id_17 = $multipleChoices[16]->id;
+        $mpPack->quest_id_18 = $multipleChoices[17]->id;
+        $mpPack->quest_id_19 = $multipleChoices[18]->id;
+        $mpPack->quest_id_20 = $multipleChoices[19]->id;
+        $mpPack->quest_id_21 = $multipleChoices[20]->id;
+        $mpPack->quest_id_22 = $multipleChoices[21]->id;
+        $mpPack->quest_id_23 = $multipleChoices[22]->id;
+        $mpPack->quest_id_24 = $multipleChoices[23]->id;
+        $mpPack->quest_id_25 = $multipleChoices[24]->id;
+        $mpPack->quest_id_26 = $multipleChoices[25]->id;
+        $mpPack->quest_id_27 = $multipleChoices[26]->id;
+        $mpPack->quest_id_28 = $multipleChoices[27]->id;
+        $mpPack->quest_id_29 = $multipleChoices[28]->id;
+        $mpPack->quest_id_30 = $multipleChoices[29]->id;
         $mpPack->save();
 
         $answerPack = new SessionAnswer;
@@ -64,66 +65,103 @@ class ExamController extends Controller
 
         $data = [
             'session_id' => $examSession->id,
-            'question_data' => $multipleChoicePaginated,
         ];
 
-        return ResourceWrapper::make(true, 200, 'Exam Data - Pusat', $data);
+        return ResourceWrapper::make(true, 200, 'Successfully Create Exam Session - Pusat', $data);
     }
 
-    public function exam_daerah($user_id){
-        $multipleChoices = MultipleChoice::where('question_type', 'daerah')->inRandomOrder()->limit(30);
-        $multipleChoicePaginated = $multipleChoices->paginate(1);
+    public function begin_exam_daerah($user_id){
+        $multipleChoices = MultipleChoice::where('question_type', 'daerah')->inRandomOrder()->limit(30)->get();
 
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
+        $examSession->type = 'daerah';
         $examSession->save();
 
         $mpPack = new SessionQuestion;
         $mpPack->id = $examSession->id;
-        $mpPack->quest_id_1 = $multipleChoices->skip(0)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_2 = $multipleChoices->skip(1)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_3 = $multipleChoices->skip(2)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_4 = $multipleChoices->skip(3)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_5 = $multipleChoices->skip(4)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_6 = $multipleChoices->skip(5)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_7 = $multipleChoices->skip(6)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_8 = $multipleChoices->skip(7)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_9 = $multipleChoices->skip(8)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_10 = $multipleChoices->skip(9)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_11 = $multipleChoices->skip(10)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_12 = $multipleChoices->skip(11)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_13 = $multipleChoices->skip(12)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_14 = $multipleChoices->skip(13)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_15 = $multipleChoices->skip(14)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_16 = $multipleChoices->skip(15)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_17 = $multipleChoices->skip(16)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_18 = $multipleChoices->skip(17)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_19 = $multipleChoices->skip(18)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_20 = $multipleChoices->skip(19)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_21 = $multipleChoices->skip(20)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_22 = $multipleChoices->skip(21)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_23 = $multipleChoices->skip(22)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_24 = $multipleChoices->skip(23)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_25 = $multipleChoices->skip(24)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_26 = $multipleChoices->skip(25)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_27 = $multipleChoices->skip(26)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_28 = $multipleChoices->skip(27)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_29 = $multipleChoices->skip(28)->take(1)->get('id')[0]->id;
-        $mpPack->quest_id_30 = $multipleChoices->skip(29)->take(1)->get('id')[0]->id;
+        $mpPack->quest_id_1 = $multipleChoices[0]->id;
+        $mpPack->quest_id_2 = $multipleChoices[1]->id;
+        $mpPack->quest_id_3 = $multipleChoices[2]->id;
+        $mpPack->quest_id_4 = $multipleChoices[3]->id;
+        $mpPack->quest_id_5 = $multipleChoices[4]->id;
+        $mpPack->quest_id_6 = $multipleChoices[5]->id;
+        $mpPack->quest_id_7 = $multipleChoices[6]->id;
+        $mpPack->quest_id_8 = $multipleChoices[7]->id;
+        $mpPack->quest_id_9 = $multipleChoices[8]->id;
+        $mpPack->quest_id_10 = $multipleChoices[9]->id;
+        $mpPack->quest_id_11 = $multipleChoices[10]->id;
+        $mpPack->quest_id_12 = $multipleChoices[11]->id;
+        $mpPack->quest_id_13 = $multipleChoices[12]->id;
+        $mpPack->quest_id_14 = $multipleChoices[13]->id;
+        $mpPack->quest_id_15 = $multipleChoices[14]->id;
+        $mpPack->quest_id_16 = $multipleChoices[15]->id;
+        $mpPack->quest_id_17 = $multipleChoices[16]->id;
+        $mpPack->quest_id_18 = $multipleChoices[17]->id;
+        $mpPack->quest_id_19 = $multipleChoices[18]->id;
+        $mpPack->quest_id_20 = $multipleChoices[19]->id;
+        $mpPack->quest_id_21 = $multipleChoices[20]->id;
+        $mpPack->quest_id_22 = $multipleChoices[21]->id;
+        $mpPack->quest_id_23 = $multipleChoices[22]->id;
+        $mpPack->quest_id_24 = $multipleChoices[23]->id;
+        $mpPack->quest_id_25 = $multipleChoices[24]->id;
+        $mpPack->quest_id_26 = $multipleChoices[25]->id;
+        $mpPack->quest_id_27 = $multipleChoices[26]->id;
+        $mpPack->quest_id_28 = $multipleChoices[27]->id;
+        $mpPack->quest_id_29 = $multipleChoices[28]->id;
+        $mpPack->quest_id_30 = $multipleChoices[29]->id;
         $mpPack->save();
 
         $answerPack = new SessionAnswer;
         $answerPack->id = $examSession->id;
         $answerPack->save();
 
-        $multipleChoices->paginate(1);
-
         $data = [
             'session_id' => $examSession->id,
-            'question_data' => $multipleChoicePaginated,
         ];
 
-        return ResourceWrapper::make(true, 200, 'Exam Data - Pusat', $data);
+        return ResourceWrapper::make(true, 200, 'Successfully Create Exam Session - Daerah', $data);
+    }
+
+    public function get_exam_question($session_id){
+        $mpPack = SessionQuestion::find($session_id);
+
+        $multipleChoices = MultipleChoice::whereIn('id',[
+            $mpPack->quest_id_1,
+            $mpPack->quest_id_2,
+            $mpPack->quest_id_3,
+            $mpPack->quest_id_4,
+            $mpPack->quest_id_5,
+            $mpPack->quest_id_6,
+            $mpPack->quest_id_7,
+            $mpPack->quest_id_8,
+            $mpPack->quest_id_9,
+            $mpPack->quest_id_10,
+            $mpPack->quest_id_11,
+            $mpPack->quest_id_12,
+            $mpPack->quest_id_13,
+            $mpPack->quest_id_14,
+            $mpPack->quest_id_15,
+            $mpPack->quest_id_16,
+            $mpPack->quest_id_17,
+            $mpPack->quest_id_18,
+            $mpPack->quest_id_19,
+            $mpPack->quest_id_20,
+            $mpPack->quest_id_21,
+            $mpPack->quest_id_22,
+            $mpPack->quest_id_23,
+            $mpPack->quest_id_24,
+            $mpPack->quest_id_25,
+            $mpPack->quest_id_26,
+            $mpPack->quest_id_27,
+            $mpPack->quest_id_28,
+            $mpPack->quest_id_29,
+            $mpPack->quest_id_30,
+        ]);
+
+        $multipleChoicePaginated = $multipleChoices->paginate(1);
+
+        return ResourceWrapper::make(true, 200, 'Exam Questions', $multipleChoicePaginated);
     }
    
     public function save_answer(Request $request){
@@ -243,8 +281,7 @@ class ExamController extends Controller
         return ResourceWrapper::make(true, 'User Average Score', $response);
     }
 
-    public function user_session($user_id)
-    {
+    public function user_session($user_id){
         $session = ExamSession::where('user_id','=',$user_id)->get();
         return ResourceWrapper::make(true, 'User Session', $session);
     }

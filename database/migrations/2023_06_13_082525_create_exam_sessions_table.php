@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('exam_sessions', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id')->foreign('user_id')->references('id')->on('users');
+            $table->string('type',6);
             $table->integer('score')->default(0);
             $table->integer('correct_answer')->default(0);
             $table->integer('wrong_answer')->default(0);

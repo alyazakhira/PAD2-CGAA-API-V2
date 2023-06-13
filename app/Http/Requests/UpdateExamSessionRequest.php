@@ -23,6 +23,7 @@ class UpdateExamSessionRequest extends FormRequest
     {
         return [
             'user_id' => 'numeric',
+            'type' => 'string|max:6',
             'score' => 'numeric',
             'correct_answer' => 'numeric',
             'wrong_answer' => 'numeric',

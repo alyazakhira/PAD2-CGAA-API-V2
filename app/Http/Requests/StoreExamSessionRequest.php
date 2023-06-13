@@ -23,6 +23,7 @@ class StoreExamSessionRequest extends FormRequest
     {
         return [
             'user_id' => 'required|numeric',
+            'type' => 'required|string|max:6',
             'score' => 'numeric',
             'correct_answer' => 'numeric',
             'wrong_answer' => 'numeric',

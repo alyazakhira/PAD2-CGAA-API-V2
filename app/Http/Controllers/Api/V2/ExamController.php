@@ -164,8 +164,8 @@ class ExamController extends Controller
         return ResourceWrapper::make(true, 200, 'Exam Questions', $multipleChoicePaginated);
     }
    
-    public function save_answer(Request $request){
-        $answerPack = SessionAnswer::find($request->session_id);
+    public function save_answer(Request $request, $session_id){
+        $answerPack = SessionAnswer::find($session_id);
         for ($i=1; $i < 31; $i++) { 
             if ($request->{"answer_$i"} != null) {
                 $answerPack->{"answer_$i"} = $request->{"answer_$i"};
@@ -177,9 +177,9 @@ class ExamController extends Controller
         return ResourceWrapper::make(true, 200, 'Answer Saved Sucessfully', $answer_pack);
     }
 
-    public function calculate_score(Request $request){
+    public function calculate_score(Request $request, $session_id){
         // same as save answer at first
-        $answerPack = SessionAnswer::find($request->session_id);
+        $answerPack = SessionAnswer::find($session_id);
         for ($i=1; $i < 31; $i++) { 
             if ($request->{"answer_$i"} != null) {
                 $answerPack->{"answer_$i"} = $request->{"answer_$i"};
@@ -224,7 +224,7 @@ class ExamController extends Controller
         $correct = 0;
         $wrong = 0;
         $notAnswered = 0;
-        $examSession = ExamSession::find($request->session_id);
+        $examSession = ExamSession::find($session_id);
         for ($i=1; $i < 31; $i++) { 
             if ($answerPack->{"answer_$i"} == ${"c_answer_$i"}) {
                 $correct = $correct + 1;
@@ -278,11 +278,11 @@ class ExamController extends Controller
             'user_id' => $user_id,
             'average' => $average,
         ];
-        return ResourceWrapper::make(true, 'User Average Score', $response);
+        return ResourceWrapper::make(true, 200, 'User Average Score', $response);
     }
 
     public function user_session($user_id){
         $session = ExamSession::where('user_id','=',$user_id)->get();
-        return ResourceWrapper::make(true, 'User Session', $session);
+        return ResourceWrapper::make(true, 200, 'User Session', $session);
     }
 }

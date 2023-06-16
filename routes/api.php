@@ -37,9 +37,11 @@ Route::prefix('v2')->group(function(){
             Route::get('/exam-pusat/{user_id}', 'begin_exam_pusat');
             Route::get('/exam-daerah/{user_id}', 'begin_exam_daerah');
             Route::post('/save-answer/{session_id}', 'save_answer');
-            Route::post('/exam-result/{session_id}', 'calculate_score');
+            Route::post('/calculate-score/{session_id}', 'calculate_score');
             Route::get('/average-score/{user_id}', 'user_average');
             Route::get('/user-session/{user_id}', 'user_session');
+            Route::get('/session-answer/{session_id}', 'session_answer');
+            Route::get('/session-answer-key/{session_id}', 'session_answer');
         });
 
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');

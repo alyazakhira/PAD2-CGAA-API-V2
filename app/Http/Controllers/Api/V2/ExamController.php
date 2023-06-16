@@ -18,7 +18,7 @@ use App\Models\SessionQuestion;
 class ExamController extends Controller
 {
     public function begin_exam_pusat($user_id){
-        $multipleChoices = MultipleChoice::where('question_type', 'pusat')->inRandomOrder()->limit(30)->get();
+        $multipleChoices = MultipleChoice::where('question_type', 'pusat')->inRandomOrder()->limit(30)->reorder()->get();
 
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
@@ -71,7 +71,7 @@ class ExamController extends Controller
     }
 
     public function begin_exam_daerah($user_id){
-        $multipleChoices = MultipleChoice::where('question_type', 'daerah')->inRandomOrder()->limit(30)->get();
+        $multipleChoices = MultipleChoice::where('question_type', 'daerah')->inRandomOrder()->limit(30)->reorder()->get();
 
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
@@ -174,7 +174,7 @@ class ExamController extends Controller
         $answerPack->save();
 
         // return response
-        return ResourceWrapper::make(true, 200, 'Answer Saved Sucessfully', $answer_pack);
+        return ResourceWrapper::make(true, 200, 'Answer Saved Sucessfully', $answerPack);
     }
 
     public function calculate_score(Request $request, $session_id){
@@ -198,6 +198,7 @@ class ExamController extends Controller
         $c_answer_7 = MultipleChoice::find($quest_pack->quest_id_7)->correct_answer;
         $c_answer_8 = MultipleChoice::find($quest_pack->quest_id_8)->correct_answer;
         $c_answer_9 = MultipleChoice::find($quest_pack->quest_id_9)->correct_answer;
+        $c_answer_10 = MultipleChoice::find($quest_pack->quest_id_10)->correct_answer;
         $c_answer_11 = MultipleChoice::find($quest_pack->quest_id_11)->correct_answer;
         $c_answer_12 = MultipleChoice::find($quest_pack->quest_id_12)->correct_answer;
         $c_answer_13 = MultipleChoice::find($quest_pack->quest_id_13)->correct_answer;
@@ -207,7 +208,6 @@ class ExamController extends Controller
         $c_answer_17 = MultipleChoice::find($quest_pack->quest_id_17)->correct_answer;
         $c_answer_18 = MultipleChoice::find($quest_pack->quest_id_18)->correct_answer;
         $c_answer_19 = MultipleChoice::find($quest_pack->quest_id_19)->correct_answer;
-        $c_answer_10 = MultipleChoice::find($quest_pack->quest_id_10)->correct_answer;
         $c_answer_20 = MultipleChoice::find($quest_pack->quest_id_20)->correct_answer;
         $c_answer_21 = MultipleChoice::find($quest_pack->quest_id_21)->correct_answer;
         $c_answer_22 = MultipleChoice::find($quest_pack->quest_id_22)->correct_answer;
@@ -249,7 +249,7 @@ class ExamController extends Controller
         // make response
         $detail = [
             'id' => $examSession->id,
-            'date' => date("d-m-Y", $examSession->created_at),
+            'date' => $examSession->created_at,
             'correct' => $correct,
             'wrong' => $wrong,
             'not_answered' => $notAnswered,
@@ -284,5 +284,52 @@ class ExamController extends Controller
     public function user_session($user_id){
         $session = ExamSession::where('user_id','=',$user_id)->get();
         return ResourceWrapper::make(true, 200, 'User Session', $session);
+    }
+
+    public function session_answer($session_id){
+        $answer = SessionAnswer::find($session_id);
+        return ResourceWrapper::make(true, 200, 'Session Answer Data', $answer);
+    }
+
+    public function session_answer_with_key($session_id){
+        $answer = SessionAnswer::find($session_id);
+        $quest_pack = SessionQuestion::find($session_id);
+
+        $detail = [
+            'answer' => $answer,
+            'correct_answer' => [
+                'c_answer_1' => $c_answer_1 = MultipleChoice::find($quest_pack->quest_id_1)->correct_answer,
+                'c_answer_2' => $c_answer_2 = MultipleChoice::find($quest_pack->quest_id_2)->correct_answer,
+                'c_answer_3' => $c_answer_3 = MultipleChoice::find($quest_pack->quest_id_3)->correct_answer,
+                'c_answer_4' => $c_answer_4 = MultipleChoice::find($quest_pack->quest_id_4)->correct_answer,
+                'c_answer_5' => $c_answer_5 = MultipleChoice::find($quest_pack->quest_id_5)->correct_answer,
+                'c_answer_6' => $c_answer_6 = MultipleChoice::find($quest_pack->quest_id_6)->correct_answer,
+                'c_answer_7' => $c_answer_7 = MultipleChoice::find($quest_pack->quest_id_7)->correct_answer,
+                'c_answer_8' => $c_answer_8 = MultipleChoice::find($quest_pack->quest_id_8)->correct_answer,
+                'c_answer_9' => $c_answer_9 = MultipleChoice::find($quest_pack->quest_id_9)->correct_answer,
+                'c_answer_10' => $c_answer_10 = MultipleChoice::find($quest_pack->quest_id_11)->correct_answer,
+                'c_answer_11' => $c_answer_11 = MultipleChoice::find($quest_pack->quest_id_11)->correct_answer,
+                'c_answer_12' => $c_answer_12 = MultipleChoice::find($quest_pack->quest_id_12)->correct_answer,
+                'c_answer_13' => $c_answer_13 = MultipleChoice::find($quest_pack->quest_id_13)->correct_answer,
+                'c_answer_14' => $c_answer_14 = MultipleChoice::find($quest_pack->quest_id_14)->correct_answer,
+                'c_answer_15' => $c_answer_15 = MultipleChoice::find($quest_pack->quest_id_15)->correct_answer,
+                'c_answer_16' => $c_answer_16 = MultipleChoice::find($quest_pack->quest_id_16)->correct_answer,
+                'c_answer_17' => $c_answer_17 = MultipleChoice::find($quest_pack->quest_id_17)->correct_answer,
+                'c_answer_18' => $c_answer_18 = MultipleChoice::find($quest_pack->quest_id_18)->correct_answer,
+                'c_answer_19' => $c_answer_19 = MultipleChoice::find($quest_pack->quest_id_19)->correct_answer,
+                'c_answer_20' => $c_answer_20 = MultipleChoice::find($quest_pack->quest_id_20)->correct_answer,
+                'c_answer_21' => $c_answer_21 = MultipleChoice::find($quest_pack->quest_id_21)->correct_answer,
+                'c_answer_22' => $c_answer_22 = MultipleChoice::find($quest_pack->quest_id_22)->correct_answer,
+                'c_answer_23' => $c_answer_23 = MultipleChoice::find($quest_pack->quest_id_23)->correct_answer,
+                'c_answer_24' => $c_answer_24 = MultipleChoice::find($quest_pack->quest_id_24)->correct_answer,
+                'c_answer_25' => $c_answer_25 = MultipleChoice::find($quest_pack->quest_id_25)->correct_answer,
+                'c_answer_26' => $c_answer_26 = MultipleChoice::find($quest_pack->quest_id_26)->correct_answer,
+                'c_answer_27' => $c_answer_27 = MultipleChoice::find($quest_pack->quest_id_27)->correct_answer,
+                'c_answer_28' => $c_answer_28 = MultipleChoice::find($quest_pack->quest_id_28)->correct_answer,
+                'c_answer_29' => $c_answer_29 = MultipleChoice::find($quest_pack->quest_id_29)->correct_answer,
+                'c_answer_30' => $c_answer_30 = MultipleChoice::find($quest_pack->quest_id_30)->correct_answer,
+            ]
+        ];
+        return ResourceWrapper::make(true, 200, 'Session Answer with Key Data', $detail);
     }
 }

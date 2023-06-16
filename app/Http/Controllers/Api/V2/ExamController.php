@@ -242,7 +242,7 @@ class ExamController extends Controller
         $examSession -> score = $score;
         $examSession -> correct_answer = $correct;
         $examSession -> wrong_answer = $wrong;
-        $examSession -> notAnswered = $notAnswered;
+        $examSession -> not_answered = $notAnswered;
         $examSession->save();
         
 

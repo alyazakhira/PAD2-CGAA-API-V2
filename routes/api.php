@@ -41,7 +41,7 @@ Route::prefix('v2')->group(function(){
             Route::get('/average-score/{user_id}', 'user_average');
             Route::get('/user-session/{user_id}', 'user_session');
             Route::get('/session-answer/{session_id}', 'session_answer');
-            Route::get('/session-answer-key/{session_id}', 'session_answer');
+            Route::get('/session-answer-key/{session_id}', 'session_answer_with_key');
         });
 
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');

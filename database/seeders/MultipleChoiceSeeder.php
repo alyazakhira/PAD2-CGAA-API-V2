@@ -13,6 +13,18 @@ class MultipleChoiceSeeder extends Seeder
      */
     public function run(): void
     {
+        // template
+        // MultipleChoice::create([
+        //     'question_type' => 'pusat',
+        //     'question' => '',
+        //     'question_explanation' => '',
+        //     'answer_a' => '',
+        //     'answer_b' => '',
+        //     'answer_c' => '',
+        //     'answer_d' => '',
+        //     'correct_answer' => '',
+        // ]);
+
         // Soal CGAA Pusat
         MultipleChoice::create([
             'question_type' => 'pusat',
@@ -41,191 +53,1926 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<p>Barang yang dimaksudkan untuk dijual/diserahkan kepada masyarakat</p>',
             'correct_answer' => 'b',
         ]);
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Pernyataan Standar Akuntansi Pemerintahan Nomor 5 menyatakan bahwa penilaian persediaan dapat menggunakan metode berikut, kecuali…',
-        //     'question_explanation' => 'PSAP 5 mensyaratkan persediaan dapat dinilai menggunakan: 
-        //     Metode sistematis seperti FIFO atau rata-rata tertimbang;
-        //     Harga pembelian terakhir apabila setiap unit persediaan nilainya tidak material dan bermacam-macam jenis.',
-        //     'answer_a' => 'Harga pasar',
-        //     'answer_b' => 'First in First out',
-        //     'answer_c' => 'Weighted-Average',
-        //     'answer_d' => 'Harga pembelian terakhir',
-        //     'correct_answer' => 'a',
-        // ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Pernyataan Standar Akuntansi Pemerintahan Nomor 5 menyatakan bahwa penilaian persediaan dapat menggunakan metode berikut, kecuali&hellip;</p>',
+            'question_explanation' => '<p>PSAP 5 mensyaratkan persediaan dapat dinilai menggunakan:&nbsp;</p>
 
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Apa yang dimaksud dengan Laporan Operasional?',
-        //     'question_explanation' => 'Laporan yang menyajikan ikhtisar sumber daya ekonomi yang menambah ekuitas dan penggunaannya dikelola oleh pemerintah pusat/daerah untuk kegiatan penyelenggaraan pemerintahan dalam periode pelaporan. Unsur yang dicakup secara langsung dalam Laporan Operasional terdiri dari Pendapatan-LO, Beban, Transfer, dan Pos-Pos Luar Biasa.',
-        //     'answer_a' => 'Laporan yang menyajikan informasi kenaikan atau penurunan ekuitas tahun pelaporan dibandingkan dengan tahun sebelumnya',
-        //     'answer_b' => 'Laporan yang meliputi penjelasan naratif atau rincian dari angka yang tertera dalam Laporan Realisasi Anggaran, Laporan Perubahan SAL, Laporan Operasional, Laporan Perubahan Ekuitas, Neraca, dan Laporan Arus Kas',
-        //     'answer_c' => 'Laporan yang menyajikan ikhtisar sumber daya ekonomi yang menambah ekuitas dan penggunaannya dikelola oleh pemerintah pusat/daerah untuk kegiatan penyelenggaraan pemerintahan dalam periode pelaporan',
-        //     'answer_d' => 'Laporan yang menyajikan informasi kas sehubungan dengan aktivitas operasi, investasi, pendanaan, dan transitoris yang menggambarkan saldo awal, penerimaan, pengeluaran, dan saldo akhir kas pemerintah pusat/daerah selama periode tertentu',
-        //     'correct_answer' => 'c',
-        // ]);
+            <ul>
+                <li>
+                <p>Metode sistematis seperti FIFO atau rata-rata tertimbang;</p>
+                </li>
+                <li>
+                <p>Harga pembelian terakhir apabila setiap unit persediaan nilainya tidak material dan bermacam-macam jenis.</p>
+                </li>
+            </ul>',
+            'answer_a' => '<p>Harga pasar</p>',
+            'answer_b' => '<p>First in First out</p>',
+            'answer_c' => '<p>Weighted-Average</p>',
+            'answer_d' => '<p>Harga pembelian terakhir</p>',
+            'correct_answer' => 'a',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Apa yang dimaksud dengan Laporan Operasional?&nbsp;</p>',
+            'question_explanation' => '<p>Laporan yang menyajikan ikhtisar sumber daya ekonomi yang menambah ekuitas dan penggunaannya dikelola oleh pemerintah pusat/daerah untuk kegiatan penyelenggaraan pemerintahan dalam periode pelaporan. Unsur yang dicakup secara langsung dalam Laporan Operasional terdiri dari Pendapatan-LO, Beban, Transfer, dan Pos-Pos Luar Biasa.&nbsp;</p>',
+            'answer_a' => '<p>Laporan yang menyajikan informasi kenaikan atau penurunan ekuitas tahun pelaporan dibandingkan dengan tahun sebelumnya</p>',
+            'answer_b' => '<p>Laporan yang meliputi penjelasan naratif atau rincian dari angka yang tertera dalam Laporan Realisasi Anggaran, Laporan Perubahan SAL, Laporan Operasional, Laporan Perubahan Ekuitas, Neraca, dan Laporan Arus Kas</p>',
+            'answer_c' => '<p>Laporan yang menyajikan ikhtisar sumber daya ekonomi yang menambah ekuitas dan penggunaannya dikelola oleh pemerintah pusat/daerah untuk kegiatan penyelenggaraan pemerintahan dalam periode pelaporan</p>',
+            'answer_d' => '<p>Laporan yang menyajikan informasi kas sehubungan dengan aktivitas operasi, investasi, pendanaan, dan transitoris yang menggambarkan saldo awal, penerimaan, pengeluaran, dan saldo akhir kas pemerintah pusat/daerah selama periode tertentu&nbsp;</p>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Apa yang dimaksud dengan penyusutan?&nbsp;</p>',
+            'question_explanation' => '<p>Nilai penyusutan untuk masing-masing periode diakui sebagai pengurang nilai tercatat aset tetap dalam neraca dan beban penyusutan dalam laporan operasional</p>', 
+            'answer_a' => '<p>Nilai buku aset yang dihitung dari biaya perolehan suatu aset setelah dikurangi akumulasi penyusutan</p>',
+            'answer_b' => '<p>Alokasi yang sistematis atas nilai suatu aset tetap yang dapat disusutkan (depreciable assets) selama masa manfaat aset yang bersangkutan</p>',
+            'answer_c' => '<p>Jumlah neto yang diharapkan dapat diperoleh pada akhir masa manfaat suatu aset setelah dikurangi taksiran biaya pelepasan</p>',
+            'answer_d' => '<p>Aset berwujud yang mempunyai masa manfaat lebih dari 12 (dua belas) bulan untuk digunakan, atau dimaksudkan untuk digunakan dalam kegiatan pemerintah atau dimanfaatkan oleh masyarakat umum</p>',
+            'correct_answer' => 'b',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Berikut merupakan metode penyusutan yang dapat digunakan berdasarkan pada Standar Akuntansi Pemerintahan berbasis Akrual, kecuali&hellip;</p>',
+            'question_explanation' => '<p>Menurut Standar Akuntansi Pemerintahan, metode penyusutan yang dapat dipergunakan antara lain: Metode garis lurus (<em>straight line method</em>), metode saldo menurun ganda (<em>double declining balance method</em>), dan metode unit produksi (<em>unit of production method</em>)</p>',
+            'answer_a' => '<p>Metode garis lurus (<em>straight line method</em>)</p>',
+            'answer_b' => '<p>Metode saldo menurun ganda (<em>double declining balance method</em>)</p>',
+            'answer_c' => '<p>Metode unit produksi (<em>unit of production method</em>)</p>',
+            'answer_d' => '<p>Metode penyusutan jumlah angka tahun (<em>sum of the year digit method</em>)</p>',
+            'correct_answer' => 'd',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Perhatikan pernyataan di bawah ini:&nbsp;<br />
+            a)&nbsp;Suku cadang<br />
+            b)&nbsp;Tanah<br />
+            c) Peralatan dan Mesin<br />
+            d) Bahan baku<br />
+            e) Tanah/bangunan untuk dijual atau diserahkan kepada masyarakat<br />
+            f) Konstruksi dalam Pengerjaan<br />
+            Dari pernyataan tersebut, mana yang termasuk klasifikasi persediaan?</p>',
+            'question_explanation' => '<p>Persediaan merupakan aset yang berupa:&nbsp;</p>
+
+            <ol>
+                <li>
+                <p>Barang atau perlengkapan (supplies) yang digunakan dalam rangka kegiatan operasional pemerintah;</p>
+                </li>
+                <li>
+                <p>Bahan atau perlengkapan (supplies) yang akan digunakan dalam proses produksi;</p>
+                </li>
+                <li>
+                <p>Barang dalam proses produksi yang akan dimaksudkan untuk dijual atau diserahkan kepada masyarakat;&nbsp;</p>
+                </li>
+                <li>
+                <p>Barang yang akan disimpan untuk dijual atau diserahkan kepada masyarakat dalam rangka kegiatan pemerintahan.</p>
+                </li>
+            </ol>',
+            'answer_a' => '<p>b), c), dan f)&nbsp;</p>',
+            'answer_b' => '<p>f), c), dan a)&nbsp;</p>',
+            'answer_c' => '<p>a), d), dan e)&nbsp;</p>',
+            'answer_d' => '<p>f), e), dan a)&nbsp;</p>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Berikut merupakan contoh biaya yang dapat diatribusikan secara langsung kedalam biaya perolehan aset tetap, kecuali&hellip;</p>',
+            'question_explanation' => '<p>Biaya perolehan suatu aset tetap terdiri dari harga belinya atau konstruksinya, termasuk bea impor dan setiap biaya yang dapat diatribusikan secara langsung dalam membawa aset tersebut ke kondisi yang membuat aset tersebut dapat bekerja untuk penggunaan yang dimaksudkan. Contoh biaya yang dapat diatribusikan secara langsung adalah:&nbsp;</p>
+
+            <ol>
+                <li>
+                <p>Biaya pengiriman awal (initial delivery) dan biaya simpan dan bongkar muat (handling cost);</p>
+                </li>
+                <li>
+                <p>Biaya pemasangan (installation cost);</p>
+                </li>
+                <li>
+                <p>Biaya profesional seperti arsitek dan insinyur; dan&nbsp;</p>
+                </li>
+                <li>
+                <p>Biaya konstruksi.</p>
+                </li>
+            </ol>',
+            'answer_a' => '<p>Biaya pengiriman awal (<em>initial delivery</em>)</p>',
+            'answer_b' => '<p>Biaya simpan dan bongkar muat (<em>handling cost</em>)</p>',
+            'answer_c' => '<p>Biaya konsumsi panitia</p>',
+            'answer_d' => '<p>Biaya konstruksi</p>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Buatlah jurnal akrual sesuai dengan PMK/212.05/2019 dari transaksi berikut:&nbsp;<br />
+            Pada 28 Agustus 2022, dilakukan penghentian penggunaan kendaraan berupa sepeda motor. Harga perolehan sepeda motor adalah Rp 18.000.000 dan akumulasi penyusutan sampai dengan tanggal penghentian adalah sebesar 15.000.000. Bagaimana jurnal yang sesuai untuk mencatat transaksi tersebut?</p>',
+            'question_explanation' => '<p>Aset tetap/aset tidak berwujud yang dihentikan penggunaanya dalam operasi normal pemerintah direklasifikasi menjadi aset lainnya - aset yang tidak digunakan dalam operasi pemerintah sesuai dengan nilai tercatatnya (<em>carrying amount</em>). Dalam hal ini dibutuhkan jurnal reklasifikasi aset tetap/aset tidak berwujud atas aset lainnya dan reklasifikasi akumulasi penyusutan atas reklasifikasi aset tetap/aset tidak berwujud yang memenuhi karakteristik disusutkan/diamortisasi.&nbsp;</p>',
+            'answer_a' => '<p>Aset tetap-kendaraan roda 2&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 18.000.000<br />
+            Akumulasi penyusutan&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rp 15.000.000<br />
+            &nbsp;&nbsp; &nbsp;Aset lainnya-kendaraan roda 2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rp 18.000.000<br />
+            &nbsp;&nbsp; &nbsp;Aset lainnya-akumulasi penyusutan kendaraan roda 2&nbsp;&nbsp; &nbsp;Rp 15.000.000</p>',
+            'answer_b' => '<p>Aset lainnya-kendaraan roda 2&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 18.000.000<br />
+            Akumulasi penyusutan&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rp 15.000.000<br />
+            &nbsp;&nbsp; &nbsp;Aset tetap-kendaraan roda 2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Rp 18.000.000<br />
+            &nbsp;&nbsp; &nbsp;Aset lainnya-akumulasi penyusutan kendaraan roda 2&nbsp;&nbsp; &nbsp;Rp 15.000.000</p>',
+            'answer_c' => '<p>Kas di BUN&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rp 18.000.000<br />
+            Akumulasi penyusutan&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 15.000.000<br />
+            &nbsp;&nbsp; &nbsp;Aset tetap-kendaraan roda 2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rp 18.000.000<br />
+            &nbsp;&nbsp; &nbsp;Aset lainnya-akumulasi penyusutan kendaraan roda 2&nbsp;&nbsp; &nbsp;Rp 15.000.000</p>',
+            'answer_d' => '<p>Aset tetap-kendaraan roda 2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rp 18.000.000<br />
+            Aset lainnya-akumulasi penyusutan kendaraan roda 2&nbsp;&nbsp; &nbsp;Rp 15.000.000<br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Aset tetap-kendaraan roda 2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rp 18.000.000<br />
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Akumulasi penyusutan kendaraan roda 2&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 15.000.000</p>',
+            'correct_answer' => 'b',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Berikut merupakan jenis-jenis belanja pemerintah yang meliputi:&nbsp;</p>
+
+            <ol>
+                <li>
+                <p>Belanja pegawai;</p>
+                </li>
+                <li>
+                <p>Belanja subsidi;</p>
+                </li>
+                <li>
+                <p>Belanja hibah.</p>
+                </li>
+            </ol>
+            
+            <p>Dari ketiga kelompok belanja tersebut masuk ke dalam sifat belanja&hellip;</p>',
+            'question_explanation' => '<p>Secara umum belanja pemerintah yang bersifat expandable berbeda dengan belanja yang bersifat intrakomptabel yang meliputi: 1) belanja pegawai, 2) belanja barang yang tidak menghasilkan BMN, 3) belanja bunga, 4) belanja subsidi, 5) belanja hibah, 6) belanja bantuan sosial yang tidak menghasilkan BMN, dan 7) transfer ke daerah dan dana desa.&nbsp;</p>',
+            'answer_a' => '<p>Intrakomptabel</p>',
+            'answer_b' => '<p>Belanja tunai&nbsp;</p>',
+            'answer_c' => '<p>Belanja langsung&nbsp;</p>',
+            'answer_d' => '<p><em>Expandable&nbsp;</em></p>',
+            'correct_answer' => 'd',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Pada tanggal 20 Mei 2022, Pejabat Pembuat Komitmen membuat kontrak pengadaan sembako untuk kegiatan bakti sosial dengan nomor SPK-22/PPK.02/IV/2022 dengan nilai kontrak sebesar Rp 50.000.000. Buatlah jurnal atas belanja tersebut!</p>',
+            'question_explanation' => '<p>Belanja persediaan masuk ke dalam kategori belanja intrakomptabel. Jurnal pada entitas akuntansi/pelaporan belanja atas diterimanya persediaan namun belum terverifikasi kondisi BMN dan belum terverifikasi resume tagihan belanja adalah sebagai berikut:&nbsp;<br />
+            Persediaan yang belum diregister&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 50.000.000<br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Utang yang belum diterima tagihannya&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 50.000.000</p>',
+            'answer_a' => '<p>Persediaan yang belum diregister&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 50.000.000<br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Utang yang belum diterima tagihannya&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 50.000.000</p>',
+            'answer_b' => '<p>Belanja persediaan&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 50.000.000<br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kas di Bendahara Umum Negara&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 50.000.000</p>',
+            'answer_c' => '<p>Utang yang belum diterima tagihannya&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 50.000.000<br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Belanja yang masih harus dibayar&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 50.000.000</p>',
+            'answer_d' => '<p>Persediaan&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rp 50.000.000<br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Persediaan yang belum diregister&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 50.000.000</p>',
+            'correct_answer' => 'a',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Berikut merupakan arus kas masuk:&nbsp;<br />
+            a. Penerimaan perpajakan<br />
+            b. Pencairan dana cadangan&nbsp;<br />
+            c. Penerimaan dari utang obligasi<br />
+            d. Penerimaan hibah<br />
+            e. Penerimaan negara bukan pajak<br />
+            Dari poin-poin di atas, manakah yang termasuk kedalam arus kas masuk dari aktivitas operasi?</p>',
+            'question_explanation' => '<p>Arus kas bersih aktivitas operasi merupakan indikator yang menunjukkan kemampuan operasi pemerintah dalam menghasilkan kas yang cukup untuk membiayai aktivitas operasionalnya di masa yang akan datang tanpa mengandalkan sumber pendanaan dari luar. Arus kas masuk dari aktivitas operasi terutama diperoleh dari:&nbsp;<br />
+            a. Penerimaan perpajakan;<br />
+            b. Penerimaan negara bukan pajak (PNBP);<br />
+            c. Penerimaan hibah;<br />
+            d. Penerimaan bagian laba perusahaan negara/daerah dan investasi lainnya;&nbsp;<br />
+            e. Penerimaan lain-lain/penerimaan dari pendapatan luar biasa; dan&nbsp;<br />
+            f. Penerimaan transfer.&nbsp;</p>',
+            'answer_a' => '<p>a), b), dan c)&nbsp;</p>',
+            'answer_b' => '<p>a), d), dan c)</p>',
+            'answer_c' => '<p>a), d), dan e)&nbsp;</p>',
+            'answer_d' => '<p>a), c), dan e)&nbsp;</p>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Petikan DIPA Tahun Anggaran 2020 untuk Unit Organisasi Balai Penelitian dan Pengembangan Kementerian Kesehatan menunjukkan alokasi belanja sebagai berikut:&nbsp;</p>
+
+            <ul>
+                <li>Belanja pegawai&nbsp;&nbsp; &nbsp;Rp 124.500.000</li>
+                <li>Belanja barang&nbsp; &nbsp; &nbsp; Rp 147.860.000</li>
+                <li>Belanja modal&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Rp 56.750.000</li>
+            </ul>
+            
+            <p>Manakah jurnal yang tepat untuk transaksi tersebut?&nbsp;</p>',
+            'question_explanation' => '<p>Karena hal tersebut masih termasuk ke dalam jurnal anggaran sehubungan dengan komitmen belanja yang belum disertai komitmen pengeluaran pembiayaan.&nbsp;</p>',
+            'answer_a' => '<p>Buku besar akrual</p>
+
+            <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td>Debit</td>
+                        <td>Belanja pegawai</td>
+                        <td>Rp 124.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>Debit</td>
+                        <td>Belanja barang</td>
+                        <td>Rp 147.860.000</td>
+                    </tr>
+                    <tr>
+                        <td>Debit</td>
+                        <td>Belanja modal</td>
+                        <td>Rp 56.750.000</td>
+                    </tr>
+                    <tr>
+                        <td>Debit</td>
+                        <td>Dicadangkan untuk belanja</td>
+                        <td>Rp 329.110.000</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p>&nbsp;</p>',
+            'answer_b' => '<p>Buku besar akrual</p>
+
+            <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td>Debit</td>
+                        <td>Dicadangkan untuk belanja</td>
+                        <td>Rp 329.110.000</td>
+                    </tr>
+                    <tr>
+                        <td>Kredit</td>
+                        <td>Belanja pegawai</td>
+                        <td>Rp 124.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>Kredit</td>
+                        <td>Belanja barang</td>
+                        <td>Rp 147.860.000</td>
+                    </tr>
+                    <tr>
+                        <td>Kredit</td>
+                        <td>Belanja modal</td>
+                        <td>Rp 56.750.000</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p>&nbsp;</p>',
+            'answer_c' => '<p>Buku besar akrual</p>
+
+            <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td>Debit</td>
+                        <td>Belanja pegawai</td>
+                        <td>Rp 124.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>Debit</td>
+                        <td>Belanja barang</td>
+                        <td>Rp 147.860.000</td>
+                    </tr>
+                    <tr>
+                        <td>Debit</td>
+                        <td>Belanja modal</td>
+                        <td>Rp 56.750.000</td>
+                    </tr>
+                    <tr>
+                        <td>Kredit</td>
+                        <td>Kas di Bendahara Umum Negara</td>
+                        <td>Rp 329.110.000</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p>&nbsp;</p>',
+            'answer_d' => '<p>Buku besar akrual</p>
+
+            <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td>Debit</td>
+                        <td>Dicadangkan untuk belanja</td>
+                        <td>Rp 329.110.000</td>
+                    </tr>
+                    <tr>
+                        <td>Kredit</td>
+                        <td>Pengeluaran pembiayaan dalam negeri</td>
+                        <td>Rp 329.110.000</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p>&nbsp;</p>',
+            'correct_answer' => 'a',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Diketahui terjadi penerimaan pembayaran sewa kantin untuk 1 (satu) tahun sejak tanggal 1 Januari 2020 sebesar Rp 24.000.000. Bagaimana jurnal yang sesuai untuk mencatat transaksi tersebut?</p>',
+            'question_explanation' => '<p>Jurnal pengakuan pendapatan pada entitas akuntansi/pelaporan pemerintah:&nbsp;</p>
+            <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><strong>Buku Besar Akrual</strong></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><strong>Buku Besar Kas</strong></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Uraian</td>
+                        <td>Ket</td>
+                        <td>&nbsp;</td>
+                        <td>Uraian</td>
+                        <td>Ket</td>
+                    </tr>
+                    <tr>
+                        <td>Db</td>
+                        <td>Diterima dari entitas lain (ekuitas)&nbsp;</td>
+                        <td>LPE</td>
+                        <td>Db</td>
+                        <td>Diterima dari entitas lain</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Kr</td>
+                        <td>Pendapatan</td>
+                        <td>LO</td>
+                        <td>Kr</td>
+                        <td>Pendapatan</td>
+                        <td>LRA</td>
+                    </tr>
+                </tbody>
+            </table>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+            <tbody>
+                <tr>
+                    <td>Tanggal</td>
+                    <td>Keterangan</td>
+                    <td>Debit</td>
+                    <td>Kredit</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><strong>Jurnal akrual</strong></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>1 Jan 20</td>
+                    <td>Pendapatan PNBP-Sewa</td>
+                    <td>Rp 24.000.000</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>Pendapatan Sewa diterima dimuka</td>
+                    <td>&nbsp;</td>
+                    <td>Rp 24.000.000</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><strong>Jurnal kas</strong></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>1 Jan 20</td>
+                    <td>Diterima dari entitas lain</td>
+                    <td>Rp 24.000.000</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>Pendapatan sewa</td>
+                    <td>&nbsp;</td>
+                    <td>Rp 24.000.000</td>
+                </tr>
+            </tbody>
+            </table>',
+                'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td>Tanggal</td>
+                        <td>Keterangan</td>
+                        <td>Debit</td>
+                        <td>Kredit</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><strong>Jurnal akrual</strong></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>1 Jan 20</td>
+                        <td>Diterima dari entitas lain</td>
+                        <td>Rp 24.000.000</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Pendapatan PNBP-Sewa</td>
+                        <td>&nbsp;</td>
+                        <td>Rp 24.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><strong>Jurnal kas</strong></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>1 Jan 20</td>
+                        <td>Pendapatan sewa</td>
+                        <td>Rp 24.000.000</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Pendapatan diterima di muka</td>
+                        <td>&nbsp;</td>
+                        <td>Rp 24.000.000</td>
+                    </tr>
+                </tbody>
+            </table>',
+                'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td>Tanggal</td>
+                        <td>Keterangan</td>
+                        <td>Debit</td>
+                        <td>Kredit</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><strong>Jurnal akrual</strong></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>1 Jan 20</td>
+                        <td>Diterima dari entitas lain</td>
+                        <td>Rp 24.000.000</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Pendapatan PNBP-Sewa</td>
+                        <td>&nbsp;</td>
+                        <td>Rp 24.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><strong>Jurnal kas</strong></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>1 Jan 20</td>
+                        <td>Diterima dari entitas lain</td>
+                        <td>Rp 24.000.000</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Pendapatan sewa</td>
+                        <td>&nbsp;</td>
+                        <td>Rp 24.000.000</td>
+                    </tr>
+                </tbody>
+            </table>',
+                'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td>Tanggal</td>
+                        <td>Keterangan</td>
+                        <td>Debit</td>
+                        <td>Kredit</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><strong>Jurnal akrual</strong></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>1 Jan 20</td>
+                        <td>Diterima dari entitas lain</td>
+                        <td>Rp 24.000.000</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Pendapatan sewa diterima dimuka</td>
+                        <td>&nbsp;</td>
+                        <td>Rp 24.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><strong>Jurnal kas</strong></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>1 Jan 20</td>
+                        <td>Diterima dari entitas lain</td>
+                        <td>Rp 24.000.000</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Pendapatan sewa diterima dimuka</td>
+                        <td>&nbsp;</td>
+                        <td>Rp 24.000.000</td>
+                    </tr>
+                </tbody>
+            </table>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Dari pernyataan berikut tentang penyusutan dan amortisasi, manakah pernyataan yang tidak benar?&nbsp;</p>',
+            'question_explanation' => '<p>Penyusutan adalah alokasi sistematis atas nilai suatu aset tetap yang dapat disusutkan selama masa manfaat aset yang bersangkutan. Nilai penyusutan untuk masing-masing periode diakui sebagai pengurang nilai tercatat aset tetap dalam neraca dan sebagai beban penyusutan dalam laporan operasional. Amortisasi adalah pengurangan nilai tak berwujud secara sistematis yang dilakukan setiap periode akuntansi dalam jangka waktu tertentu. Nilai amortisasi masing-masing periode diakui sebagai beban amortisasi yang disajikan di laporan operasional dan mengurangi nilai buku aset tak berwujud pada neraca.&nbsp;</p>',
+            'answer_a' => '<p>Penyusutan adalah alokasi sistematis atas nilai suatu aset tetap yang dapat disusutkan selama masa manfaat aset yang bersangkutan</p>',
+            'answer_b' => '<p>Nilai penyusutan untuk masing-masing periode diakui sebagai pengurang nilai tercatat aset tetap dalam neraca dan sebagai beban penyusutan dalam laporan operasional</p>',
+            'answer_c' => '<p>Nilai amortisasi masing-masing periode diakui sebagai penambah nilai buku aset tidak berwujud pada neraca</p>',
+            'answer_d' => '<p>Amortisasi merupakan pengurang nilai tak berwujud secara sistematis yang dilakukan setiap periode akuntansi dalam jangka waktu tertentu</p>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Aset yang sudah lama dan tidak dapat digunakan secara optimal dapat diajukan usulan penghapusan, bagaimana jurnal yang tepat untuk mencatat penghapusan aset tersebut?</p>',
+            'question_explanation' => '<p>Aset yang sudah lama dan tidak dapat digunakan secara optimal lagi oleh pemerintah, dapat diajukan usulan penghapusannya yang jika secara ekonomis akan lebih menguntungkan bagi negara. Perekaman dilakukan pada Aplikasi SIMAK-BMN dengan jurnal akrual sebagai berikut:</p>
+                <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                    <tbody>
+                        <tr>
+                            <td>Tanggal</td>
+                            <td>Keterangan</td>
+                            <td>Debit</td>
+                            <td>Kredit</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><strong>Jurnal akrual</strong></td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>X/X/XX</td>
+                            <td>Aset tetap yang tidak digunakan dalam operasi pemerintah</td>
+                            <td>Rp XX</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>Aset tetap&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Rp XX</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>Akumulasi penyusutan aset tetap&nbsp;</td>
+                            <td>Rp XX</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>Akumulasi penyusutan aset tetap yang tidak digunakan dalam operasi pemerintah</td>
+                            <td>&nbsp;</td>
+                            <td>Rp XX</td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>X/X/XX</td>
+                                        <td>Aset tetap</td>
+                                        <td>Rp XX</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap yang tidak digunakan dalam operasi pemerintah</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp XX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi penyusutan aset tetap yang tidak digunakan dalam operasi pemerintah</td>
+                                        <td>Rp XX</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi penyusutan aset tetap</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp XX</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>&nbsp;</p>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>X/X/XX</td>
+                                        <td>Aset tetap yang tidak digunakan dalam operasi pemerintah</td>
+                                        <td>Rp XX</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp XX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi penyusutan aset tetap yang tidak digunakan dalam operasi pemerintah</td>
+                                        <td>Rp XX</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi penyusutan aset tetap</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp XX</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>X/X/XX</td>
+                                        <td>Beban kerugian pelepasan aset</td>
+                                        <td>Rp XX</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap yang tidak digunakan dalam operasi pemerintah&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp XX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi penyusutan aset tetap yang tidak digunakan dalam operasi pemerintah</td>
+                                        <td>Rp XX</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi penyusutan aset tetap</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp XX</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>X/X/XX</td>
+                                        <td>Aset tetap yang tidak digunakan dalam operasi pemerintah</td>
+                                        <td>Rp XX</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp XX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi penyusutan aset tetap&nbsp;</td>
+                                        <td>Rp XX</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi penyusutan aset tetap yang tidak digunakan dalam operasi pemerintah</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp XX</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'correct_answer' => 'd',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Pada tanggal 5 Mei 2020, Instansi membeli laptop sebanyak 10 unit dengan harga satuan Rp 8.000.000. Atas pengeluaran tersebut, diterbitkan SPM/SP2D sesuai tanggal BAST pada 10 Mei 2020. Diketahui masa manfaat laptop tersebut adalah 5 tahun. Buatlah jurnal terkait transaksi tersebut!&nbsp;</p>',
+            'question_explanation' => '<p>Oleh sifat laptop dapat disajikan ke dalam aset tetap, maka diketahui bahwa pembelian aset tersebut masuk ke dalam kategori aset intrakomptabel. Maka pencatatannya adalah sebagai berikut:&nbsp;</p>
+                <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                    <tbody>
+                        <tr>
+                            <td>Tanggal</td>
+                            <td>Keterangan</td>
+                            <td>Debit</td>
+                            <td>Kredit</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><strong>Jurnal akrual</strong></td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>X/X/XX</td>
+                            <td>Aset tetap/Aset Lainnya yang Belum Diregister</td>
+                            <td>Rp XX</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>Ditagihkan ke entitas lain</td>
+                            <td>&nbsp;</td>
+                            <td>Rp XX</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>Aset tetap/Aset Lainnya&nbsp;</td>
+                            <td>Rp XX</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>Aset tetap yang belum diregister</td>
+                            <td>&nbsp;</td>
+                            <td>Rp XX</td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5 Mei 20</td>
+                                        <td>Aset tetap yang belum diregister</td>
+                                        <td>Rp 8.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 8.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap-laptop</td>
+                                        <td>Rp 8.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap yang belum diregister</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 8.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>31 Des 20</td>
+                                        <td>Beban depresiasi - laptop</td>
+                                        <td>Rp 1.066.667</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi depresiasi</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.066.667</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 Jan 20</td>
+                                        <td>Belanja modal</td>
+                                        <td>Rp 8.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 8.000.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5 Mei 20</td>
+                                        <td>Aset tetap-laptop</td>
+                                        <td>Rp 8.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap yang belum diregister</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 8.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>31 Des 20</td>
+                                        <td>Beban depresiasi - laptop</td>
+                                        <td>Rp 1.066.667</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi depresiasi</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.066.667</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 Jan 20</td>
+                                        <td>Belanja modal</td>
+                                        <td>Rp 8.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 8.000.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5 Mei 20</td>
+                                        <td>Aset tetap yang belum diregister</td>
+                                        <td>Rp 80.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 80.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap-laptop</td>
+                                        <td>Rp 80.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap yang belum diregister</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 80.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>31 Des 20</td>
+                                        <td>Beban depresiasi - laptop</td>
+                                        <td>Rp 10.066.667</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi depresiasi</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 10.066.667</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 Jan 20</td>
+                                        <td>Belanja modal</td>
+                                        <td>Rp 80.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 80.000.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5 Mei 20</td>
+                                        <td>Aset tetap-laptop</td>
+                                        <td>Rp 80.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Aset tetap yang belum diregister</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 80.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>31 Des 20</td>
+                                        <td>Beban depresiasi - laptop</td>
+                                        <td>Rp 10.066.667</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Akumulasi depresiasi</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 10.066.667</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 Jan 20</td>
+                                        <td>Belanja modal</td>
+                                        <td>Rp 80.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 80.000.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Apa yang membedakan antara Laporan Realisasi Anggaran (LRA) dan Laporan Operasional (LO)?</p>',
+            'question_explanation' => '<p>Komponen Laporan Keuangan termasuk:&nbsp;<br />
+            <strong>Laporan Realisasi Anggaran (LRA)</strong>: LRA merupakan komponen laporan keuangan yang menyediakan informasi mengenai realisasi pendapatan-LRA, belanja, transfer, surplus/defisit-LRA, dan pembiayaan dari suatu entitas pelaporan yang masing-masing diperbandingkan dengan anggarannya. Informasi tersebut berguna bagi para pengguna laporan dalam mengevaluasi keputusan mengenai alokasi sumber-sumber daya ekonomi, akuntabilitas, dan ketaatan entitas pelaporan terhadap anggaran.&nbsp;<br />
+            <strong>Laporan Operasional (LO)</strong>: LO merupakan komponen laporan keuangan yang menyediakan informasi mengenai seluruh kegiatan operasional keuangan entitas pelaporan yang tercerminkan dalam pendapatan-LO, beban, dan surplus/defisit operasional dari suatu entitas pelaporan. Disamping melaporkan kegiatan operasional, LO juga melaporkan transaksi keuangan dari kegiatan non operasional dan pos luar biasa yang merupakan transaksi di luar tugas dan fungsi utama entitas.&nbsp;</p>',
+            'answer_a' => '<p>LO merupakan komponen laporan keuangan yang menyediakan informasi mengenai realisasi, sedangkan LRA menyediakan mengenai seluruh kegiatan operasional keuangan entitas pelaporan</p>',
+            'answer_b' => '<p>LO merupakan komponen laporan keuangan yang menyajikan secara komparatif dengan periode sebelumnya, sedangkan LRA menggambarkan posisi keuangan suatu entitas pelaporan</p>',
+            'answer_c' => '<p>LO merupakan komponen laporan keuangan yang menyediakan informasi mengenai seluruh kegiatan operasional keuangan entitas pelaporan, sedangkan LRA menyediakan informasi mengenai realisasi yang berguna dalam mengevaluasi keputusan mengenai alokasi sumber daya ekonomi, akuntabilitas, dan ketaatan entitas pelaporan terhadap anggaran</p>',
+            'answer_d' => '<p>LO merupakan komponen keuangan yang berguna bagi pengambil keputusan dalam mengevaluasi informasi mengenai alokasi sumber daya ekonomi, akuntabilitas, dan ketaatan pelaporan terhadap anggaran, sedangkan LRA melaporkan terkait kegiatan operasional, non operasional, dan pos luar biasa di luar tugas dan fungsi utama entitas</p>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Berikut merupakan bagian dari Laporan Keuangan Pemerintah Pusat (LKPP):</p>
+
+            <ol>
+                <li>Laporan Realisasi Anggaran</li>
+                <li>Laporan Perubahan SAL&nbsp;</li>
+                <li>Neraca</li>
+                <li>Laporan Operasional&nbsp;</li>
+                <li>Laporan Arus Kas</li>
+                <li>Laporan Perubahan Ekuitas</li>
+                <li>CaLK</li>
+            </ol>
+            
+            <p>Manakah bagian dari laporan keuangan tersebut yang tidak dibuat dalam Sistem Akuntansi dan Pelaporan Keuangan Instansi (SAI)?&nbsp;</p>',
+            'question_explanation' => '<p>Output akhir dari proses akuntansi SAI adalah Laporan Keuangan yang terdiri dari:&nbsp;</p>
+
+            <ol>
+                <li>Laporan Realisasi Anggaran</li>
+                <li>Neraca</li>
+                <li>Laporan Operasional</li>
+                <li>Laporan Perubahan Ekuitas</li>
+                <li>Catatan atas Laporan Keuangan</li>
+            </ol>',
+            'answer_a' => '<p>2) dan 3)</p>',
+            'answer_b' => '<p>6) dan 7)&nbsp;</p>',
+            'answer_c' => '<p>5) dan 7)&nbsp;</p>',
+            'answer_d' => '<p>2) dan 6)&nbsp;</p>',
+            'correct_answer' => 'd',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Pada Mei 2020 diterima pengembalian atas pembayaran honor bulan Oktober 2020 sebesar Rp 1.000.000 kepada Bendahara Pengeluaran. Atas kas yang diterima, Bendahara Pengeluaran melakukan penyetoran ke kas negara menggunakan BPN. Berdasarkan uraian tersebut, bagaimana jurnal yang tepat?</p>',
+            'question_explanation' => '<p>Transaksi pendapatan terjadi dengan adanya Bukti Penerimaan Negara (BPN) atau dokumen lain yang dipersamakan. Berdasarkan BPN atau dokumen lain yang dipersamakan tersebut, satuan kerja melakukan perekaman pendapatan pada Aplikasi SAIBA. Setelah proses posting dilakukan maka akan terbentuk jurnal sebagai berikut:&nbsp;</p>
+                <table border="1" cellpadding="1" cellspacing="1">
+                    <tbody>
+                        <tr>
+                            <td>Tanggal</td>
+                            <td>Keterangan</td>
+                            <td>Debit</td>
+                            <td>Kredit</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><strong>Jurnal akrual</strong></td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>x/xx/xxxx</td>
+                            <td>Diterima dari entitas lain</td>
+                            <td>x</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>Penerimaan kembali belanja barang TAYL</td>
+                            <td>&nbsp;</td>
+                            <td>x</td>
+                        </tr>
+                        <tr>
+                            <td>x/xx/xxxx</td>
+                            <td><strong>Jurnal Kas</strong></td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>Utang kepada KUN&nbsp;</td>
+                            <td>x</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>Penerimaan kembali belanja barang TAYL</td>
+                            <td>&nbsp;</td>
+                            <td>x</td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td>Diterima dari entitas lain</td>
+                                        <td>Rp 1.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Penerimaan kembali belanja barang TAYL</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td><strong>Jurnal Kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Utang kepada KUN&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Penerimaan kembali belanja barang TAYL</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td>Diterima dari entitas lain</td>
+                                        <td>Rp 1.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Pendapatan PNBP lainnya</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td><strong>Jurnal Kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Utang kepada KUN&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Pendapatan PNBP lainnya</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td>Kas di Bendahara Penerimaan</td>
+                                        <td>Rp 1.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Pendapatan PNBP lainnya</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td><strong>Jurnal Kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Kas di Bendahara Penerimaan</td>
+                                        <td>Rp 1.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Pendapatan PNBP lainnya</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal akrual</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td>Kas di Bendahara Penerimaan</td>
+                                        <td>Rp 1.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Penerimaan kembali belanja barang TAYL</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td><strong>Jurnal Kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Kas di Bendahara Penerimaan</td>
+                                        <td>Rp 1.000.000</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Penerimaan kembali belanja barang TAYL</td>
+                                        <td>&nbsp;</td>
+                                        <td>Rp 1.000.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'correct_answer' => 'a',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Berikut merupakan bagian dari klasifikasi ekonomi belanja, kecuali&hellip;&nbsp;</p>',
+            'question_explanation' => '<p>Berdasarkan klasifikasi ekonomi, maka belanja dapat dibagi menjadi 8 (delapan) jenis, yaitu:&nbsp;</p>
+            <ul>
+                <li>Belanja Pegawai;</li>
+                <li>Belanja Barang;</li>
+                <li>Belanja Modal;</li>
+                <li>Belanja Bunga Utang;</li>
+                <li>Belanja Subsidi;</li>
+                <li>Belanja Bantuan Sosial</li>
+                <li>Belanja Lain-lain</li>
+            </ul>',
+            'answer_a' => '<p>Belanja Pegawai</p>',
+            'answer_b' => '<p>Belanja Bantuan Sosiall</p>',
+            'answer_c' => '<p>Belanja Barang&nbsp;</p>',
+            'answer_d' => '<p>Belanja Perjalanan Dinas</p>',
+            'correct_answer' => 'd',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Berikut merupakan pernyataan terkait definisi Beban, kecuali&hellip;&nbsp;</p>',
+            'question_explanation' => '<p>Definisi Beban adalah penurunan manfaat ekonomi atau potensi jasa atau biaya yang timbul akibat transaksi tersebut dalam periode laporan yang berdampak pada penurunan ekuitas, baik berupa pengeluaran, konsumsi aset, atau timbulnya kewajiban.&nbsp;</p>',
+            'answer_a' => '<p>Merupakan penurunan manfaat ekonomi atau potensi jasa</p>',
+            'answer_b' => '<p>Merupakan biaya yang timbul akibat dari transaksi yang timbul dalam periode laporan yang berdampak pada penurunan ekuitas</p>',
+            'answer_c' => '<p>Pengeluaran dari Rekening Kas Umum Negara</p>',
+            'answer_d' => '<p>Berupa pengeluaran, konsumsi aset, atau timbulnya kewajiban</p>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Kapan transaksi Beban dapat diakui dalam laporan keuangan?</p>',
+            'question_explanation' => '<p>Beban diakui pada saat terjadi penurunan manfaat ekonomi atau potensi jasa, terjadi konsumsi aset, dan timbulnya kewajiban.</p>',
+            'answer_a' => '<p>Terjadinya pengeluaran dari Rekening Kas Umum Negara</p>',
+            'answer_b' => '<p>Terjadi penurunan manfaat ekonomi atau potensi jasa</p>',
+            'answer_c' => '<p>Terjadi pengesahan dari Bendahara Umum Negara/Kuasa Bendahara Umum Negara</p>',
+            'answer_d' => '<p>Pengembalian dari tahun anggaran berjalan</p>',
+            'correct_answer' => 'b',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Penerimaan/pengeluaran uang dari suatu entitas pelaporan dari/kepada entitas pelaporan lain, termasuk dana perimbangan, dana otonomi khusus, dan dana penyesuaian serta dana bagi hasil pemerintah daerah merupakan definisi dari&hellip;</p>',
+            'question_explanation' => '<p>Transfer adalah penerimaan/pengeluaran uang dari suatu entitas pelaporan dari/kepada entitas pelaporan lain, termasuk dana perimbangan, dana otonomi khusus, dan dana penyesuaian serta dana bagi hasil pemerintah daerah.</p>',
+            'answer_a' => '<p>Transfer</p>',
+            'answer_b' => '<p>Belanja</p>',
+            'answer_c' => '<p>Beban</p>',
+            'answer_d' => '<p>Pendapatan</p>',
+            'correct_answer' => 'a',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Mulai dari tahun 2021, apa metode penilaian persediaan yang digunakan oleh Pemerintah?&nbsp;</p>',
+            'question_explanation' => '<p>Metode First in First out merupakan metode dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar. Dengan metode ini saldo persediaan dihitung berdasarkan harga perolehan masing-masing. Penilaian persediaan menggunakan FIFO diterapkan mulai tahun 2021 secara prospektif, setelah Pemerintah menerapkan Metode Harga Perolehan Terakhir pada tahun-tahun sebelumnya.</p>',
+            'answer_a' => '<p>Harga pasar</p>',
+            'answer_b' => '<p>First in First out</p>',
+            'answer_c' => '<p>Weighted-Average</p>',
+            'answer_d' => '<p>Harga pembelian terakhir</p>',
+            'correct_answer' => 'b',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Apa yang dimaksud dengan metode penilaian persediaan First in First out?&nbsp;</p>',
+            'question_explanation' => '<p>Metode First in First out merupakan metode dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar. Dengan metode ini saldo persediaan dihitung berdasarkan harga perolehan masing-masing. Penilaian persediaan menggunakan FIFO diterapkan mulai tahun 2021 secara prospektif, setelah Pemerintah menerapkan Metode Harga Perolehan Terakhir pada tahun-tahun sebelumnya.&nbsp;</p>',
+            'answer_a' => '<p>Pencatatan persediaan yang dilakukan setiap terjadi transaksi yang mempengaruhi persediaan</p>',
+            'answer_b' => '<p>Biaya langsung yang terkait dengan persediaan yang diproduksi dan biaya tidak langsung yang dialokasikan secara sistematis</p>',
+            'answer_c' => '<p>Penilaian persediaan dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar</p>',
+            'answer_d' => '<p>Pencatatan persediaan dimana barang yang masuk terakhir dianggap sebagai barang yang pertama kali keluar</p>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Dalam rangka penyajian beban persediaan pada Laporan Operasional, yang dikecualikan dari beban persediaan adalah sebagai berikut, kecuali&hellip;</p>',
+            'question_explanation' => '<p>Dalam rangka penyajian beban persediaan pada Laporan Operasional, Beban Persediaan dicatat sebesar pemakaian persediaan (use of goods). Dikecualikan dari Beban Persediaan adalah:&nbsp;<br />
+            Pemakaian barang persediaan untuk pemeliharaan yang dicatat sebagai Beban Pemeliharaan;</p>
+            
+            <ol>
+                <li>Penyerahan barang persediaan untuk dijual/diserahkan kepada masyarakat/pemda yang dicatat sebagai Beban Barang untuk Dijual/Diserahkan kepada Masyarakat/Pemda;</li>
+                <li>Penyerahan barang persediaan dalam rangka bantuan sosial yang dicatat sebagai Beban Bantuan Sosial; dan&nbsp;</li>
+                <li>Penyerahan barang persediaan untuk tujuan strategis/berjaga-jaga yang dicatat sebagai Beban Persediaan untuk Tujuan Strategis/Berjaga-jaga.&nbsp;</li>
+            </ol>',
+            'answer_a' => '<p>Pemakaian barang persediaan untuk pemeliharaan&nbsp;</p>',
+            'answer_b' => '<p>Penyerahan barang persediaan dalam rangka bantuan sosial&nbsp;</p>',
+            'answer_c' => '<p>Pemakaian sebesar pemakaian persediaan (<em>use of goods</em>)</p>',
+            'answer_d' => '<p>Penyerahan barang persediaan untuk tujuan strategis/berjaga-jaga</p>',
+            'correct_answer' => 'c',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Pada 18 Mei 2020, diterima resume tagihan belanja yang bersifat expandable. Bagaimana jurnal yang tepat untuk mencatat transaksi tersebut?&nbsp;</p>',
+            'question_explanation' => '<p>Jurnal pada entitas akuntansi/pelaporan belanja atas resume tagihan belanja yang bersifat expandable adalah sebagai berikut:&nbsp;</p>
+                <table border="1" cellpadding="1" cellspacing="1">
+                    <tbody>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td colspan="2" rowspan="1">Buku Besar Akrual</td>
+                            <td>&nbsp;</td>
+                            <td>Buku Besar Kas</td>
+                        </tr>
+                        <tr>
+                            <td>Db</td>
+                            <td>Belanja/transfer yang masih harus dibayar (kewajiban)</td>
+                            <td>LO</td>
+                            <td>Db</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Kr</td>
+                            <td>Ditagihkan ke entitas lain (ekuitas)&nbsp;</td>
+                            <td>NRC</td>
+                            <td>Kr</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal Kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td>Belanja (expandable)</td>
+                                        <td>x</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                        <td>x</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal Kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td>Beban (expandable)</td>
+                                        <td>x</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Belanja/transfer yang masih harus dibayar (kewajiban)&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>x</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal Kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>x</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Belanja/transfer yang masih harus dibayar (kewajiban)</td>
+                                        <td>&nbsp;</td>
+                                        <td>x</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>Tanggal</td>
+                                        <td>Keterangan</td>
+                                        <td>Debit</td>
+                                        <td>Kredit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><strong>Jurnal Kas</strong></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x/xx/xxxx</td>
+                                        <td>Belanja/transfer yang masih harus dibayar (kewajiban)</td>
+                                        <td>x</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>Ditagihkan ke entitas lain (ekuitas)&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>x</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'correct_answer' => 'b',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Pada 20 Mei 2020 diterima resume tagihan belanja yang bersifat expendable. Selanjutnya bagaimana jurnal atas realisasi pembayaran belanja yang bersifat expendable?&nbsp;</p>',
+            'question_explanation' => '<p>Jurnal pada entitas akuntansi/pelaporan belanja atas realisasi pembayaran belanja yang bersifat expendable yang membebani rekening kas negara:&nbsp;</p>
+                <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                    <tbody>
+                        <tr>
+                            <td colspan="1" rowspan="2">&nbsp;</td>
+                            <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                            <td colspan="1" rowspan="2">&nbsp;</td>
+                            <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Uraian</strong></td>
+                            <td><strong>Ket</strong></td>
+                            <td><strong>Uraian</strong></td>
+                            <td><strong>Ket</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Db</td>
+                            <td>Belanja/Transfer yang masih harus dibayar (kewajiban)</td>
+                            <td>NRC</td>
+                            <td>Db</td>
+                            <td>Belanja (expendable)</td>
+                            <td>LRA</td>
+                        </tr>
+                        <tr>
+                            <td>Kr</td>
+                            <td>Ditagihkan ke entitas lain (ekuitas)&nbsp;</td>
+                            <td>LPE</td>
+                            <td>Kr</td>
+                            <td>Ditagihkan ke entitas lain</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Db</td>
+                                        <td>Belanja/Transfer yang masih harus dibayar (kewajiban)</td>
+                                        <td>NRC</td>
+                                        <td>Db</td>
+                                        <td>Belanja (expendable)</td>
+                                        <td>LRA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kr</td>
+                                        <td>Ditagihkan ke entitas lain (ekuitas)&nbsp;</td>
+                                        <td>LPE</td>
+                                        <td>Kr</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
         
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Apa yang dimaksud dengan penyusutan?',
-        //     'question_explanation' => 'Nilai penyusutan untuk masing-masing periode diakui sebagai pengurang nilai tercatat aset tetap dalam neraca dan beban penyusutan dalam laporan operasional', 
-        //     'answer_a' => 'Nilai buku aset yang dihitung dari biaya perolehan suatu aset setelah dikurangi akumulasi penyusutan',
-        //     'answer_b' => 'Alokasi yang sistematis atas nilai suatu aset tetap yang dapat disusutkan (depreciable assets) selama masa manfaat aset yang bersangkutan',
-        //     'answer_c' => 'Jumlah neto yang diharapkan dapat diperoleh pada akhir masa manfaat suatu aset setelah dikurangi taksiran biaya pelepasan',
-        //     'answer_d' => 'Aset berwujud yang mempunyai masa manfaat lebih dari 12 (dua belas) bulan untuk digunakan, atau dimaksudkan untuk digunakan dalam kegiatan pemerintah atau dimanfaatkan oleh masyarakat umum',
-        //     'correct_answer' => 'b',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Berikut merupakan metode penyusutan yang dapat digunakan berdasarkan pada Standar Akuntansi Pemerintahan berbasis Akrual, kecuali…',
-        //     'question_explanation' => 'Menurut Standar Akuntansi Pemerintahan, metode penyusutan yang dapat dipergunakan antara lain: Metode garis lurus (straight line method), metode saldo menurun ganda (double declining balance method), dan metode unit produksi (unit of production method)',
-        //     'answer_a' => 'Metode garis lurus (straight line method)',
-        //     'answer_b' => 'Metode saldo menurun ganda (double declining balance method)',
-        //     'answer_c' => 'Metode unit produksi (unit of production method)',
-        //     'answer_d' => 'Metode penyusutan jumlah angka tahun (sum of the year digit method)',
-        //     'correct_answer' => 'd',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Berikut merupakan contoh biaya yang dapat diatribusikan secara langsung kedalam biaya perolehan aset tetap, kecuali…',
-        //     'question_explanation' => 'Biaya perolehan suatu aset tetap terdiri dari harga belinya atau konstruksinya, termasuk bea impor dan setiap biaya yang dapat diatribusikan secara langsung dalam membawa aset tersebut ke kondisi yang membuat aset tersebut dapat bekerja untuk penggunaan yang dimaksudkan. Contoh biaya yang dapat diatribusikan secara langsung adalah: 
-        //     Biaya pengiriman awal (initial delivery) dan biaya simpan dan bongkar muat (handling cost);
-        //     Biaya pemasangan (installation cost);
-        //     Biaya profesional seperti arsitek dan insinyur; dan 
-        //     Biaya konstruksi.',
-        //     'answer_a' => 'Biaya pengiriman awal (initial delivery)',
-        //     'answer_b' => 'Biaya simpan dan bongkar muat (handling cost)',
-        //     'answer_c' => 'Biaya konsumsi panitia',
-        //     'answer_d' => 'Biaya konstruksi',
-        //     'correct_answer' => 'c',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Dari pernyataan berikut tentang penyusutan dan amortisasi, manakah pernyataan yang tidak benar?',
-        //     'question_explanation' => 'Penyusutan adalah alokasi sistematis atas nilai suatu aset tetap yang dapat disusutkan selama masa manfaat aset yang bersangkutan. Nilai penyusutan untuk masing-masing periode diakui sebagai pengurang nilai tercatat aset tetap dalam neraca dan sebagai beban penyusutan dalam laporan operasional. Amortisasi adalah pengurangan nilai tak berwujud secara sistematis yang dilakukan setiap periode akuntansi dalam jangka waktu tertentu. Nilai amortisasi masing-masing periode diakui sebagai beban amortisasi yang disajikan di laporan operasional dan mengurangi nilai buku aset tak berwujud pada neraca.',
-        //     'answer_a' => 'Penyusutan adalah alokasi sistematis atas nilai suatu aset tetap yang dapat disusutkan selama masa manfaat aset yang bersangkutan',
-        //     'answer_b' => 'Nilai penyusutan untuk masing-masing periode diakui sebagai pengurang nilai tercatat aset tetap dalam neraca dan sebagai beban penyusutan dalam laporan operasional',
-        //     'answer_c' => 'Nilai amortisasi masing-masing periode diakui sebagai penambah nilai buku aset tidak berwujud pada neraca',
-        //     'answer_d' => 'Amortisasi merupakan pengurang nilai tak berwujud secara sistematis yang dilakukan setiap periode akuntansi dalam jangka waktu tertentu',
-        //     'correct_answer' => 'c',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Apa yang membedakan antara Laporan Realisasi Anggaran (LRA) dan Laporan Operasional (LO)?',
-        //     'question_explanation' => 'Komponen Laporan Keuangan termasuk: 
-        //     Laporan Realisasi Anggaran (LRA): LRA merupakan komponen laporan keuangan yang menyediakan informasi mengenai realisasi pendapatan-LRA, belanja, transfer, surplus/defisit-LRA, dan pembiayaan dari suatu entitas pelaporan yang masing-masing diperbandingkan dengan anggarannya. Informasi tersebut berguna bagi para pengguna laporan dalam mengevaluasi keputusan mengenai alokasi sumber-sumber daya ekonomi, akuntabilitas, dan ketaatan entitas pelaporan terhadap anggaran. 
-        //     Laporan Operasional (LO): LO merupakan komponen laporan keuangan yang menyediakan informasi mengenai seluruh kegiatan operasional keuangan entitas pelaporan yang tercerminkan dalam pendapatan-LO, beban, dan surplus/defisit operasional dari suatu entitas pelaporan. Disamping melaporkan kegiatan operasional, LO juga melaporkan transaksi keuangan dari kegiatan non operasional dan pos luar biasa yang merupakan transaksi di luar tugas dan fungsi utama entitas.',
-        //     'answer_a' => 'LO merupakan komponen laporan keuangan yang menyediakan informasi mengenai realisasi, sedangkan LRA menyediakan mengenai seluruh kegiatan operasional keuangan entitas pelaporan',
-        //     'answer_b' => 'LO merupakan komponen laporan keuangan yang menyajikan secara komparatif dengan periode sebelumnya, sedangkan LRA menggambarkan posisi keuangan suatu entitas pelaporan',
-        //     'answer_c' => 'LO merupakan komponen laporan keuangan yang menyediakan informasi mengenai seluruh kegiatan operasional keuangan entitas pelaporan, sedangkan LRA menyediakan informasi mengenai realisasi yang berguna dalam mengevaluasi keputusan mengenai alokasi sumber daya ekonomi, akuntabilitas, dan ketaatan entitas pelaporan terhadap anggaran',
-        //     'answer_d' => 'LO merupakan komponen keuangan yang berguna bagi pengambil keputusan dalam mengevaluasi informasi mengenai alokasi sumber daya ekonomi, akuntabilitas, dan ketaatan pelaporan terhadap anggaran, sedangkan LRA melaporkan terkait kegiatan operasional, non operasional, dan pos luar biasa di luar tugas dan fungsi utama entitas',
-        //     'correct_answer' => 'c',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Berikut merupakan bagian dari klasifikasi ekonomi belanja, kecuali…',
-        //     'question_explanation' => 'Berdasarkan klasifikasi ekonomi, maka belanja dapat dibagi menjadi 8 (delapan) jenis, yaitu: 
-        //         Belanja Pegawai;
-        //         Belanja Barang;
-        //         Belanja Modal;
-        //         Belanja Bunga Utang;
-        //         Belanja Subsidi;
-        //         Belanja Bantuan Sosial
-        //         Belanja Lain-lain',
-        //     'answer_a' => 'Belanja Pegawai',
-        //     'answer_b' => 'Belanja Bantuan Sosial',
-        //     'answer_c' => 'Belanja Barang',
-        //     'answer_d' => 'Belanja Perjalanan Dinas',
-        //     'correct_answer' => 'd',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Berikut merupakan pernyataan terkait definisi Beban, kecuali…',
-        //     'question_explanation' => 'Definisi Beban adalah penurunan manfaat ekonomi atau potensi jasa atau biaya yang timbul akibat transaksi tersebut dalam periode laporan yang berdampak pada penurunan ekuitas, baik berupa pengeluaran, konsumsi aset, atau timbulnya kewajiban.',
-        //     'answer_a' => 'Merupakan penurunan manfaat ekonomi atau potensi jasa',
-        //     'answer_b' => 'Merupakan biaya yang timbul akibat dari transaksi yang timbul dalam periode laporan yang berdampak pada penurunan ekuitas',
-        //     'answer_c' => 'Pengeluaran dari Rekening Kas Umum Negara',
-        //     'answer_d' => 'Berupa pengeluaran, konsumsi aset, atau timbulnya kewajiban',
-        //     'correct_answer' => 'c',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Kapan transaksi Beban dapat diakui dalam laporan keuangan?',
-        //     'question_explanation' => 'Beban diakui pada saat terjadi penurunan manfaat ekonomi atau potensi jasa, terjadi konsumsi aset, dan timbulnya kewajiban.',
-        //     'answer_a' => 'Terjadinya pengeluaran dari Rekening Kas Umum Negara',
-        //     'answer_b' => 'Terjadi penurunan manfaat ekonomi atau potensi jasa',
-        //     'answer_c' => 'Terjadi pengesahan dari Bendahara Umum Negara/Kuasa Bendahara Umum Negara',
-        //     'answer_d' => 'Pengembalian dari tahun anggaran berjalan',
-        //     'correct_answer' => 'b',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Penerimaan/pengeluaran uang dari suatu entitas pelaporan dari/kepada entitas pelaporan lain, termasuk dana perimbangan, dana otonomi khusus, dan dana penyesuaian serta dana bagi hasil pemerintah daerah merupakan definisi dari…',
-        //     'question_explanation' => 'Transfer adalah penerimaan/pengeluaran uang dari suatu entitas pelaporan dari/kepada entitas pelaporan lain, termasuk dana perimbangan, dana otonomi khusus, dan dana penyesuaian serta dana bagi hasil pemerintah daerah.',
-        //     'answer_a' => 'Transfer',
-        //     'answer_b' => 'Belanja',
-        //     'answer_c' => 'Beban',
-        //     'answer_d' => 'Pendapatan',
-        //     'correct_answer' => 'a',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Mulai dari tahun 2021, apa metode penilaian persediaan yang digunakan oleh Pemerintah?',
-        //     'question_explanation' => 'Metode First in First out merupakan metode dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar. Dengan metode ini saldo persediaan dihitung berdasarkan harga perolehan masing-masing. Penilaian persediaan menggunakan FIFO diterapkan mulai tahun 2021 secara prospektif, setelah Pemerintah menerapkan Metode Harga Perolehan Terakhir pada tahun-tahun sebelumnya.',
-        //     'answer_a' => 'Harga pasar',
-        //     'answer_b' => 'First in First out',
-        //     'answer_c' => 'Weighted-Average',
-        //     'answer_d' => 'Harga pembelian terakhir',
-        //     'correct_answer' => 'b',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Apa yang dimaksud dengan metode penilaian persediaan First in First out?',
-        //     'question_explanation' => 'Metode First in First out merupakan metode dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar. Dengan metode ini saldo persediaan dihitung berdasarkan harga perolehan masing-masing. Penilaian persediaan menggunakan FIFO diterapkan mulai tahun 2021 secara prospektif, setelah Pemerintah menerapkan Metode Harga Perolehan Terakhir pada tahun-tahun sebelumnya.',
-        //     'answer_a' => 'Pencatatan persediaan yang dilakukan setiap terjadi transaksi yang mempengaruhi persediaan',
-        //     'answer_b' => 'Biaya langsung yang terkait dengan persediaan yang diproduksi dan biaya tidak langsung yang dialokasikan secara sistematis',
-        //     'answer_c' => 'Penilaian persediaan dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar',
-        //     'answer_d' => 'Pencatatan persediaan dimana barang yang masuk terakhir dianggap sebagai barang yang pertama kali keluar',
-        //     'correct_answer' => 'c',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Dalam rangka penyajian beban persediaan pada Laporan Operasional, yang dikecualikan dari beban persediaan adalah sebagai berikut, kecuali…',
-        //     'question_explanation' => 'Dalam rangka penyajian beban persediaan pada Laporan Operasional, Beban Persediaan dicatat sebesar pemakaian persediaan (use of goods). Dikecualikan dari Beban Persediaan adalah: 
-        //     Pemakaian barang persediaan untuk pemeliharaan yang dicatat sebagai Beban Pemeliharaan;
-        //     Penyerahan barang persediaan untuk dijual/diserahkan kepada masyarakat/pemda yang dicatat sebagai Beban Barang untuk Dijual/Diserahkan kepada Masyarakat/Pemda;
-        //     Penyerahan barang persediaan dalam rangka bantuan sosial yang dicatat sebagai Beban Bantuan Sosial; dan 
-        //     Penyerahan barang persediaan untuk tujuan strategis/berjaga-jaga yang dicatat sebagai Beban Persediaan untuk Tujuan Strategis/Berjaga-jaga.',
-        //     'answer_a' => 'Pemakaian barang persediaan untuk pemeliharaan ',
-        //     'answer_b' => 'Penyerahan barang persediaan dalam rangka bantuan sosial ',
-        //     'answer_c' => 'Pemakaian sebesar pemakaian persediaan (use of goods)',
-        //     'answer_d' => 'Penyerahan barang persediaan untuk tujuan strategis/berjaga-jaga',
-        //     'correct_answer' => 'c',
-        // ]);
-
-        // MultipleChoice::create([
-        //     'question_type' => 'pusat',
-        //     'question' => 'Pendapatan tunai diterima oleh Bendahara Pengeluaran dan/atau Bendahara Penerimaan entitas akuntansi/pelaporan pemerintah. Dalam hal pemungutan pajak belum disetor ke rekening kas negara maka akan disajikan sebagai…',
-        //     'question_explanation' => 'Jurnal pada entitas akuntansi/pelaporan pemungut pajak atas pendapatan tunai dari pungutan pajak belum disetor ke rekening kas negara: 
-        //         Kas lainnya di bendahara
-        //         Utang pajak bendahara yang belum disetor',
-        //     'answer_a' => 'Kas',
-        //     'answer_b' => 'Utang pajak bendahara yang belum disetor',
-        //     'answer_c' => 'Kas lainnya di bendahara',
-        //     'answer_d' => 'Pendapatan perpajakan',
-        //     'correct_answer' => 'b',
-        // ]);
+                <p>&nbsp;</p>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Db</td>
+                                        <td>Diterima dari entitas lain</td>
+                                        <td>LPE</td>
+                                        <td>Db</td>
+                                        <td>Diterima dari entitas lain</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kr</td>
+                                        <td>Kas</td>
+                                        <td>NRC</td>
+                                        <td>Kr</td>
+                                        <td>Kas</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Db</td>
+                                        <td>Belanja (expendable)</td>
+                                        <td>LRA</td>
+                                        <td>Db</td>
+                                        <td>Belanja/Transfer&nbsp;yang masih harus dibayar (kewajiban)</td>
+                                        <td>NRC</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kr</td>
+                                        <td>Ditagihkan ke entitas lain&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>Kr</td>
+                                        <td>Ditagihkan ke entitas lain&nbsp;(ekuitas)</td>
+                                        <td>LPE</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Db</td>
+                                        <td>Belanja (expendable)</td>
+                                        <td>LRA</td>
+                                        <td>Db</td>
+                                        <td>Diterima dari entitas lain</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kr</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                        <td>Kr</td>
+                                        <td>Kas</td>
+                                        <td>LAK</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>Db</td>
+                                        <td>Belanja (expendable)</td>
+                                        <td>LAK</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>Kr</td>
+                                        <td>Ditagihkan ke entitas lain</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'correct_answer' => 'a',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Pendapatan tunai diterima oleh Bendahara Pengeluaran dan/atau Bendahara Penerimaan entitas akuntansi/pelaporan pemerintah. Dalam hal pemungutan pajak belum disetor ke rekening kas negara maka akan disajikan sebagai&hellip;</p>',
+            'question_explanation' => '<p>Jurnal pada entitas akuntansi/pelaporan pemungut pajak atas pendapatan tunai dari pungutan pajak belum disetor ke rekening kas negara:&nbsp;<br />
+            Kas lainnya di bendahara<br />
+            &nbsp;&nbsp; &nbsp;Utang pajak bendahara yang belum disetor</p>',
+            'answer_a' => '<p>Kas</p>',
+            'answer_b' => '<p>Utang pajak bendahara yang belum disetor</p>',
+            'answer_c' => '<p>Kas lainnya di bendahara</p>',
+            'answer_d' => '<p>Pendapatan perpajakan</p>',
+            'correct_answer' => 'b',
+        ]);
+        MultipleChoice::create([
+            'question_type' => 'pusat',
+            'question' => '<p>Pada tanggal 31 Mei 2020 diterima pajak oleh Bendahara Penerimaan sejumlah Rp 100.000, akan tetapi penerimaan tersebut belum disetorkan karena terhalang oleh hari libur nasional. Bagaimana jurnal yang benar untuk mencatat transaksi tersebut?&nbsp;</p>',
+            'question_explanation' => '<p>Jurnal pada entitas akuntansi/pelaporan pemungut pajak atas pendapatan tunai dari pungutan pajak belum disetor ke rekening kas negara:&nbsp;</p>
+                <table border="1" cellpadding="1" cellspacing="1">
+                    <tbody>
+                        <tr>
+                            <td colspan="1" rowspan="2">&nbsp;</td>
+                            <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                            <td colspan="1" rowspan="2">&nbsp;</td>
+                            <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Uraian</strong></td>
+                            <td><strong>Ket</strong></td>
+                            <td><strong>Uraian</strong></td>
+                            <td><strong>Ket</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Db</td>
+                            <td>Kas lainnya di bendahara</td>
+                            <td>NRC</td>
+                            <td>Db</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Kr</td>
+                            <td>Utang pajak&nbsp;</td>
+                            <td>NRC</td>
+                            <td>Kr</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Db</td>
+                                        <td>Belanja/Transfer yang masih harus dibayar (kewajiban)</td>
+                                        <td>NRC</td>
+                                        <td>Db</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kr</td>
+                                        <td>Ditagihkan ke entitas lain (ekuitas)&nbsp;</td>
+                                        <td>LPE</td>
+                                        <td>Kr</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Db</td>
+                                        <td>Utang pajak bendahara yang belum disetor</td>
+                                        <td>NRC</td>
+                                        <td>Db</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kr</td>
+                                        <td>Kas lainnya di bendahara&nbsp;</td>
+                                        <td>NRC</td>
+                                        <td>Kr</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Db</td>
+                                        <td>Diterima dari entitas lain</td>
+                                        <td>LPE</td>
+                                        <td>Db</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kr</td>
+                                        <td>Pendapatan perpajakan&nbsp;&nbsp;</td>
+                                        <td>LO</td>
+                                        <td>Kr</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="1" rowspan="2">&nbsp;</td>
+                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                        <td><strong>Uraian</strong></td>
+                                        <td><strong>Ket</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Db</td>
+                                        <td>Kas lainnya di bendahara</td>
+                                        <td>NRC</td>
+                                        <td>Db</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kr</td>
+                                        <td>Utang pajak&nbsp;</td>
+                                        <td>NRC</td>
+                                        <td>Kr</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>',
+            'correct_answer' => 'd',
+        ]);
 
         // MultipleChoice::create([
         //     'question_type' => 'pusat',

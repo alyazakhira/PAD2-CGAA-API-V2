@@ -11,7 +11,7 @@ use App\Models\MultipleChoice;
 class PaginatedController extends Controller
 {
     public function paginated_user($item_count){
-        $user = User::paginate($item_count);
+        $user = User::where('is_admin', '==', false)->paginate($item_count);;
         return ResourceWrapper::make(true, 200, 'Paginated User Data', $user);
     }
 

@@ -22,7 +22,7 @@ use App\Http\Controllers\Api\V2\PaginatedController;
 */
 
 Route::prefix('v2')->group(function(){
-    // Route::middleware('auth:sanctum')->group(function(){
+    Route::middleware('auth:sanctum')->group(function(){
         Route::apiResource('/users', UserController::class);
         Route::apiResource('/multiple-choice', MultipleChoiceController::class);
         Route::apiResource('/exam-session', ExamSessionController::class);
@@ -45,7 +45,7 @@ Route::prefix('v2')->group(function(){
         });
 
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
-    // });
+    });
 
     Route::controller(AuthController::class)->group(function(){
         Route::post('/register', 'register')->name('login');

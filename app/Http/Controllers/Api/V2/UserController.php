@@ -16,11 +16,11 @@ class UserController extends Controller
     public function index()
     {
         try {
-            $users = User::all();
+            $users = User::where('is_admin', '==', false)->get();
         } catch (\Exception $e) {
             return ResourceWrapper::make(false, $e->getCode(), $e->getMessage(), null);
         }
-        return ResourceWrapper::make(true, 200, 'All Users Data', User::all());
+        return ResourceWrapper::make(true, 200, 'All Users Data', $users);
     }
 
     /**

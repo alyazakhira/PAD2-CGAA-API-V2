@@ -6,9 +6,13 @@ use App\Http\Controllers\Controller;
 use App\Http\Resources\ResourceWrapper;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Models\User;
+use Carbon\Carbon;
 use Validator;
+use Mail;
 
 class AuthController extends Controller
 {
@@ -71,5 +75,55 @@ class AuthController extends Controller
     public function logout(Request $request) {
         Auth::user()->tokens()->delete();
         return ResourceWrapper::make(true, 200, 'Logout successfully!', null);
+    }
+
+    public function forget_password(Request $request) {
+        $validator = Validator::make($request->all(), [
+            'email' => 'required|email|max:255',
+        ]);
+        if ($validator->fails()) {
+            return ResourceWrapper::make(false, 400, 'Data invalid!', null);
+        }
+
+        $token = Str::random(64);
+
+        DB::table('password_reset_tokens')->insert([
+            'email'         => $request->email,
+            'token'         => $token,
+            'created_at'    => Carbon::now(),
+        ]);
+
+        Mail::send('change-pass.forget-pass', ['token' => $token], function ($message) use ($request) {
+            $message->to($request->email);
+            $message->subject('Reset Password');
+        });
+
+        return ResourceWrapper::make(true, 200, 'Password reset link sent!', null);
+    }
+
+    public function reset_password_form ($token) {
+        return view('change-pass.reset-pass', compact('token'));
+    }
+
+    public function reset_password(Request $request) {
+        $validator = Validator::make($request->all(), [
+            'email' => 'required|email|max:255',
+            'password' => 'required|max:255',
+        ]);
+        if ($validator->fails()) {
+            return ResourceWrapper::make(false, 400, 'Data invalid!', null);
+        }
+
+        $updatePassword = DB::table('password_reset_tokens')->where(['email' => $request->email, 'token' => $request->token])->first();
+        if (!$updatePassword) {
+            return ResourceWrapper::make(false, 400, 'Invalid token!', null);
+        }
+
+        $user = User::where('email', '=', $request->email)->update([
+            'password' => Hash::make($request->password),
+        ]);
+
+        DB::table('password_reset_tokens')->where(['email'=> $request->email])->delete();
+        return ResourceWrapper::make(true, 200, 'Reset password success!', null);
     }
 }

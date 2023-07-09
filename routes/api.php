@@ -50,5 +50,8 @@ Route::prefix('v2')->group(function(){
     Route::controller(AuthController::class)->group(function(){
         Route::post('/register', 'register')->name('login');
         Route::post('/login', 'login')->name('register');
+        Route::post('/forget-password', 'forget_password')->name('forget.pass');
+        Route::get('/reset-password/{token}', 'reset_password_form')->name('reset.pass.form');
+        Route::post('/reset-password', 'reset_password')->name('reset.pass');
     });
 });

@@ -6782,5 +6782,286 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<p>(1),(3),dan (4)&nbsp;</p>',
             'correct_answer' => 'd',
         ]); 
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Pedoman teknis Pengelolaan Keuangan Daerah&nbsp;telah diatur pada peraturan&hellip;</p>',
+            'question_explanation' => '<p>Mencabut Permendagri No.99 tahun 2019 tentang Perubahan Kelima atas Peraturan Menteri Dalam Negeri Nomor 32 Tahun 2011 tentang Pedoman Pemberian Hibah dan Bantuan Sosial yang Bersumber dari Anggaran Pendapatan dan Belanja Daerah saat ini peraturan mengenai teknis pengelolaan keuangan daerah diatur pada Permendagri Nomor 77 Tahun 2020&nbsp;</p>',
+            'answer_a' => '<p>Permendagri Nomor 77 Tahun 2020&nbsp;</p>',
+            'answer_b' => '<p>Permendagri Nomor 14 Tahun 2016</p>',
+            'answer_c' => '<p>Peraturan Pemerintah Nomor 71 Tahun 2010</p>',
+            'answer_d' => '<p>Peraturan Pemerintah Nomor 12 tahun 2021&nbsp;</p>',
+            'correct_answer' => 'a',
+        ]); 
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Pendapatan hibah menurut sumbernya terbagi menjadi Pendapatan Hibah Dalam Negeri dan Pendapatan Hibah Luar Negeri. Pendapatan Hibah Luar Negeri dapat bersumber dari</p>
+
+                        <p>a) Negara asing;</p>
+                        
+                        <p>b) Lembaga donor multilateral;</p>
+                        
+                        <p>c) Lembaga keuangan asing; dan</p>
+                        
+                        <p>d) Lembaga non keuangan asing.</p>
+                        
+                        <p>Adapun contoh pendapatan hibah luar negeri dapat juga ditinjau menurut bentuknya, antara lain...</p>',
+            'question_explanation' => '<p>Menurut bentuknya, pendapatan hibah dapat diterima</p>
+
+                <ul>
+                    <li>Dalam bentuk uang berupa rupiah, valuta asing atau devisa yang dirupiahkan;&nbsp;</li>
+                    <li>Dalam bentuk surat berharga</li>
+                    <li>Dalam bentuk barang;</li>
+                    <li>Dalam bentuk jasa termasuk asistensi, tenaga ahli, beasiswa dan pelatihan.</li>
+                </ul>
+                
+                <p>Adapaun Pendapatan Hibah baik LRA maupun LO disajikan dalam mata uang rupiah. Realisasi Pendapatan Hibah dalam mata uang asing yang pencairannya melalui Kuasa BUN dijabarkan dan dinyatakan dalam mata uang Rupiah menggunakan kurs tengah Bank Indonesia pada tanggal diterimanya hibah di RKUN atau Reksus. Selain disajikan dalam LRA dan LO, Pendapatan Hibah juga harus diungkapkan sedemikian rupa dalam CaLK sehingga dapat memberikan semua informasi yang relevan terkait Pendapatan Hibah tersebut</p>',
+            'answer_a' => '<p>Dalam bentuk uang berupa rupiah, valuta asing atau devisa yang dirupiahkan</p>',
+            'answer_b' => '<p>Dalam bentuk surat berharga atau pun dalam bentuk barang</p>',
+            'answer_c' => '<p>Dalam bentuk jasa termasuk asistensi, tenaga ahli, beasiswa dan pelatihan</p>',
+            'answer_d' => '<p>Semua Jawaban Benar</p>',
+            'correct_answer' => 'd',
+        ]); 
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Metode penilaian investasi pemenrintah dengan metode ekuitas jika kepemilikan pemerintah ada pada presentase...</p>',
+            'question_explanation' => '<p>Bagian Keempat, Metode Penilaian Investasi, Pasal 10</p>
+
+                <ol>
+                    <li>Investasi dilakukan dengan metode sebagai berikut:
+                    <ul>
+                        <li>Metode Biaya;</li>
+                        <li>Metode Ekuitas; dan</li>
+                        <li>Metode Nilai Bersih yang Dapat Direalisasikan.</li>
+                    </ul>
+                    </li>
+                    <li>Metode Biaya sebagaimana dimaksud pada ayat (1) huruf a digunakan dalam hal kepemilikan pemerintah kurang dari 20% (dua puluh perseratus).</li>
+                    <li>Metode ekuitas sebagaimana dimaksud pada ayat (1) huruf b digunakan dalam hal:
+                    <ul>
+                        <li>kepemilikan pemerintah sama dengan 20% (dua puluh perseratus) sampai dengan 50% (lima puluh perseratus);</li>
+                        <li>kepemilikan pemerintah kurang dari 20% (dua puluh perseratus) tetapi memiliki pengaruh yang signifikan; atau</li>
+                        <li>kepemilikan pemerintah lebih dari 50% (lima puluh perseratus).</li>
+                    </ul>
+                    </li>
+                    <li>Metode Nilai Bersih yang Dapat Direalisasikan sebagaimana dimaksud pada ayat (1) huruf c digunakan dalam hal kepemilikan pemerintah bersifat Non-Permanen.</li>
+                    <li>Dalam kondisi tertentu pemilihan metode penilaian Investasi ditentukan oleh tingkat pengaruh atau pengendalian terhadap investee.</li>
+                </ol>',
+            'answer_a' => '<p>Kepemilikan pemerintah kurang dari 20%</p>',
+            'answer_b' => '<p>Kepemilikan pemerintah sama dengan 20%-50%</p>',
+            'answer_c' => '<p>Kepemilikan pemerintah lebih dari 50%&nbsp;</p>',
+            'answer_d' => '<p>Semua benar kecuali A</p>',
+            'correct_answer' => 'd',
+        ]); 
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Akuntansi pengeluaran kas pada SKPD meliputi akuntansi untuk belanja yang dapat melalui mekanisme, antara lain, kecuali...</p>',
+            'question_explanation' => '<p>Akuntansi pengeluaran kas pada SKPD meliputi serangkaian proses, baik manual maupun terkomputerisasi, mulai dari pencatatan, penggolongan, sampai peringkasan transaksi dan/atau kejadian keuangan serta pelaporan keuangan yang berkaitan dengan pengeluaran kas belanja SKPD. Akuntansi pengeluaran kas pada SKPD meliputi akuntansi untuk belanja melalui mekanisme Uang Persediaan (UP)/Ganti Uang (GU)/Tambah Uang (TU) dan belanja langsung (LS) dimana bendahara pengeluaran menerima kas untuk pengeluaran belanja tersebut.</p>',
+            'answer_a' => '<p>Uang Persediaan (UP)</p>',
+            'answer_b' => '<p>Ganti Uang (GU)/Tambah Uang (TU)</p>',
+            'answer_c' => '<p>Belanja langsung (LS) dimana bendahara pengeluaran menerima kas untuk pengeluaran belanja tersebut</p>',
+            'answer_d' => '<p>Utang pemerintah pusat</p>',
+            'correct_answer' => 'd',
+        ]); 
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Dinas Pendapatan Pengelolaan Keuangan dan Aset Daerah (DPPKAD) yang bertindak sebagai SKPD akan digunakan sebagai ilustrasi. Pada 31 Desember 2011 PPK-SKPD melakukan inventarisasi untuk retribusi pemakaian kekayaan daerah sewa lahan, hal ini dilakukan dengan membandingkan antara catatan SKR sewa lahan yang sudah diterbitkan dengan bukti pembayaran SKR. Berdasarkan hasil pembandingan tersebut diketahui bahwa masih terdapat SKR yang telah diterbitkan dan belum dibayar oleh wajib retribusi sebesar Rp1.050.000,00 sehingga dilakukan pengakuan dan pecatatan atas piutang retribusi tersebut. Selanjutnya, pada awal tahun berikutnya saldo pada akun piutang dibuat jurnal balik (reversing entry) untuk piutang retribusi. PPK-SKPD mencatat dalam Jurnal Umum sebagai berikut...</p>',
+            'question_explanation' => '<p>Pada awal tahun berikutnya saldo pada akun piutang dibuat jurnal balik (reversing entry) untuk piutang retribusi. Maka, PPK-SKPD mencatat dalam Jurnal Umum melalui Cadangan Piutang Retribusi (Debit) pada Piutang Retribusi (Kredit). Sementara itu, pada akhir tahun sebelumnya (sebelum dilakukan jurnal balik) pengakuan dilakukan pada Piutang Retribusi (Debit) pada Cadangan Piutang Retribusi (Kredit).</p>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>1 Januari 2012</p>
+                                    </td>
+                                    <td>
+                                    <p>Cadangan Piutang Retribusi</p>
+                                    </td>
+                                    <td>
+                                    <p>Rp1.050.000,00</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Piutang Retribusi</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Rp1.050.000,00</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>1 Januari 2012</p>
+                                    </td>
+                                    <td>
+                                    <p>Piutang Retribusi</p>
+                                    </td>
+                                    <td>
+                                    <p>Rp1.050.000,00</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Cadangan Piutang Retribusi</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Rp1.050.000,00</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>1 Januari 2012</p>
+                                    </td>
+                                    <td>
+                                    <p>Cadangan Piutang Retribusi</p>
+                                    </td>
+                                    <td>
+                                    <p>Rp1.050.000,00</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Kas</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Rp1.050.000,00</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>1 Januari 2012</p>
+                                    </td>
+                                    <td>
+                                    <p>Kas</p>
+                                    </td>
+                                    <td>
+                                    <p>Rp1.050.000,00</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Piutang Retribusi</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Rp1.050.000,00</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'correct_answer' => 'a',
+        ]); 
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Manakah metode penilaian investasi pemerintah bagi investasi jangka pendek/panjang?</p>',
+            'question_explanation' => '<p>Penilaian investasi pemerintah dilakukan dengan tiga metode yaitu:</p>
+
+                <p>(a) Metode biaya;</p>
+                
+                <p>(b) metode ekuitas;</p>
+                
+                <p>(c) Metode niai bersih yang dapat direalisasikan</p>',
+            'answer_a' => '<p>Metode garis lurus, metode nilai suust, metode nilai ekonomi</p>',
+            'answer_b' => '<p>Metode biaya, metode ekuitas, dan metode nilai bersih yang dapat direalisasikan</p>',
+            'answer_c' => '<p>Metode FIFO, LIFO, Average</p>',
+            'answer_d' => '<p>Metode Saldo Menurun, metode biaya, dan metode ekuitas</p>',
+            'correct_answer' => 'b',
+        ]); 
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Dalam ketentuan aset tetap, gedung dan bangunan didefinisikan sebagai&hellip;</p>',
+            'question_explanation' => '<p>Dalam Kebijakan Akuntan No.09 nomor 2 tentang klasifikasi. Gedung dan bangunan memiliki definisi &ldquo;Gedung dan bangunan mencakup seluruh gedung dan bangunan yang diperoleh dengan maksud untuk dipakai dalam kegiatan operasional pemerintah dan dalam kondisi siap dipakai&rdquo;.</p>',
+            'answer_a' => '<p>Gedung dan bangunan mencakup seluruh gedung dan bangunan yang diperoleh dengan maksud untuk dipakai dalam kegiatan operasional pemerintah dan dalam kondisi siap dipakai dan dilaporkan dalam LRA.</p',
+            'answer_b' => '<p>Gedung dan bangunan mencakup seluruh gedung dan bangunan yang diperoleh dengan maksud untuk dipakai dalam kegiatan operasional pemerintah dan dalam kondisi siap dipakai dan dilaporkan dalam LAK.</p>',
+            'answer_c' => '<p>Gedung dan bangunan mencakup seluruh gedung dan bangunan yang diperoleh dengan maksud untuk dipakai dalam kegiatan operasional pemerintah dan dalam kondisi siap dipakai.</p>',
+            'answer_d' => '<p>Gedung dan bangunan mencakup seluruh gedung dan bangunan yang diperoleh dengan maksud untuk dipakai dalam kegiatan operasional pemerintah dan dalam kondisi siap dipakai dan dilaporkan dalam LO.</p>',
+            'correct_answer' => 'c',
+        ]); 
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Berikut ini merupakan sumber Hibah daerah dari pemerintah melalui APBN dalam transaksi hibah, kecuali&hellip;</p>',
+            'question_explanation' => '<p>Hibah daerah dari pemerintah yang bersumber dari APBN meliputi Penerimaan dalam negeri, hibah luar negeri, peminjaman luar negeri&nbsp;</p>',
+            'answer_a' => '<p>Penerimaan Dalam Negeri&nbsp;</p>',
+            'answer_b' => '<p>Hibah Luar Negeri&nbsp;</p>',
+            'answer_c' => '<p>Peminjaman Dalam Negeri&nbsp;</p>',
+            'answer_d' => '<p>Peminjaman Luar Negeri&nbsp;</p>',
+            'correct_answer' => 'c',
+        ]);  
     }
 }

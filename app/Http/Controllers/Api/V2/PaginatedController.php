@@ -19,4 +19,14 @@ class PaginatedController extends Controller
         $multipleChoice = MultipleChoice::paginate($item_count);
         return ResourceWrapper::make(true, 200, 'Paginated Multiple Choice Data', $multipleChoice);
     }
+
+    public function paginated_mp_pusat($item_count){
+        $mpPusat = MultipleChoice::where('question_type', '=', 'pusat')->paginate($item_count);
+        return ResourceWrapper::make(true, 200, 'Paginated Multiple Choice Data - Pusat', $mpPusat);
+    }
+
+    public function paginated_mp_daerah($item_count){
+        $mpDaerah = MultipleChoice::where('question_type', '=', 'daerah')->paginate($item_count);
+        return ResourceWrapper::make(true, 200, 'Paginated Multiple Choice Data - Daerah', $mpDaerah);
+    }
 }

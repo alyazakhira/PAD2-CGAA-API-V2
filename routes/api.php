@@ -30,6 +30,8 @@ Route::prefix('v2')->group(function(){
         Route::controller(PaginatedController::class)->group(function(){
             Route::get('/user-paginated/{item_count}', 'paginated_user');
             Route::get('/multiple-choice-paginated/{item_count}', 'paginated_multiple_choice');
+            Route::get('/multiple-choice-paginated-pusat/{item_count}', 'paginated_mp_pusat');
+            Route::get('/multiple-choice-paginated-daerah/{item_count}', 'paginated_mp_daerah');
         });
 
         Route::controller(ExamController::class)->group(function(){

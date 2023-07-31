@@ -68,7 +68,7 @@
                     height: calc(100vh / 3);
                 }
                 .box-shadow{
-                    margin-top: 1rem;
+                    margin-top: 2rem;
                 }
             }
         </style>

@@ -103,7 +103,39 @@ class ExamController extends Controller
     }
 
     public function begin_exam_daerah($user_id){
-        $multipleChoices = MultipleChoice::where('question_type', 'daerah')->inRandomOrder()->limit(30)->reorder()->get();
+        $multipleChoices = MultipleChoice::where('question_type', 'daerah')->inRandomOrder()->limit(30)->get();
+        $multipleChoicesSorted = MultipleChoice::whereIn('id',[
+            $multipleChoices[0]->id,
+            $multipleChoices[1]->id,
+            $multipleChoices[2]->id,
+            $multipleChoices[3]->id,
+            $multipleChoices[4]->id,
+            $multipleChoices[5]->id,
+            $multipleChoices[6]->id,
+            $multipleChoices[7]->id,
+            $multipleChoices[8]->id,
+            $multipleChoices[9]->id,
+            $multipleChoices[10]->id,
+            $multipleChoices[11]->id,
+            $multipleChoices[12]->id,
+            $multipleChoices[13]->id,
+            $multipleChoices[14]->id,
+            $multipleChoices[15]->id,
+            $multipleChoices[16]->id,
+            $multipleChoices[17]->id,
+            $multipleChoices[18]->id,
+            $multipleChoices[19]->id,
+            $multipleChoices[20]->id,
+            $multipleChoices[21]->id,
+            $multipleChoices[22]->id,
+            $multipleChoices[23]->id,
+            $multipleChoices[24]->id,
+            $multipleChoices[25]->id,
+            $multipleChoices[26]->id,
+            $multipleChoices[27]->id,
+            $multipleChoices[28]->id,
+            $multipleChoices[29]->id,
+        ])->get();
 
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
@@ -112,36 +144,36 @@ class ExamController extends Controller
 
         $mpPack = new SessionQuestion;
         $mpPack->id = $examSession->id;
-        $mpPack->quest_id_1 = $multipleChoices[0]->id;
-        $mpPack->quest_id_2 = $multipleChoices[1]->id;
-        $mpPack->quest_id_3 = $multipleChoices[2]->id;
-        $mpPack->quest_id_4 = $multipleChoices[3]->id;
-        $mpPack->quest_id_5 = $multipleChoices[4]->id;
-        $mpPack->quest_id_6 = $multipleChoices[5]->id;
-        $mpPack->quest_id_7 = $multipleChoices[6]->id;
-        $mpPack->quest_id_8 = $multipleChoices[7]->id;
-        $mpPack->quest_id_9 = $multipleChoices[8]->id;
-        $mpPack->quest_id_10 = $multipleChoices[9]->id;
-        $mpPack->quest_id_11 = $multipleChoices[10]->id;
-        $mpPack->quest_id_12 = $multipleChoices[11]->id;
-        $mpPack->quest_id_13 = $multipleChoices[12]->id;
-        $mpPack->quest_id_14 = $multipleChoices[13]->id;
-        $mpPack->quest_id_15 = $multipleChoices[14]->id;
-        $mpPack->quest_id_16 = $multipleChoices[15]->id;
-        $mpPack->quest_id_17 = $multipleChoices[16]->id;
-        $mpPack->quest_id_18 = $multipleChoices[17]->id;
-        $mpPack->quest_id_19 = $multipleChoices[18]->id;
-        $mpPack->quest_id_20 = $multipleChoices[19]->id;
-        $mpPack->quest_id_21 = $multipleChoices[20]->id;
-        $mpPack->quest_id_22 = $multipleChoices[21]->id;
-        $mpPack->quest_id_23 = $multipleChoices[22]->id;
-        $mpPack->quest_id_24 = $multipleChoices[23]->id;
-        $mpPack->quest_id_25 = $multipleChoices[24]->id;
-        $mpPack->quest_id_26 = $multipleChoices[25]->id;
-        $mpPack->quest_id_27 = $multipleChoices[26]->id;
-        $mpPack->quest_id_28 = $multipleChoices[27]->id;
-        $mpPack->quest_id_29 = $multipleChoices[28]->id;
-        $mpPack->quest_id_30 = $multipleChoices[29]->id;
+        $mpPack->quest_id_1 = $multipleChoicesSorted[0]->id;
+        $mpPack->quest_id_2 = $multipleChoicesSorted[1]->id;
+        $mpPack->quest_id_3 = $multipleChoicesSorted[2]->id;
+        $mpPack->quest_id_4 = $multipleChoicesSorted[3]->id;
+        $mpPack->quest_id_5 = $multipleChoicesSorted[4]->id;
+        $mpPack->quest_id_6 = $multipleChoicesSorted[5]->id;
+        $mpPack->quest_id_7 = $multipleChoicesSorted[6]->id;
+        $mpPack->quest_id_8 = $multipleChoicesSorted[7]->id;
+        $mpPack->quest_id_9 = $multipleChoicesSorted[8]->id;
+        $mpPack->quest_id_10 = $multipleChoicesSorted[9]->id;
+        $mpPack->quest_id_11 = $multipleChoicesSorted[10]->id;
+        $mpPack->quest_id_12 = $multipleChoicesSorted[11]->id;
+        $mpPack->quest_id_13 = $multipleChoicesSorted[12]->id;
+        $mpPack->quest_id_14 = $multipleChoicesSorted[13]->id;
+        $mpPack->quest_id_15 = $multipleChoicesSorted[14]->id;
+        $mpPack->quest_id_16 = $multipleChoicesSorted[15]->id;
+        $mpPack->quest_id_17 = $multipleChoicesSorted[16]->id;
+        $mpPack->quest_id_18 = $multipleChoicesSorted[17]->id;
+        $mpPack->quest_id_19 = $multipleChoicesSorted[18]->id;
+        $mpPack->quest_id_20 = $multipleChoicesSorted[19]->id;
+        $mpPack->quest_id_21 = $multipleChoicesSorted[20]->id;
+        $mpPack->quest_id_22 = $multipleChoicesSorted[21]->id;
+        $mpPack->quest_id_23 = $multipleChoicesSorted[22]->id;
+        $mpPack->quest_id_24 = $multipleChoicesSorted[23]->id;
+        $mpPack->quest_id_25 = $multipleChoicesSorted[24]->id;
+        $mpPack->quest_id_26 = $multipleChoicesSorted[25]->id;
+        $mpPack->quest_id_27 = $multipleChoicesSorted[26]->id;
+        $mpPack->quest_id_28 = $multipleChoicesSorted[27]->id;
+        $mpPack->quest_id_29 = $multipleChoicesSorted[28]->id;
+        $mpPack->quest_id_30 = $multipleChoicesSorted[29]->id;
         $mpPack->save();
 
         $answerPack = new SessionAnswer;

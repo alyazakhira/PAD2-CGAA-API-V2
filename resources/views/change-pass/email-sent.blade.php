@@ -88,13 +88,9 @@
             </div>
             <div class="box rounded-4 p-4 align-self-center">
                 <div class="d-flex flex-column text-center">
-                    <p class="title fw-semibold mb-1">Masukkan Email Anda!</p>
-                    <p class="mb-4">Gunakan email yang anda gunakan untuk mendaftar pada website ini</p>
+                    <p class="title fw-semibold mb-1">Email terkirim!</p>
+                    <p class="mb-4">Silakan periksa kotak masuk email Anda.</p>
                 </div>
-                <form method="POST" action="{{ route('input.email') }}" class="d-flex flex-column">
-                    <input id="email" name="email" type="email" required class="rounded-3 p-1"> <br>
-                    <button type="submit" class="btn_submit pt-1 pb-1 ps-5 pe-5 border-0 rounded-2 w-50 align-self-center">Kirim</button>
-                </form>
             </div>
             <!-- Box Shadow -->
             <div class="bg-black align-self-center box-shadow"></div>

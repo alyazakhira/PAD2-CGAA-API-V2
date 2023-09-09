@@ -98,7 +98,7 @@ class AuthController extends Controller
             $message->subject('Reset Password');
         });
 
-        return ResourceWrapper::make(true, 200, 'Password reset link sent!', null);
+        return view('email-sent');
     }
 
     public function reset_password_form ($token) {

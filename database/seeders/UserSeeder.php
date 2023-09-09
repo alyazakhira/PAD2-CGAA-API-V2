@@ -33,7 +33,7 @@ class UserSeeder extends Seeder
             'institution'   => 'Universitas Gadjah Mada',
             'study_program' => 'Software Engineering',
             'generation'    => 2021,
-            'email'         => 'luthfianisa@gmail.com',
+            'email'         => 'luthfianisa02@gmail.com',
             'password'      => Hash::make('12345'),
         ]);
 

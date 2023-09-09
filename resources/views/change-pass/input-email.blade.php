@@ -76,14 +76,14 @@
         <!-- Chandelier and shadow -->
         <div class="box-lamp d-flex justify-content-center w-100 position-absolute top-0">
             <div class="d-flex flex-column align-items-center lamp">
-                <img src="./images/chandelier1.svg">
+                <img src="{{ asset('images/chandelier1.svg') }}">
                 <div class="polygon"></div>
             </div>
         </div>
         <!-- Box Form -->
         <div class="container d-flex flex-column justify-content-center">
             <div class="text-center">
-                <img src="./images/log-in_new.png" class="vector">
+                <img src="{{ asset('/images/log-in_new.png') }}" class="vector">
                 <!-- <img src="G:\DUMP KULIAH LUPI\log-in.svg" class="vector"> -->
             </div>
             <div class="box rounded-4 p-4 align-self-center">
@@ -92,7 +92,7 @@
                     <p class="mb-4">Gunakan email yang anda gunakan untuk mendaftar pada website ini</p>
                 </div>
                 <form method="POST" action="{{ route('input.email') }}" class="d-flex flex-column">
-                    <input id="email" name="email" type="email" required class="rounded-3 p-1"> <br>
+                    <input id="email" name="email" type="email" required class="rounded-3 p-1 border-0"> <br>
                     <button type="submit" class="btn_submit pt-1 pb-1 ps-5 pe-5 border-0 rounded-2 w-50 align-self-center">Kirim</button>
                 </form>
             </div>

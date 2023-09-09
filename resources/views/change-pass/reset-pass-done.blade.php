@@ -32,13 +32,12 @@
                 margin-top: 3rem;
             }
             .title{
-                font-size: large;
+                font-size: 1.5rem;
             }
             .btn_submit{
                 color: white;
                 background-color: #4A57EF;
             }
-            
             .polygon{
                 background-image: linear-gradient(
                     rgba(243, 199, 0, 0.78), 
@@ -77,7 +76,7 @@
         <!-- Chandelier and shadow -->
         <div class="box-lamp d-flex justify-content-center w-100 position-absolute top-0">
             <div class="d-flex flex-column align-items-center lamp">
-                <img src="G:\DUMP KULIAH LUPI\chandelier1.svg">
+                {{-- <img src="G:\DUMP KULIAH LUPI\chandelier1.svg"> --}}
                 <div class="polygon"></div>
             </div>
         </div>
@@ -88,14 +87,14 @@
                 <!-- <img src="G:\DUMP KULIAH LUPI\log-in.svg" class="vector"> -->
             </div>
             <div class="box rounded-4 p-4 align-self-center">
-                <p class="title text-center fw-semibold">Masukkan Password Baru Anda!</p>
-                <form class="d-flex flex-column">
-                    <input id="password" name="password" type="password" required class="rounded-3 p-1"> <br>
-                    <button type="submit" class="btn_submit pt-1 pb-1 ps-5 pe-5 border-0 rounded-2 w-50 align-self-center">Simpan</button>
-                </form>
+                <div class="d-flex flex-column text-center">
+                    <p class="title fw-semibold mb-1">Password berhasil diubah!</p>
+                    <p class="mb-4">Silakan melakukan login kembali.</p>
+                </div>
             </div>
             <!-- Box Shadow -->
             <div class="bg-black align-self-center box-shadow"></div>
         </div>
+        
     </body>
 </html>

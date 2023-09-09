@@ -1,87 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        {{-- Meta and Title --}}
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Simulasi CGAA | Reset Password</title>
-
-        {{-- Online-based Stylesheet --}}
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-        
-        {{-- Local-based Stylesheet --}}
-        <link rel="stylesheet" href={{ asset('style/font.css') }}>
-        <link rel="stylesheet" href={{ asset('style/button.css') }}>
-        <link rel="stylesheet" href={{ asset('style/color.css') }}>
+        <style>
+            body{
+                background-color: #1A1E54;
+                /* background-image: linear-gradient(180deg, rgba(74, 87, 239, 0.00) 0%, #4A57EF 100%); */
+                background-attachment: fixed;
+                height: 100vh;
+                width: 100vw;
+            }
+            div.container{
+                height: 100%;
+            }
+            img{
+                width: 10rem;
+            }
+            .vector{
+                max-width: 15rem;
+            }
+            .box{
+                background-color: #F3C700;
+                margin-top: -2rem;
+            }
+            .box, .box-shadow{
+                min-width: 30rem;
+            }
+            .box-shadow{
+                clip-path: ellipse();
+                min-height: 1rem;
+                margin-top: 3rem;
+            }
+            .title{
+                font-size: large;
+            }
+            .btn_submit{
+                color: white;
+                background-color: #4A57EF;
+            }
+            
+            .polygon{
+                background-image: linear-gradient(
+                    rgba(243, 199, 0, 0.78), 
+                    rgba(251, 238, 176, 0.55), 
+                    rgba(254, 249, 230, 0)
+                    );
+                clip-path: polygon(
+                    0% 100%,
+                    100% 100%,
+                    50% 0%
+                    );
+                width: 100vw;
+                height: calc(100vh / 3);
+                margin-top: -3rem;
+                z-index: -1;
+            }
+            @media screen and (max-height: 800px){
+                .lamp{
+                    margin-top: -2rem;
+                }
+                img{
+                    width: 8rem;
+                }
+                .polygon{
+                    margin-top: -2.5rem;
+                    width: calc(100vw / 2);
+                    height: calc(100vh / 3);
+                }
+                .box-shadow{
+                    margin-top: 2rem;
+                }
+            }
+        </style>
     </head>
-    <body>
-        <!-- The wrapper -->
-        <main class="container-fluid">
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-xl-12">
-                    <div class="row vh-100">
-
-                        <!-- The colored blank space section -->
-                        <section class="col-lg-6 bg-yellow-normal1"></section>
-
-                        <!-- The form section -->
-                        {{-- @if ($errors->any())
-                        <div class="fixed-top" aria-live="assertive" aria-atomic="true" data-bs-delay="100">
-                            <div class="toast-container top-0 end-0 p-3">
-                                @foreach ($errors->all() as $error)
-                                <div class="toast text-bg-danger border-0 show" role="alert">
-                                    <div class="d-flex">
-                                        <div class="toast-body">{{ $error }}</div>
-                                    </div>
-                                </div>
-                                @endforeach
-                            </div>
-                        </div>
-                        @endif --}}
-                        <section class="col-lg-6 p-5 bg-blue-normal1">
-                            <div class="text-center">
-                                <h2 class="h3-text mt-1 mb-3 pb-1 p-bold font-yellow-light1">Reset Password</h2>
-                            </div>
-                            <form action={{ route('reset.pass') }} method="POST">
-                                @csrf
-                                <div class="d-flex flex-column justify-content-between" style="height: 75vh">
-                                    <div class="d-flex flex-wrap">
-
-                                        <input type="hidden" value={{ $token }} name="token">
-
-                                        <!-- Email input -->
-                                        <div class="form-outline mb-4 d-grid gap-2 col-10 mx-auto fw-semibold">
-                                            <label class="form-label font-yellow-light1 par-text p-medium mb-0" for="email">Email</label>
-                                            <div class="input-group">
-                                                <span class="input-group-text fw-bold font-blue-dark2 bg-yellow-light2">@</span>
-                                                <input name="email" type="email" class="form-control" placeholder="Email" aria-label="Email" required>
-                                            </div>
-                                        </div>
-                                        
-                                        <!-- Password input -->
-                                        <div class="form-outline mb-5 d-grid gap-2 col-10 mx-auto fw-semibold">
-                                            <label class="form-label font-yellow-light1 par-text p-medium mb-0" for="password">Password Baru</label>
-                                            <div class="input-group mb-3">
-                                                <span class="input-group-text font-blue-dark2 bg-yellow-light2"><i class="bi bi-lock-fill"></i></span>
-                                                <input name="password" type="password" class="form-control" placeholder="Password" aria-label="Password" required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="d-flex flex-wrap">
-                                        <!-- Submit credential button -->
-                                        <div class="d-grid col-10 mx-auto">
-                                            <button type="submit" class="btn btn-yellow-normal">Kirim</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </section>
-                    </div>
-                </div>
+    <body >
+        <!-- Chandelier and shadow -->
+        <div class="box-lamp d-flex justify-content-center w-100 position-absolute top-0">
+            <div class="d-flex flex-column align-items-center lamp">
+                {{-- <img src="G:\DUMP KULIAH LUPI\chandelier1.svg"> --}}
+                <div class="polygon"></div>
             </div>
-        </main>
+        </div>
+        <!-- Box Form -->
+        <div class="container d-flex flex-column justify-content-center">
+            <div class="text-center">
+                <img src="G:\DUMP KULIAH LUPI\log-in_new.png" class="vector">
+                <!-- <img src="G:\DUMP KULIAH LUPI\log-in.svg" class="vector"> -->
+            </div>
+            <div class="box rounded-4 p-4 align-self-center">
+                <p class="title text-center fw-semibold">Masukkan Password Baru</p>
+                <form method="POST" action="{{ route('reset.pass') }}" class="d-flex flex-column">
+                    <input type="hidden" value={{ $token }} name="token">
+                    <input type="hidden" value={{ $email }} name="email">
+                    <input name="password" type="password" required class="rounded-3 p-1"> <br>
+                    <button type="submit" class="btn_submit pt-1 pb-1 ps-5 pe-5 border-0 rounded-2 w-50 align-self-center">Simpan</button>
+                </form>
+            </div>
+            <!-- Box Shadow -->
+            <div class="bg-black align-self-center box-shadow"></div>
+        </div>
     </body>
 </html>

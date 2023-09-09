@@ -14,8 +14,9 @@
             <div>
                 <p>You can reset password from bellow link:</p>
             </div>
+            <br>
             <div>
-                <a href="{{ route('reset.pass.form', $token) }}" type="button" style="background-color: blue; color: white; border-radius: 10px; padding: 5px; text-decoration: none; padding: 10px">Reset Password</a>
+                <a href="{{ route('reset.pass.form', ['token'=>$token, 'email'=>$email]) }}" type="button" style="background-color: blue; color: white; border-radius: 10px; padding: 5px; text-decoration: none; padding: 10px">Reset Password</a>
             </div>     
         </div>
     </div>

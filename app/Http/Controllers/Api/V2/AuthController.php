@@ -77,7 +77,11 @@ class AuthController extends Controller
         return ResourceWrapper::make(true, 200, 'Logout successfully!', null);
     }
 
-    public function forget_password(Request $request) {
+    public function input_email_form() {
+        return view('change-pass.input-email');
+    }
+
+    public function input_email(Request $request) {
         $validator = Validator::make($request->all(), [
             'email' => 'required|email|max:255',
         ]);
@@ -86,28 +90,29 @@ class AuthController extends Controller
         }
 
         $token = Str::random(64);
+        $email = $request->email;
 
         DB::table('password_reset_tokens')->insert([
-            'email'         => $request->email,
+            'email'         => $email,
             'token'         => $token,
             'created_at'    => Carbon::now(),
         ]);
 
-        Mail::send('change-pass.forget-pass', ['token' => $token], function ($message) use ($request) {
+        Mail::send('change-pass.forget-pass', ['token' => $token, 'email' => $email], function ($message) use ($request) {
             $message->to($request->email);
             $message->subject('Reset Password');
         });
 
-        return view('email-sent');
+        return view('change-pass.email-sent');
     }
 
-    public function reset_password_form ($token) {
-        return view('change-pass.reset-pass', compact('token'));
+    public function reset_password_form ($email, $token) {
+        return view('change-pass.reset-pass', compact('token','email'));
     }
 
     public function reset_password(Request $request) {
+        // $request->dd();
         $validator = Validator::make($request->all(), [
-            'email' => 'required|email|max:255',
             'password' => 'required|max:255',
         ]);
         if ($validator->fails()) {
@@ -124,6 +129,6 @@ class AuthController extends Controller
         ]);
 
         DB::table('password_reset_tokens')->where(['email'=> $request->email])->delete();
-        return ResourceWrapper::make(true, 200, 'Reset password success!', null);
+        return view('change-pass.email-sent');
     }
 }

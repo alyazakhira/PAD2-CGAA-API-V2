@@ -76,14 +76,14 @@
         <!-- Chandelier and shadow -->
         <div class="box-lamp d-flex justify-content-center w-100 position-absolute top-0">
             <div class="d-flex flex-column align-items-center lamp">
-                {{-- <img src="G:\DUMP KULIAH LUPI\chandelier1.svg"> --}}
+                <img src="./images/chandelier1.svg">
                 <div class="polygon"></div>
             </div>
         </div>
         <!-- Box Form -->
         <div class="container d-flex flex-column justify-content-center">
             <div class="text-center">
-                <img src="G:\DUMP KULIAH LUPI\log-in_new.png" class="vector">
+                <img src="./images/log-in_new.png" class="vector">
                 <!-- <img src="G:\DUMP KULIAH LUPI\log-in.svg" class="vector"> -->
             </div>
             <div class="box rounded-4 p-4 align-self-center">

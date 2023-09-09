@@ -6346,14 +6346,166 @@ class MultipleChoiceSeeder extends Seeder
             'question_type' => 'daerah',
             'question' => '<p>Bagaimanakah jurnal penyesuaian untuk akumulasi amortisasi dan beban amortisasi yang dicatat setiap akhir periode pelaporan (semesteran)?</p>',
             'question_explanation' => '<p>Amortisasi adalah alokasi yang sistematis atas nilai suatu aset tetap tidak berwujud yang dapat disusutkan selama masa manfaat aset yang bersangkutan.Nilai amortisasi untuk masing-masing periode diakui sebagai pengurang nilai tercatat aset tetap tidak berwujud dalam neraca dan beban amortisasi dalam laporan operasional.</p>',
-            'answer_a' => '<p>D: Beban Amortisasi Aset Tidak Berwujud<br />
-            K: Akumulasi Amortisasi Aset Tidak Berwujud</p>',
-            'answer_b' => '<p>D: Akumulasi Amortisasi Aset Tidak Berwujud<br />
-            K: Beban Amortisasi Aset Tidak Berwujud</p>',
-            'answer_c' => '<p>D: Beban Amortisasi Aset Berwujud<br />
-            K: Akumulasi Amortisasi Aset Berwujud</p>',
-            'answer_d' => '<p>D: Akumulasi Amortisasi Aset Berwujud<br />
-            K: Beban Amortisasi Aset Berwujud</p>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Beban Amortisasi Aset Tidak Berwujud</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Akumulasi Amortisasi Aset Tidak Berwujud</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Akumulasi Amortisasi Aset Tidak Berwujud</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Beban Amortisasi Aset Tidak Berwujud</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Akumulasi Amortisasi Aset Tidak Berwujud</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Akumulasi Amortisasi Aset Berwujud</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Akumulasi Amortisasi Aset Berwujud</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Beban Amortisasi Aset Berwujud</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table',
             'correct_answer' => 'a',
         ]);
         MultipleChoice::create([
@@ -6370,36 +6522,340 @@ class MultipleChoiceSeeder extends Seeder
             'question_type' => 'daerah',
             'question' => '<p>Pada saat diterimakanya kas atas pendapatan hibah yang diterima Pemda, maka Fungsi Akuntansi PPKD juga melakukan pencatatan atas pendapatan &ndash; LRA, bagaimana penjurnalannya?</p>',
             'question_explanation' => '<p>D: Piutang Pendapatan Hibah pada K: Pendapatan Transfer merupakan penjurnalan ketika Fungsi Akuntansi PPKD mencatat Naskah Perjanjian Hibah Daerah yang ditandatangani.</p>',
-            'answer_a' => '<p>D: Piutang Pendapatan Hibah<br />
-            K: Pendapatan Transfer</p>',
-            'answer_b' => '<p>D: Perubahan SAL<br />
-            K: Pendapatan Hibah - LRA</p>',
-            'answer_c' => '<p>D: Piutang Pendapatan Hibah<br />
-            K: Kas di Kas Daerah</p>',
-            'answer_d' => '<p>D: Pendapatan Hibah - LRA<br />
-            K: Perubahan SAL</p>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Piutang Pendapatan Hibah</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Pendapatan Transfer</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Perubahan SAL</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Pendapatan Hibah - LRA</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Piutang Pendapatan Hibah</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Kas di Kas Daerah</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Pendapatan Hibah - LRA</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Perubahan SAL</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
             'correct_answer' => 'b',
         ]);
         MultipleChoice::create([
             'question_type' => 'daerah',
             'question' => '<p>Pada saat Pemerintah Daerah melakukan pencairan dana bagi hasil, diterbitkan SP2D LS dan dilakukan pembayaran kepada yang berhak menerima, bagaimanakah jurnal atas fungsi akuntansi SKPKD?</p>',
             'question_explanation' => '<p>Pencatatan di lakukan bukan hanya di LO dan Neraca tetapi juga dilakukan pada jurnal LRA. Adapun D: Beban bagi hasil, pada K: Utang Transfer Bagi Hasil merupakan penjurnalan ketika fungsi akuntansi SKPKD membuat jurnal Surat Keputusan Kepala Daerah tentang transfer bagi hasil yang dikeluarkan oleh Pemerintah Daerah.</p>',
-            'answer_a' => '<p>Jurnal LO dan Neraca<br />
-            D: ​​Utang Transfer Bagi Hasil<br />
-            K: Kas di Kas Daerah</p>',
-            'answer_b' => '<p>Jurnal LO dan Neraca<br />
-            D: ​​Utang Transfer Bagi Hasil<br />
-            K: Kas di Kas Daerah</p>
-            
-            <p>Jurnal LRA<br />
-            D: Belanja bagi hasil<br />
-            K: Estimasi Perubahan SAL</p>',
-            'answer_c' => '<p>Jurnal LRA<br />
-            D: Belanja bagi hasil<br />
-            K: Estimasi Perubahan SAL</p>',
-            'answer_d' => '<p>Jurnal LO dan Neraca<br />
-            D: Beban Bagi Hasil<br />
-            K: Utang Transfer Bagi Hasil</p>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LO dan Neraca</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Utang Transfer Bagi Hasil</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Kas di Kas Daerah</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LO dan Neraca</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LRA</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Utang Transfer Bagi Hasil</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Belanja bagi hasil</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Kas di Kas Daerah</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Estimasi Perubahan SAL</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LRA</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LO dan Neraca</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Belanja bagi hasil</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Utang Transfer Bagi Hasil</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Estimasi Perubahan SAL</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Kas di Kas Daerah</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LO dan Neraca</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Beban Bagi Hasil</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Utang Transfer Bagi Hasil</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
             'correct_answer' => 'b',
         ]);
         MultipleChoice::create([
@@ -6416,22 +6872,174 @@ class MultipleChoiceSeeder extends Seeder
             'question_type' => 'daerah',
             'question' => '<p>SKPD Dinas Pendidikan Ponrogo membeli aset tetap tanah senilai Rp165.000.000. Bagaimana kah penjurnalannya?</p>',
             'question_explanation' => '<p>Pencatatan dilakukan bukan hanya di Jurnal Finansial tetapi juga dilakukan pada jurnal Anggaran. Adapun D: Aset tetap, pada K: Utang kepada Pihak Ketiga merupakan penjurnalan ketika fungsi akuntansi terjadi pembelian aset tetap secara kredit di SKPD menggunakan SP2D LS dari Bendahara Umum Daerah (BUD)</p>',
-            'answer_a' => '<p>Jurnal Finansial<br />
-            D: Aset Tetap<br />
-            K: Kas di Bendahara Pengeluaran</p>',
-            'answer_b' => '<p>Jurnal Finansial dan Anggaran<br />
-            D: Aset Tetap<br />
-            K: Kas di Bendahara Pengeluaran</p>
-            
-            <p>Jurnal Anggaran<br />
-            D: Belanja modal<br />
-            K: Estimasi Perubahan SAL</p>',
-            'answer_c' => '<p>Jurnal Anggaran<br />
-            D: Belanja modal<br />
-            K: Estimasi Perubahan SAL</p>',
-            'answer_d' => '<p>Jurnal SKPD<br />
-            D: Aset tetap<br />
-            K: Utang kepada pihak ketiga</p>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal Finansial</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Aset Tetap</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Kas di Bendahara Pengeluaran</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal Finansial dan Anggaran</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal Anggaran</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Aset Tetap</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Belanja modal</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Kas di Bendahara Pengeluaran</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Estimasi Perubahan SAL</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal Anggaran</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Belanja modal</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Estimasi Perubahan SAL</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal SKPD</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Aset tetap</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Utang Transfer Bagi Hasil</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
             'correct_answer' => 'b',
         ]);
         MultipleChoice::create([
@@ -6518,26 +7126,174 @@ class MultipleChoiceSeeder extends Seeder
             'question_type' => 'daerah',
             'question' => '<p>Pada saat SKPD melakukan pencairan belanja hibah diterbitkan SP2D LS dan BAST penyerahan kepada yang berhak menerima hibah dalam bentuk uang. Berdasarkan SP2D atau BAST hibah, PPK SKPD membuat jurnal sebagai berikut:</p>',
             'question_explanation' => '<p>Pencatatan dilakukan bukan hanya di Jurnal LO dan Neraca tetapi juga dilakukan pada jurnal LRA. Adapun untuk Jurnal LO dan Neraca yaitu D: Utang Belanja Hibah kepada &hellip; pada K: Persediaan untuk dijual/diserahkan kepada &hellip; adalah jurnal ketika SKPD melakukan penyerahan barang hibah kepada pihak ketiga, SKPD menerbitkan BAST penyerahan kepada yang berhak menerima hibah dalam bentuk barang.</p>',
-            'answer_a' => '<p>Jurnal LO dan Neraca<br />
-            D: Utang Belanja Hibah kepada ...<br />
-            K: RK PPKD</p>',
-            'answer_b' => '<p>Jurnal LO dan Neraca<br />
-            D: Utang Belanja Hibah kepada ...<br />
-            K: RK PPKD</p>
-            
-            <p>Jurnal LRA<br />
-            D: Belanja Hibah kepada &hellip;<br />
-            K: Estimasi Perubahan SAL</p>',
-            'answer_c' => '<p>Jurnal LRA<br />
-            D: Belanja Hibah kepada &hellip;<br />
-            K: Estimasi Perubahan SAL</p>',
-            'answer_d' => '<p>Jurnal LO dan Neraca<br />
-            D: Utang Belanja Hibah kepada ...<br />
-            K: Persediaan untuk dijual/diserahkan kepada &hellip;</p>
-            
-            <p>Jurnal LRA<br />
-            D: Belanja Hibah kepada &hellip;<br />
-            K: Estimasi Perubahan SAL</p>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LO dan Neraca</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Utang Belanja Hibah kepada ...</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>RK PPKD</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LO dan Neraca</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LRA</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Utang Belanja Hibah kepada ...</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Belanja Hibah kepada &hellip;</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>RK PPKD</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Estimasi Perubahan SAL</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LRA</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Belanja Hibah kepada &hellip;</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Estimasi Perubahan SAL</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LO dan Neraca</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Jurnal LRA</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Utang Belanja Hibah kepada ...</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Belanja Hibah kepada &hellip;</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Persediaan untuk dijual/diserahkan kepada &hellip;</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Estimasi Perubahan SAL</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
             'correct_answer' => 'b',
         ]);
         MultipleChoice::create([
@@ -6564,14 +7320,166 @@ class MultipleChoiceSeeder extends Seeder
             'question_type' => 'daerah',
             'question' => '<p>Pengeluaran kas yang dilakukan oleh BUD/Kuasa BUD atas pembayaran dan tembusan dokumen telah diterima dan diverifikasi oleh serta disahkan oleh pengguna anggaran/PPKD, jurnalnya adalah</p>',
             'question_explanation' => '<p>Ketika muncul sumber dokumen dari Kuasa BUD, maaka akuntansi melakukan jurnal Beban pada Utang Beban. Sementara itu, ketika dokumen tersebut disahkan oleh pengguna anggaran maka penjurnalannya adalah &ldquo;Utang beban&rdquo; pada &ldquo;Kas di Kas Daerah&rdquo;</p>',
-            'answer_a' => '<p>D: Belanja<br />
-            K: Kas di kas daerah</p>',
-            'answer_b' => '<p>D: Beban<br />
-            K: Utang Beban</p>',
-            'answer_c' => '<p>D: Beban<br />
-            K: Perubahan SAL</p>',
-            'answer_d' => '<p>D: Belanja<br />
-            K: Perubahan SAL</p>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Belanja</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Kas di kas daerah</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Beban</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Utang Beban</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Beban</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Perubahan SAL</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Tanggal</p>
+                                    </td>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>
+                                    <p>Belanja</p>
+                                    </td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Perubahan SAL</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>xxx</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
             'correct_answer' => 'd',
         ]);
         MultipleChoice::create([
@@ -7061,6 +7969,411 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<p>Hibah Luar Negeri&nbsp;</p>',
             'answer_c' => '<p>Peminjaman Dalam Negeri&nbsp;</p>',
             'answer_d' => '<p>Peminjaman Luar Negeri&nbsp;</p>',
+            'correct_answer' => 'c',
+        ]);  
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Pada tanggal 6 Januari 2011, Dinas Pariwisata mengirimkan sisa Kas di Bendahara Pengeluaran berupa USD, dan kemudian disetorkan ke Rekening Kas Daerah dalam rupiah dengan kurs Rp 11.300/USD sebagai berikut:</p>
+                            <p>Seluruh setoran (USD2.045 x Rp11.300/USD) = Rp23.108.500</p>
+                            <ul>
+                                <li>
+                                <p>Sebagai setoran sisa UP TAYL&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = Rp22.491.000</p>
+                                </li>
+                                <li>
+                                <p>Sebagai pendapatan selisih kurs&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=&nbsp;Rp617.500</p>
+                                </li>
+                            </ul>
+                            <p>Maka, Jurnal pengakuan pendapatan lain-lain dari selisih kurs pada Pengelola Kas adalah</p>',
+            'question_explanation' => '<p>Dikarenakan Utang kepada KUD pada Pendapatan lain-lain (selisih kurs) merupakan jurnal untuk pengakuan pendapatan lain-lain dari selisih kurs pada SKPD perwakilan luar negeri. Sementara itu, Ekuitas Dana Lancar-Selisih Kurs pada Kas di Bendahara Pengeluaran merupakan jurnal penyesuaian di awal tahun untuk membalik (reverse) akun selisih kurs atas Kas di Bendahara Pengeluaran pada SKPD</p>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kas</p>
+                                    </td>
+                                    <td>
+                                    <p>Rp617.500</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Pendapatan lain-lain (selisih kurs)</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Rp617.500</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Utang kepada KUD</p>
+                                    </td>
+                                    <td>
+                                    <p>Rp617.500</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Pendapatan lain-lain (selisih kurs)</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Rp617.500</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Pendapatan lain-lain (selisih kurs)</p>
+                                    </td>
+                                    <td>
+                                    <p>Rp617.500</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Utang kepada KUD</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Rp617.500</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <p>Keterangan</p>
+                                    </td>
+                                    <td>
+                                    <p>Debit</p>
+                                    </td>
+                                    <td>
+                                    <p>Kredit</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Ekuitas Dana Lancar-Selisih Kurs</p>
+                                    </td>
+                                    <td>
+                                    <p>Rp617.500</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kas di Bendahara Pengeluaran</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Rp617.500</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'correct_answer' => 'a',
+        ]);  
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Untuk dapat diakui sebagai aset tetap harus dipenuhi kriteria sebagai berikut :&nbsp;</p>
+                            <ol>
+                                <li>berwujud;</li>
+                                <li>mempunyai masa manfaat maksimal 12 bulan;</li>
+                                <li>biaya perolehan aset dapat diukur secara andal;</li>
+                                <li>dimaksudkan untuk dijual dalam operasi normal entitas;</li>
+                                <li>diperoleh atau dibangun dengan maksud untuk digunakan;</li>
+                                <li>bukan merupakan objek pemeliharaan atau memerlukan biaya/ongkos untuk dipelihara</li>
+                                <li>nilai rupiah pembelian barang material atau pengeluaran untuk pembelian barang tersebut memenuhi batasan minimal kapitalisasi aset tetap yang telah ditetapkan.</li>
+                            </ol>',
+            'question_explanation' => '<p>Mempunyai masa manfaat lebih dari 12 bulan; tidak dimaksudkan untuk dijual dalam operasi normal entitas; dan merupakan objek pemeliharaan atau memerlukan biaya/ongkos untuk dipelihara</p>',
+            'answer_a' => '<p>(1), (3), (6) dan (7)&nbsp;</p>',
+            'answer_b' => '<p>(1), (2), (3) dan (4)</p>',
+            'answer_c' => '<p>(1), (4), (5), dan (7)</p>',
+            'answer_d' => '<p>(1),(3), (5), dan (7)</p>',
+            'correct_answer' => 'd',
+        ]);  
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Penarikan Hibah dapat dilakukan melalui tata cara sebagai berikut:</p>
+                            <ol>
+                                <li>
+                                <p>Pembayaran Langsung (Direct Payment);</p>
+                                </li>
+                                <li>
+                                <p>Rekening Khusus (Special Account): dan/atau</p>
+                                </li>
+                                <li>
+                                <p>Pembukuan Letter of Credit (L/C).</p>
+                                </li>
+                            </ol>',
+            'question_explanation' => '<p>Seusai pasal 2 PMK NO. 52 tahun 2006 ketiga tata cara tersebut merupakan tata cara penarikan hibah yang dapat dilakukan.</p>',
+            'answer_a' => '<p>(1) dan (2)</p>',
+            'answer_b' => '<p>(1) dan (3)</p>',
+            'answer_c' => '<p>(2) dan (3)</p>',
+            'answer_d' => '<p>Semua benar</p>',
+            'correct_answer' => 'd',
+        ]);  
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Pelaporan keuangan hibah meliputi laporan-laporan yang disusun untuk menyajikan transaksi-transaksi terkait hibah, yang terdiri darI, kecuali:</p>
+                            <ol>
+                                <li>
+                                <p>Laporan Realisasi Anggaran</p>
+                                </li>
+                                <li>
+                                <p>Laporan Perubahan SAL&nbsp;</p>
+                                </li>
+                                <li>
+                                <p>Neraca</p>
+                                </li>
+                                <li>
+                                <p>Laporan Operasional&nbsp;</p>
+                                </li>
+                                <li>
+                                <p>Laporan Arus Kas</p>
+                                </li>
+                                <li>
+                                <p>Laporan Perubahan Ekuitas</p>
+                                </li>
+                                <li>
+                                <p>CaLK</p>
+                                </li>
+                            </ol>',
+            'question_explanation' => '<p>Akuntansi hibah meliputi perlakuan akuntansi untuk Pendapatan Hibah-LRA, Pendapatan Hibah-LO, Belanja Hibah, Behan Hibah, aset yang diperoleh dari hibah (kas, aset tetap, aset lainnya, dan persediaan), serta belanja dan beban yang bersumber dari hibah.</p>',
+            'answer_a' => '<p>(1) dan (2)</p>',
+            'answer_b' => '<p>(2) dan (5)</p>',
+            'answer_c' => '<p>(2) dan (6)</p>',
+            'answer_d' => '<p>(5) dan (6)</p>',
+            'correct_answer' => 'b',
+        ]);  
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Jurnal penerimaan kas dari hibah yang pencairannya melalui Kuasa BUN (mekanisme RKUN dan Reksus) di Buku Besar UAKPA-BUN adalah</p>',
+            'question_explanation' => '<p>Opsi b merupakan jurnal pencatatan Pendapatan Hibah yang pencairannya melalui Kuasa BUN, sementara opsi c merupakan purnal pencatatan Pendapatan Hibah yang penca1rannya melalui Kuasa BUN (mekanisme PL, L/C, dan pembiayaan pendahuluan).</p>',
+            'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Buku Besar Kas</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Buku Besar Akrual</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Diterima dari Entitas Lain</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Pendapatan Hibah yang ditangguhkan</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Pendapatan Hibah</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Pendapatan Hibah</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Buku Besar Kas</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Buku Besar Akrual</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Akun Transito</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Pendapatan Hibah yang ditangguhkan</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Buku Besar Kas</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Buku Besar Akrual</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Diterima dari Entitas Lain</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Diterima dari Entitas Lain</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Pendapatan Hibah</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Pendapatan Hibah</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Buku Besar Kas</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    <p>Buku Besar Akrual</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>
+                                    <p>Db</p>
+                                    </td>
+                                    <td>
+                                    <p>Pendapatan Hibah yang ditangguhkan</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>-</p>
+                                    </td>
+                                    <td>
+                                    <p>Kr</p>
+                                    </td>
+                                    <td>
+                                    <p>Pendapatan Hibah</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>',
+            'correct_answer' => 'b',
+        ]);  
+        MultipleChoice::create([
+            'question_type' => 'daerah',
+            'question' => '<p>Alokasi harga perolehan ATB secara sistematis dan rasional selama masa manfaatnya merupakan pengertian dari &hellip;</p>',
+            'question_explanation' => '<p><strong>Amortisasi</strong> adalah alokasi harga perolehan ATB secara sistematis dan rasional selama masa manfaatnya. <strong>Nilai tercatat </strong>(carrying amount) Aset Tak Berwujud adalah nilai buku Aset Tak Berwujud, yang dihitung dari biaya perolehan suatu aset setelah dikurangi akumulasi amortisasi. <strong>Penyusutan </strong>aset dapat diartikan sebagai alokasi yang sistematis atas nilai suatu aset tetap yang dapat disusutkan selama masa manfaat aset yang bersangkutan. <strong>Nilai residu</strong> adalah nilai sisa pada suatu aset atau barang yang sudah berakhir umur ekonomisnya</p>',
+            'answer_a' => '<p>Depresiasi</p>',
+            'answer_b' => '<p>Nilai Residu</p>',
+            'answer_c' => '<p>Amortisasi</p>',
+            'answer_d' => '<p>Nilai tercatat ATB</p>',
             'correct_answer' => 'c',
         ]);  
     }

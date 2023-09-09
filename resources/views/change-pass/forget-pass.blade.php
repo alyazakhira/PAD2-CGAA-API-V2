@@ -58,7 +58,7 @@
     <div class="w-100 rounded-top-3 box"></div>
     <div class="d-flex flex-column w-100 h-100 align-items-center bg-white my-3">
         <h3 class="fw-bold">Selamat Datang!</h3>
-        <img src="G:\DUMP KULIAH LUPI\email-icon.png">
+        <img src="{{ asset('/images/email-icon.png') }}">
         <p class="w-75 text-center">Tekan tombol di bawah ini untuk mengubah password Anda</p>
         <a id="btn_reset" class="rounded-3" href="{{ route('reset.pass.form', ['token'=>$token, 'email'=>$email]) }}" type="button">Reset Password</a>
         <div class="w-75 mt-5 d-flex flex-column">

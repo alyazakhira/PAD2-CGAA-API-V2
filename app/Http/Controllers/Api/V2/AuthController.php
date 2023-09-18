@@ -129,6 +129,6 @@ class AuthController extends Controller
         ]);
 
         DB::table('password_reset_tokens')->where(['email'=> $request->email])->delete();
-        return view('change-pass.email-sent');
+        return view('change-pass.reset-pass-done');
     }
 }

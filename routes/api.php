@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Api\V2\UserController;
 use App\Http\Controllers\Api\V2\MultipleChoiceController;
+use App\Http\Controllers\Api\V2\EssayController;
+use App\Http\Controllers\Api\V2\CaseStudyController;
 use App\Http\Controllers\Api\V2\ExamSessionController;
 use App\Http\Controllers\Api\V2\ExamController;
 use App\Http\Controllers\Api\V2\AuthController;
@@ -25,6 +27,8 @@ Route::prefix('v2')->group(function(){
     Route::middleware('auth:sanctum')->group(function(){
         Route::apiResource('/users', UserController::class);
         Route::apiResource('/multiple-choice', MultipleChoiceController::class);
+        Route::apiResource('/essay', EssayController::class);
+        Route::apiResource('/case-study', CaseStudyController::class);
         Route::apiResource('/exam-session', ExamSessionController::class);
 
         Route::controller(PaginatedController::class)->group(function(){
@@ -32,6 +36,10 @@ Route::prefix('v2')->group(function(){
             Route::get('/multiple-choice-paginated/{item_count}', 'paginated_multiple_choice');
             Route::get('/multiple-choice-paginated-pusat/{item_count}', 'paginated_mp_pusat');
             Route::get('/multiple-choice-paginated-daerah/{item_count}', 'paginated_mp_daerah');
+            Route::get('/essay-paginated-pusat/{item_count}', 'paginated_ey_pusat');
+            Route::get('/essay-paginated-daerah/{item_count}', 'paginated_ey_daerah');
+            Route::get('/case-study-paginated-pusat/{item_count}', 'paginated_cs_pusat');
+            Route::get('/case-study-paginated-daerah/{item_count}', 'paginated_cs_daerah');
         });
 
         Route::controller(ExamController::class)->group(function(){

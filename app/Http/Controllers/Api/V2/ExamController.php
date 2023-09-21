@@ -9,7 +9,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Illuminate\Support\Collection;
 use App\Models\User;
-use App\Models\Question;
+use App\Models\Essay;
+use App\Models\CaseStudy;
 use App\Models\MultipleChoice;
 use App\Models\ExamSession;
 use App\Models\SessionAnswer;
@@ -18,191 +19,279 @@ use App\Models\SessionQuestion;
 class ExamController extends Controller
 {
     public function begin_exam_pusat($user_id){
+        // Retrieve and Sort Multiple Choices
         $multipleChoices = MultipleChoice::where('question_type', 'pusat')->inRandomOrder()->limit(60)->get();
         $multipleChoicesID = array();
-        foreach ($multipleChoices as $mp) {
-            array_push($multipleChoicesID, $mp->id);
-        }
+        foreach ($multipleChoices as $mp) { array_push($multipleChoicesID, $mp->id); }
         $multipleChoicesSorted = MultipleChoice::whereIn('id',$multipleChoicesID)->get();
 
+        // Retrieve and Sort Essays
+        $essays = Essay::where('question_type', 'pusat')->inRandomOrder()->limit(5)->get();
+        $essayID = array();
+        foreach ($essays as $ey) { array_push($essayID, $ey->id); }
+        $esaysSorted = Essay::whereIn('id',$essayID)->get();
+
+        // [ALPHA] Retrieve and Sort Case Studies
+        $caseStudies = CaseStudy::where('question_type', 'pusat')->inRandomOrder()->limit(1)->get();
+
+        // Generate new Exam Session
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
         $examSession->type = 'pusat';
         $examSession->save();
 
-        $mpPack = new SessionQuestion;
-        $mpPack->id = $examSession->id;
-        for ($i=0; $i <= 59; $i++) {
-            $j = $i + 1;
-            $mpPack->{"quest_id_$j"} = $multipleChoicesSorted[$i]->id;
-        }
-        $mpPack->save();
+        // Generate new Session Question
+        $sessionQuestion = new SessionQuestion;
+        $sessionQuestion->id = $examSession->id;
 
+        // Assign Multiple Choices ID
+        for ($i=1; $i <= 60; $i++) {
+            $j = $i - 1;
+            $sessionQuestion->{"mp_id_$i"} = $multipleChoicesSorted[$j]->id;
+        }
+
+        // Assign Essays ID
+        for ($i=1; $i <= 5; $i++) {
+            $j = $i - 1;
+            $sessionQuestion->{"ey_id_$i"} = $esaysSorted[$j]->id;
+        }
+
+        // [ALPHA] Assign Case Studies ID
+        $sessionQuestion->cs_id = $caseStudies[0]->id;
+
+        // Save Session Question
+        $sessionQuestion->save();
+
+        // Generate Session Answer
         $answerPack = new SessionAnswer;
         $answerPack->id = $examSession->id;
         $answerPack->save();
 
-        $data = [
-            'session_id' => $examSession->id,
-        ];
-
+        // Return the data
+        $data = [ 'session_id' => $examSession->id, ];
         return ResourceWrapper::make(true, 200, 'Successfully Create Exam Session - Pusat', $data);
     }
 
     public function begin_exam_daerah($user_id){
+        // Retrieve and Sort Multiple Choices
         $multipleChoices = MultipleChoice::where('question_type', 'daerah')->inRandomOrder()->limit(60)->get();
         $multipleChoicesID = array();
-        foreach ($multipleChoices as $mp) {
-            array_push($multipleChoicesID, $mp->id);
-        }
+        foreach ($multipleChoices as $mp) { array_push($multipleChoicesID, $mp->id); }
         $multipleChoicesSorted = MultipleChoice::whereIn('id',$multipleChoicesID)->get();
 
+        // Retrieve and Sort Essays
+        $essays = Essay::where('question_type', 'daerah')->inRandomOrder()->limit(5)->get();
+        $essayID = array();
+        foreach ($essays as $ey) { array_push($essayID, $ey->id); }
+        $esaysSorted = Essay::whereIn('id',$essayID)->get();
+
+        // [ALPHA] Retrieve and Sort Case Studies
+        $caseStudies = CaseStudy::where('question_type', 'daerah')->inRandomOrder()->limit(1)->get();
+
+        // Generate new Exam Session
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
-        $examSession->type = 'daerah';
+        $examSession->type = 'pusat';
         $examSession->save();
 
-        $mpPack = new SessionQuestion;
-        $mpPack->id = $examSession->id;
-        for ($i=0; $i <= 59; $i++) {
-            $j = $i + 1;
-            $mpPack->{"quest_id_$j"} = $multipleChoicesSorted[$i]->id;
-        }
-        $mpPack->save();
+        // Generate new Session Question
+        $sessionQuestion = new SessionQuestion;
+        $sessionQuestion->id = $examSession->id;
 
+        // Assign Multiple Choices ID
+        for ($i=1; $i <= 60; $i++) {
+            $j = $i - 1;
+            $sessionQuestion->{"mp_id_$i"} = $multipleChoicesSorted[$j]->id;
+        }
+
+        // Assign Essays ID
+        for ($i=1; $i <= 5; $i++) {
+            $j = $i - 1;
+            $sessionQuestion->{"ey_id_$i"} = $esaysSorted[$j]->id;
+        }
+
+        // [ALPHA] Assign Case Studies ID
+        $sessionQuestion->cs_id = $caseStudies[0]->id;
+
+        // Save Session Question
+        $sessionQuestion->save();
+
+        // Generate Session Answer
         $answerPack = new SessionAnswer;
         $answerPack->id = $examSession->id;
         $answerPack->save();
 
-        $data = [
-            'session_id' => $examSession->id,
-        ];
-
+        // Return the data
+        $data = [ 'session_id' => $examSession->id, ];
         return ResourceWrapper::make(true, 200, 'Successfully Create Exam Session - Daerah', $data);
     }
 
-    public function get_exam_question($session_id){
-        $mpPack = SessionQuestion::find($session_id);
-        $mpPackID = array();
-        for ($i=1; $i <= 60 ; $i++) { 
-            array_push($mpPackID, $mpPack->{"quest_id_$i"});
-        }
-        $multipleChoices = MultipleChoice::whereIn('id',$mpPackID);
+    public function get_mp_question($session_id){
+        $sessionQuestion = SessionQuestion::find($session_id);
 
+        // Retrieve and assign multiple choices data
+        $mpID = array();
+        for ($i=1; $i <= 60 ; $i++) { array_push($mpID, $sessionQuestion->{"mp_id_$i"}); }
+        $multipleChoices = MultipleChoice::whereIn('id',$mpID);
         $multipleChoicePaginated = $multipleChoices->paginate(1);
 
-        return ResourceWrapper::make(true, 200, 'Exam Questions', $multipleChoicePaginated);
+        return ResourceWrapper::make(true, 200, 'Exam Questions - Multiple Choice', $multipleChoicePaginated);
     }
-   
-    public function save_answer(Request $request, $session_id){
-        $answerPack = SessionAnswer::find($session_id);
+
+    public function get_ey_question($session_id){
+        $sessionQuestion = SessionQuestion::find($session_id);
+
+        // Retrieve and assign essays data
+        $eyID = array();
+        for ($i=1; $i <= 5 ; $i++) { array_push($eyID, $sessionQuestion->{"ey_id_$i"}); }
+        $essays = Essay::whereIn('id',$eyID);
+        $essayPaginated = $essays->paginate(1);
+
+        return ResourceWrapper::make(true, 200, 'Exam Questions - Essay', $essayPaginated);
+    }
+
+    public function get_cs_question($session_id){  // [ALPHA]
+        $sessionQuestion = SessionQuestion::find($session_id);
+
+        // [ALPHA] Retrieve case studies data
+        $caseStudy = CaseStudy::find($sessionQuestion->cs_id);
+
+        return ResourceWrapper::make(true, 200, 'Exam Questions - Case Study', $caseStudy);
+    }
+
+    public function get_mp_answer($session_id){
+        $sessionAnswer = SessionAnswer::find($session_id);
+        $mpAnswer = array();
+        for ($i=1; $i <= 60 ; $i++) { $mpAnswer["answer_$i"] = $sessionAnswer->{"mp_answer_$i"}; }
+        return ResourceWrapper::make(true, 200, 'Answer Data - Multiple Choice', $mpAnswer);
+    }
+
+    public function get_ey_answer($session_id){
+        $sessionAnswer = SessionAnswer::find($session_id);
+        $eyAnswer = array();
+        for ($i=1; $i <= 5 ; $i++) { $eyAnswer["answer_$i"] = $sessionAnswer->{"ey_answer_$i"}; }
+        return ResourceWrapper::make(true, 200, 'Answer Data - Essay', $eyAnswer);
+    }
+
+    public function get_cs_answer($session_id){  // [ALPHA]
+        $sessionAnswer = SessionAnswer::find($session_id);
+        $csAnswer = array();
+        for ($i=1; $i <= 10 ; $i++) { $csAnswer["answer_$i"] = $sessionAnswer->{"cs_answer_$i"}; }
+        return ResourceWrapper::make(true, 200, 'Answer Data - Case Study', $csAnswer);
+    }
+
+    public function save_mp_answer(Request $request, $session_id){
+        $mpAnswer = SessionAnswer::find($session_id);
         for ($i=1; $i <= 60; $i++) { 
             if ($request->{"answer_$i"} != null) {
-                $answerPack->{"answer_$i"} = $request->{"answer_$i"};
+                $mpAnswer->{"mp_answer_$i"} = $request->{"answer_$i"};
             }
         }
-        $answerPack->save();
+        $mpAnswer->save();
+        $data = [ 'session_id' => $mpAnswer->id, ];
 
         // return response
-        return ResourceWrapper::make(true, 200, 'Answer Saved Sucessfully', $answerPack);
+        return ResourceWrapper::make(true, 200, 'Answer Saved Sucessfully', $data);
     }
 
-    public function calculate_score(Request $request, $session_id){
-        // same as save answer at first
-        $answerPack = SessionAnswer::find($session_id);
-        for ($i=1; $i <= 60; $i++) { 
+    public function save_ey_answer(Request $request, $session_id){
+        $eyAnswer = SessionAnswer::find($session_id);
+        for ($i=1; $i <= 5; $i++) { 
             if ($request->{"answer_$i"} != null) {
-                $answerPack->{"answer_$i"} = $request->{"answer_$i"};
+                $eyAnswer->{"ey_answer_$i"} = $request->{"answer_$i"};
             }
         }
-        $answerPack->save();
+        $eyAnswer->save();
+        $data = [ 'session_id' => $eyAnswer->id, ];
 
-        // looping
-        $quest_pack = SessionQuestion::find($request->session_id);
+        // return response
+        return ResourceWrapper::make(true, 200, 'Answer Saved Sucessfully', $data);
+    }
+
+    public function save_cs_answer(Request $request, $session_id){  // [ALPHA]
+        $csAnswer = SessionAnswer::find($session_id);
+        for ($i=1; $i <= 10; $i++) { 
+            if ($request->{"answer_$i"} != null) {
+                $csAnswer->{"cs_answer_$i"} = $request->{"answer_$i"};
+            }
+        }
+        $csAnswer->save();
+        $data = [ 'session_id' => $csAnswer->id, ];
+
+        // return response
+        return ResourceWrapper::make(true, 200, 'Answer Saved Sucessfully', $data);
+    }
+
+    public function finish_first_session(Request $request, $session_id){
+        $questPack = SessionQuestion::find($session_id);
+        $answerPack = SessionAnswer::find($session_id);
+        $examSession = ExamSession::find($session_id);
         $correct = 0;
         $wrong = 0;
-        $notAnswered = 0;
-        $examSession = ExamSession::find($session_id);
+        $empty = 0;
+
+        // Check
         for ($i=1; $i <= 60; $i++) {
-            $answer = $answerPack->{"answer_$i"};
-            $correctAnswer = MultipleChoice::find($quest_pack->{"quest_id_$i"})->correct_answer;
+            $answer = $answerPack->{"mp_answer_$i"};
+            $correctAnswer = MultipleChoice::find($questPack->{"mp_id_$i"})->correct_answer;
             if ($answer == $correctAnswer) {
-                $correct = $correct + 1;
-            } elseif ($answer == null) {
-                $notAnswered = $notAnswered + 1;
+                $correct += 1;
+            } else if (!$answer) {
+                $empty += 1;
             } else {
-                $wrong = $wrong + 1;
+                $wrong += 1;
             }
         }
 
-        // calculate score
+        // Calculate
         $score = ($correct / 60) * 100;
-
-        // save the data
-        $examSession -> score = $score;
-        $examSession -> correct_answer = $correct;
-        $examSession -> wrong_answer = $wrong;
-        $examSession -> not_answered = $notAnswered;
-        $examSession->save();
         
+        // Save
+        $examSession -> mp_score = $score;
+        $examSession -> mp_correct = $correct;
+        $examSession -> mp_wrong = $wrong;
+        $examSession->save();
 
-        // make response
+        // Response
         $detail = [
             'id' => $examSession->id,
             'date' => $examSession->created_at,
             'correct' => $correct,
             'wrong' => $wrong,
-            'not_answered' => $notAnswered,
+            'empty' => $empty,
             'score' => $score
         ];
 
-        // send response
-        return ResourceWrapper::make(true, 200, 'Exam Result', $detail);
+        return ResourceWrapper::make(true, 200, 'First Session Result', $detail);
     }
 
-    public function user_average($user_id){
-        $userScores = ExamSession::where('user_id','=',$user_id)->get('score');
+    public function finish_second_session(Request $request, $session_id){
+        $questPack = SessionQuestion::find($session_id);
+        $answerPack = SessionAnswer::find($session_id);
+        $examSession = ExamSession::find($session_id);
+        $eyAnswered = 0;
+        $csAnswered = 0;
 
-        if ($userScores->count() > 0) {
-            $total = 0;
-            foreach ($userScores as $item) {
-                $score = $item->score;
-                $total = $total + $score;
+        // Check Essay
+        for ($i=1; $i <= 5; $i++) { 
+            if ($answerPack->{"ey_answer_$i"}) {
+                $eyAnswered += 1; 
             }
-            $average = $total / $userScores->count();
-        } else {
-            $average = 0;
         }
 
-        $response = [
-            'user_id' => $user_id,
-            'average' => $average,
-        ];
-        return ResourceWrapper::make(true, 200, 'User Average Score', $response);
-    }
-
-    public function user_session($user_id){
-        $session = ExamSession::where('user_id','=',$user_id)->get();
-        return ResourceWrapper::make(true, 200, 'User Session', $session);
-    }
-
-    public function session_answer($session_id){
-        $answer = SessionAnswer::find($session_id);
-        return ResourceWrapper::make(true, 200, 'Session Answer Data', $answer);
-    }
-
-    public function session_answer_with_key($session_id){
-        $answer = SessionAnswer::find($session_id);
-        $quest_pack = SessionQuestion::find($session_id);
-        $correctAnswer = array();
-        for ($i=1; $i <= 60; $i++) { 
-            $correctAnswer["c_answer_$i"] = MultipleChoice::find($quest_pack->{"quest_id_$i"})->correct_answer;
+        // Check Case Study
+        $caseStudyIns = CaseStudy::find($questPack->cs_id)->instruction_count;
+        for ($i=1; $i <= $caseStudyIns; $i++) { 
+            if ($answerPack->{"cs_answer_$i"}) {
+                $csAnswered += 1;
+            }
         }
 
-        $detail = [
-            'answer' => $answer,
-            'correct_answer' => $correctAnswer
-        ];
-        return ResourceWrapper::make(true, 200, 'Session Answer with Key Data', $detail);
+        // Save
+        $examSession -> ey_answered = $eyAnswered;
+        $examSession -> cs_answered = $csAnswered;
+        $examSession->save();
+
+        return ResourceWrapper::make(true, 200, 'Exam Result', $examSession);
     }
 }

@@ -15,10 +15,11 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('user_id')->foreign('user_id')->references('id')->on('users');
             $table->string('type',6);
-            $table->integer('score')->default(0);
-            $table->integer('correct_answer')->default(0);
-            $table->integer('wrong_answer')->default(0);
-            $table->integer('not_answered')->default(0);
+            $table->tinyInteger('mp_score')->default(0);
+            $table->tinyInteger('mp_correct')->default(0);
+            $table->tinyInteger('mp_wrong')->default(0);
+            $table->tinyInteger('ey_answered')->default(0);
+            $table->tinyInteger('cs_answered')->default(0);
             $table->timestamps();
         });
     }

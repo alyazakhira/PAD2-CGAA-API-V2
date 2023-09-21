@@ -14,8 +14,12 @@ return new class extends Migration
         Schema::create('case_studies', function (Blueprint $table) {
             $table->id();
             $table->string('question_type', 6);
-            $table->text('question');
-            $table->text('correct_answer');
+            $table->tinyInteger('instruction_count');
+            $table->text('information');
+            for ($i=1; $i <= 10; $i++) {
+                $table->text("instruction_$i")->nullable()->default(NULL);
+                $table->text("key_answer_$i")->nullable()->default(NULL);
+            }
             $table->timestamps();
         });
     }

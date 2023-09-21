@@ -14,7 +14,13 @@ return new class extends Migration
         Schema::create('session_answers', function (Blueprint $table) {
             $table->unsignedBigInteger('id')->foreign('id')->references('id')->on('sessions');
             for ($i=1; $i <= 60; $i++) {
-                $table->string("answer_$i", 1)->nullable()->default(NULL);
+                $table->string("mp_answer_$i", 1)->nullable()->default(NULL);
+            }
+            for ($i=1; $i <= 5; $i++) {
+                $table->text("ey_answer_$i")->nullable()->default(NULL);
+            }
+            for ($i=1; $i <= 10; $i++) {
+                $table->text("cs_answer_$i")->nullable()->default(NULL);
             }
             $table->timestamps();
         });

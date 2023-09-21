@@ -9,9 +9,5 @@ class CaseStudy extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
-        'question_type',
-        'question',
-        'correct_answer',
-    ];
+    protected $guarded = [];
 }

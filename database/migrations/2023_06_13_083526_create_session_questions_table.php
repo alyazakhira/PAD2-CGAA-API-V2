@@ -14,8 +14,12 @@ return new class extends Migration
         Schema::create('session_questions', function (Blueprint $table) {
             $table->unsignedBigInteger('id')->foreign('id')->references('id')->on('sessions');
             for ($i=1; $i <= 60; $i++) {
-                $table->unsignedBigInteger("quest_id_$i")->foreign("quest_id_$i")->references('id')->on('multiple_choices');
+                $table->unsignedBigInteger("mp_id_$i")->foreign("mp_id_$i")->references('id')->on('multiple_choices');
             }
+            for ($i=1; $i <= 5; $i++) {
+                $table->unsignedBigInteger("ey_id_$i")->foreign("ey_id_$i")->references('id')->on('essays');
+            }
+            $table->unsignedBigInteger("cs_id")->foreign("cs_id")->references('id')->on('case_studies');
             $table->timestamps();
         });
     }

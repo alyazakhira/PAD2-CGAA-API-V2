@@ -39,7 +39,7 @@ class ExamResultController extends Controller
     }
 
     public function get_user_average($user_id){
-        $userScores = ExamSession::where('user_id','=',$user_id)->get('score');
+        $userScores = ExamSession::where('user_id','=',$user_id)->get('mp_score');
 
         if ($userScores->count() > 0) {
             $total = 0;

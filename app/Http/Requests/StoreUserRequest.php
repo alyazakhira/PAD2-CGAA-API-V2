@@ -27,6 +27,8 @@ class StoreUserRequest extends FormRequest
             'date_of_birth' => 'required|date',
             'occupation' => 'required|max:255',
             'institution' => 'required|max:255',
+            'study_program' => '',
+            'generation' => '',
             'email' => 'required|unique:users|email|max:255',
             'password' => 'required|max:255',
         ];

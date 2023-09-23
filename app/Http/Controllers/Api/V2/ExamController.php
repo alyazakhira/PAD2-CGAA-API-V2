@@ -91,7 +91,7 @@ class ExamController extends Controller
         // Generate new Exam Session
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
-        $examSession->type = 'pusat';
+        $examSession->type = 'daerah';
         $examSession->save();
 
         // Generate new Session Question

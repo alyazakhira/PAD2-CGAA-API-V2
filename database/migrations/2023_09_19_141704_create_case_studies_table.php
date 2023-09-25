@@ -17,8 +17,8 @@ return new class extends Migration
             $table->tinyInteger('instruction_count');
             $table->text('information');
             for ($i=1; $i <= 10; $i++) {
-                $table->text("instruction_$i")->nullable()->default(NULL);
-                $table->text("key_answer_$i")->nullable()->default(NULL);
+                $table->mediumText("instruction_$i")->nullable()->default(NULL);
+                $table->mediumText("key_answer_$i")->nullable()->default(NULL);
             }
             $table->timestamps();
         });

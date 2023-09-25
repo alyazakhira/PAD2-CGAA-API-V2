@@ -44,7 +44,7 @@ class ExamResultController extends Controller
         if ($userScores->count() > 0) {
             $total = 0;
             foreach ($userScores as $item) {
-                $score = $item->score;
+                $score = $item->mp_score;
                 $total = $total + $score;
             }
             $average = $total / $userScores->count();

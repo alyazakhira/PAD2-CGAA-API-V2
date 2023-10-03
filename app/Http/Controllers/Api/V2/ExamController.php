@@ -37,6 +37,7 @@ class ExamController extends Controller
         // Generate new Exam Session
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
+        $examSession->status = 1;
         $examSession->type = 'pusat';
         $examSession->save();
 
@@ -91,6 +92,7 @@ class ExamController extends Controller
         // Generate new Exam Session
         $examSession = new ExamSession;
         $examSession->user_id = $user_id;
+        $examSession->status = 1;
         $examSession->type = 'daerah';
         $examSession->save();
 
@@ -247,6 +249,7 @@ class ExamController extends Controller
         $score = ($correct / 60) * 100;
         
         // Save
+        $examSession -> status = 2;
         $examSession -> mp_score = $score;
         $examSession -> mp_correct = $correct;
         $examSession -> mp_wrong = $wrong;
@@ -288,6 +291,7 @@ class ExamController extends Controller
         }
 
         // Save
+        $examSession -> status = 0;
         $examSession -> ey_answered = $eyAnswered;
         $examSession -> cs_answered = $csAnswered;
         $examSession->save();

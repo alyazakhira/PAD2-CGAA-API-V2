@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('user_id')->foreign('user_id')->references('id')->on('users');
             $table->string('type',6);
+            $table->tinyInteger('status')->default(0);
             $table->tinyInteger('mp_score')->default(0);
             $table->tinyInteger('mp_correct')->default(0);
             $table->tinyInteger('mp_wrong')->default(0);

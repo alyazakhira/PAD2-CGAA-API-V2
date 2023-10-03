@@ -6505,7 +6505,7 @@ class MultipleChoiceSeeder extends Seeder
                                     </td>
                                 </tr>
                             </tbody>
-                        </table',
+                        </table>',
             'correct_answer' => 'a',
         ]);
         MultipleChoice::create([
@@ -7301,8 +7301,8 @@ class MultipleChoiceSeeder extends Seeder
             'question' => '<p>Dalam sistem akuntansi beban dan belanja di SKPD, siapakah yang menerima dan menyetorkan atas pengembalian belanja atas koreksi atau hasil pemeriksaan internal dan eksternal; serta menyiapkan dokumen surat tanda setoran atas pengembalian belanja akibat koreksi atau hasil pemeriksaan internal dan eksternal?</p>',
             'question_explanation' => '<p>Dalam sistem akuntansi beban dan belanja, Bendahara Pengeluaran SKPKD, memiliki tugas untukmenerima dan menyetorkan atas pengembalian belanja atas koreksi atau hasil pemeriksaan internal dan eksternal; serta menyiapkan dokumen surat tanda setoran atas pengembalian belanja akibat koreksi atau hasil pemeriksaan internal dan eksternal</p>',
             'answer_a' => '<p>Fungsi akuntansi SKPD</p>',
-            'answer_b' => '<p>w</p>',
-            'answer_c' => '<p>vw</p>',
+            'answer_b' => '<p>Kuasa PA</p>',
+            'answer_c' => '<p>PPK SKPD</p>',
             'answer_d' => '<p>Bendahara Pengeluaran SKPD/ Bendahara Pengeluaran Pembantu SKPD</p>',
             'correct_answer' => 'd',
         ]);

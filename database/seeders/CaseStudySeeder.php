@@ -428,39 +428,39 @@ class CaseStudySeeder extends Seeder
                     </li>
                 </ol>",
             'instruction_6' => "<p>Buatlah jurnal penutup!</p>",
-            'key_answer_1' => '<table>
+            'key_answer_1'  => '<table>
                 <thead>
                     <tr>
-                        <th rowspan="2" scope="col">
+                        <th rowspan="2" scope="col" style="text-align:center">
                         <p>No</p>
                         </th>
-                        <th colspan="4" scope="col">
+                        <th colspan="4" scope="col" style="text-align:center">
                         <p>Jurnal Akrual</p>
                         </th>
-                        <th colspan="3" scope="col">
+                        <th colspan="3" scope="col" style="text-align:center">
                         <p>Jurnal Kas</p>
                         </th>
                     </tr>
                     <tr>
-                        <th scope="col">
+                        <th scope="col" style="text-align:center">
                         <p>Tanggal</p>
                         </th>
-                        <th scope="col">
+                        <th scope="col" style="text-align:center">
                         <p>Keterangan&nbsp;</p>
                         </th>
-                        <th scope="col">
+                        <th scope="col" style="text-align:center">
                         <p>Debit</p>
                         </th>
-                        <th scope="col">
+                        <th scope="col" style="text-align:center">
                         <p>Kredit&nbsp;</p>
                         </th>
-                        <th scope="col">
+                        <th scope="col" style="text-align:center">
                         <p>Keterangan&nbsp;</p>
                         </th>
-                        <th scope="col">
+                        <th scope="col" style="text-align:center">
                         <p>Debit&nbsp;</p>
                         </th>
-                        <th scope="col">
+                        <th scope="col" style="text-align:center">
                         <p>Kredit</p>
                         </th>
                     </tr>
@@ -1344,7 +1344,7 @@ class CaseStudySeeder extends Seeder
                     </tr>
                 </tbody>
                 </table>',
-            'key_answer_2' => '<p><strong>A. Buku Besar Akrual</strong></p>
+            'key_answer_2'  => '<p><strong>A. Buku Besar Akrual</strong></p>
                 <table>
                     <tbody>
                         <tr>
@@ -1368,42 +1368,42 @@ class CaseStudySeeder extends Seeder
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Nama Akun:&nbsp;</strong></p>
                             </td>
                             <td colspan="2">
                             <p><strong>Kas di Bendahara Penerimaan&nbsp;</strong></p>
                             </td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td style="text-align:center">&nbsp;</td>
+                            <td style="text-align:center">&nbsp;</td>
+                            <td style="text-align:center">&nbsp;</td>
+                            <td style="text-align:center">&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -1476,30 +1476,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -1554,30 +1554,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -1670,30 +1670,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -1747,30 +1747,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -1843,30 +1843,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -1920,30 +1920,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
-                            </td>
-                            <td colspan="2">
+                            </th>
+                            <th colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
-                            </td>
+                            </th>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -1997,32 +1997,32 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
-                            </td>
-                            <td colspan="2">
+                            </th>
+                            <th colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
-                            </td>
+                            </th>
                         </tr>
                         <tr>
-                            <td>
+                            <th style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
-                            </td>
-                            <td>
+                            </th>
+                            <th style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
-                            </td>
+                            </th>
                         </tr>
                         <tr>
                             <td>
@@ -2075,32 +2075,32 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
-                            </td>
-                            <td colspan="2">
+                            </th>
+                            <th colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
-                            </td>
-                            <td rowspan="2">
+                            </th>
+                            <th rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
-                            </td>
+                            </th>
                         </tr>
                         <tr>
-                            <td>
+                            <th style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
-                            </td>
-                            <td>
+                            </th>
+                            <th style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
-                            </td>
+                            </th>
                         </tr>
                         <tr>
                             <td>
@@ -2151,30 +2151,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -2229,30 +2229,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -2306,30 +2306,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -2402,30 +2402,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -2470,30 +2470,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -2566,30 +2566,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -2641,30 +2641,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -2737,30 +2737,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -2909,30 +2909,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -3043,30 +3043,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -3197,30 +3197,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -3274,30 +3274,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -3370,30 +3370,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -3467,30 +3467,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -3601,30 +3601,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -3740,30 +3740,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -3817,30 +3817,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -4028,30 +4028,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -4125,30 +4125,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -4203,30 +4203,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -4262,30 +4262,30 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Saldo&nbsp;</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit&nbsp;</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit&nbsp;</strong></p>
                             </td>
                         </tr>
@@ -4309,8 +4309,11 @@ class CaseStudySeeder extends Seeder
                         </tr>
                     </tbody>
                 </table>
+                
                 <p>&nbsp;</p>
+                
                 <p><strong>B. Buku Besar Kas</strong></p>
+                
                 <table>
                     <tbody>
                         <tr>
@@ -4345,19 +4348,19 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
@@ -4419,19 +4422,19 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
@@ -4478,19 +4481,19 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
@@ -4597,19 +4600,19 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
@@ -4656,19 +4659,19 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
@@ -4715,19 +4718,19 @@ class CaseStudySeeder extends Seeder
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Keterangan</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Debit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Kredit</strong></p>
                             </td>
-                            <td rowspan="2">
+                            <td rowspan="2" style="text-align:center">
                             <p><strong>Saldo Akhir</strong></p>
                             </td>
                         </tr>
@@ -4780,7 +4783,7 @@ class CaseStudySeeder extends Seeder
                         </tr>
                     </tbody>
                 </table>',
-            'key_answer_3' => '<table>
+            'key_answer_3'  => '<table>
                     <tbody>
                         <tr>
                             <td colspan="4" style="text-align:center">
@@ -4803,16 +4806,16 @@ class CaseStudySeeder extends Seeder
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Tanggal</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Keterangan</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Debit</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Kredit</strong></p>
                             </td>
                         </tr>
@@ -5058,80 +5061,80 @@ class CaseStudySeeder extends Seeder
                         </tr>
                     </tbody>
                 </table>',
-            'key_answer_4' => '<table>
+            'key_answer_4'  => '<table>
                     <thead>
                         <tr>
-                            <th colspan="12" scope="col">
+                            <th colspan="12" scope="col" style="text-align:center">
                             <p>KEMENTERIAN X</p>
                             </th>
                         </tr>
                         <tr>
-                            <th colspan="12" scope="col">
+                            <th colspan="12" scope="col" style="text-align:center">
                             <p>DIREKTORAT JENDERAL X</p>
                             </th>
                         </tr>
                         <tr>
-                            <th colspan="12" scope="col">
+                            <th colspan="12" scope="col" style="text-align:center">
                             <p>SATUAN KERJA ABC</p>
                             </th>
                         </tr>
                         <tr>
-                            <th colspan="12" scope="col">
+                            <th colspan="12" scope="col" style="text-align:center">
                             <p>NERACA LAJUR</p>
                             </th>
                         </tr>
                         <tr>
-                            <th rowspan="2" scope="col">
+                            <th rowspan="2" scope="col" style="text-align:center">
                             <p>No</p>
                             </th>
-                            <th rowspan="2" scope="col">
+                            <th rowspan="2" scope="col" style="text-align:center">
                             <p>Keterangan</p>
                             </th>
-                            <th colspan="2" scope="col">
+                            <th colspan="2" scope="col" style="text-align:center">
                             <p>Neraca Saldo Sebelum Disesuaikan</p>
                             </th>
-                            <th colspan="2" scope="col">
+                            <th colspan="2" scope="col" style="text-align:center">
                             <p>Penyesuaian</p>
                             </th>
-                            <th colspan="2" scope="col">
+                            <th colspan="2" scope="col" style="text-align:center">
                             <p>NS Setelah Disesuaikan</p>
                             </th>
-                            <th colspan="2" scope="col">
+                            <th colspan="2" scope="col" style="text-align:center">
                             <p>Laporan Operasional</p>
                             </th>
-                            <th colspan="2" scope="col">
+                            <th colspan="2" scope="col" style="text-align:center">
                             <p>Neraca</p>
                             </th>
                         </tr>
                         <tr>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Debit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Kredit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Debit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Kredit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Debit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Kredit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Debit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Kredit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Debit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align:center">
                             <p>Kredit</p>
                             </th>
                         </tr>
@@ -5803,8 +5806,7 @@ class CaseStudySeeder extends Seeder
                         </tr>
                     </tbody>
                 </table>',
-            'key_answer_5' => '<p><strong>A. Laporan realisasi anggaran</strong></p>
-
+            'key_answer_5'  => '<p><strong>A. Laporan realisasi anggaran</strong></p>
                 <table>
                     <tbody>
                         <tr>
@@ -5828,19 +5830,19 @@ class CaseStudySeeder extends Seeder
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>No</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Anggaran 2023</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Realisasi 2023</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>%</strong></p>
                             </td>
                         </tr>
@@ -6535,13 +6537,13 @@ class CaseStudySeeder extends Seeder
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>No</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>2023</strong></p>
                             </td>
                         </tr>
@@ -7018,6 +7020,7 @@ class CaseStudySeeder extends Seeder
                 <p>&nbsp;</p>
                 
                 <p><strong>C. Laporan perubahan ekuitas</strong></p>
+                
                 <table>
                     <tbody>
                         <tr>
@@ -7041,13 +7044,13 @@ class CaseStudySeeder extends Seeder
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>No</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>2023</strong></p>
                             </td>
                         </tr>
@@ -7158,16 +7161,16 @@ class CaseStudySeeder extends Seeder
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>No</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>2023</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>2022</strong></p>
                             </td>
                         </tr>
@@ -7579,59 +7582,59 @@ class CaseStudySeeder extends Seeder
                         </tr>
                     </tbody>
                 </table>',
-            'key_answer_6' => '<table>
+            'key_answer_6'  => '<table>
                     <thead>
                         <tr>
-                            <th colspan="7" scope="col">
+                            <th colspan="7" scope="col" style="text-align: center;">
                             <p>KEMENTERIAN X</p>
                             </th>
                         </tr>
                         <tr>
-                            <th colspan="7" scope="col">
+                            <th colspan="7" scope="col" style="text-align: center;">
                             <p>DIREKTORAT JENDERAL X</p>
                             </th>
                         </tr>
                         <tr>
-                            <th colspan="7" scope="col">
+                            <th colspan="7" scope="col" style="text-align: center;">
                             <p>SATUAN KERJA ABC</p>
                             </th>
                         </tr>
                         <tr>
-                            <th colspan="7" scope="col">
+                            <th colspan="7" scope="col" style="text-align: center;">
                             <p>JURNAL PENUTUP</p>
                             </th>
                         </tr>
                         <tr>
-                            <th scope="col">
+                            <th scope="col" style="text-align: center;">
                             <p>Tanggal</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align: center;">
                             <p>Keterangan</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align: center;">
                             <p>Debit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align: center;">
                             <p>Kredit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align: center;">
                             <p>Keterangan</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align: center;">
                             <p>Debit</p>
                             </th>
-                            <th scope="col">
+                            <th scope="col" style="text-align: center;">
                             <p>Kredit</p>
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td colspan="4">
-                            <p>Akrual</p>
+                            <td colspan="4" style="text-align:center">
+                            <p><strong>Akrual</strong></p>
                             </td>
-                            <td colspan="3">
-                            <p>Kas</p>
+                            <td colspan="3" style="text-align:center">
+                            <p><strong>Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
@@ -7792,7 +7795,7 @@ class CaseStudySeeder extends Seeder
                 <table>
                     <thead>
                         <tr>
-                            <th colspan="2" rowspan="3" scope="col">
+                            <th colspan="2" rowspan="3" scope="col" style="text-align:center">
                             <p>Pemerintah Daerah Kota Sembada&nbsp;</p>
                 
                             <p>Dinas Pariwisata&nbsp;</p>
@@ -7958,11 +7961,7 @@ class CaseStudySeeder extends Seeder
                         </tr>
                     </tbody>
                 </table>
-                
                 <p>&nbsp;</p>
-                
-                <p>&nbsp;</p>
-                
                 <table>
                     <tbody>
                         <tr>
@@ -8098,10 +8097,7 @@ class CaseStudySeeder extends Seeder
                         </tr>
                     </tbody>
                 </table>
-                
-                <p><br />
-                &nbsp;</p>
-                
+                <p>&nbsp;</p>
                 <table>
                     <tbody>
                         <tr>
@@ -8110,18 +8106,18 @@ class CaseStudySeeder extends Seeder
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <th style="text-align:center">
                             <p><strong>No</strong></p>
-                            </td>
-                            <td>
+                            </th>
+                            <th style="text-align:center">
                             <p><strong>Tanggal</strong></p>
-                            </td>
-                            <td>
+                            </th>
+                            <th style="text-align:center">
                             <p><strong>No. Bukti</strong></p>
-                            </td>
-                            <td colspan="7">
+                            </th>
+                            <th colspan="7" style="text-align:center">
                             <p><strong>Transaksi</strong></p>
-                            </td>
+                            </th>
                         </tr>
                         <tr>
                             <td>
@@ -8484,5861 +8480,5980 @@ class CaseStudySeeder extends Seeder
             'instruction_7' => "<p>Buatlah Neraca Setelah Penyesuaian Saldo per 31 Desember 2021!</p>",
             'instruction_8' => "<p>Buatlah Jurnal Penutup per 31 Desember 2021!</p>",
             'instruction_9' => "<p>Buatlah Laporan Keuangan dari Dinas Pariwisata Kota Sembada!</p>",
-        'key_answer_1' => '<table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1/Jan/21&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>Estimasi Pendapatan&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Estimasi Perubahan SAL&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.435.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; &nbsp; &nbsp; Apropriasi Belanja&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp1.735.000.000</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>',
-        'key_answer_2' => '<table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1/Jan/21</p>
-                        </td>
-                        <td>
-                        <p>Kas di Bendahara Pengeluaran&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Persediaan&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tanah&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp600.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Bangunan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp11.000.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Kendaraan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp255.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; &nbsp; Utang PPh 21&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; &nbsp; Utang Pihak Ketiga&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp150.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>&nbsp; &nbsp; Ekuitas&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp11.785.000.000</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>',
-        'key_answer_3' => '<table>
-                <thead>
-                    <tr>
-                        <th scope="col">
-                        <p>No</p>
-                        </th>
-                        <th scope="col">
-                        <p>Tanggal</p>
-                        </th>
-                        <th scope="col">
-                        <p>Ref</p>
-                        </th>
-                        <th scope="col">
-                        <p>Jurnal Transaksi&nbsp;</p>
-                        </th>
-                        <th scope="col">
-                        <p>Debit&nbsp;</p>
-                        </th>
-                        <th scope="col">
-                        <p>Kredit&nbsp;</p>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p>1</p>
-                        </td>
-                        <td>
-                        <p>9 Januari 2021&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/I/2021</p>
-                        </td>
-                        <td>
-                        <p>Utang&nbsp; PPh 21&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Kas di Bendahara Pengeluaran&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><em><strong>(Penyetoran utang pajak oleh bendahara pengeluaran)</strong></em></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>2</p>
-                        </td>
-                        <td>
-                        <p>15 Februari 2021&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/II/2021</p>
-                        </td>
-                        <td>
-                        <p>Kas di Bendahara Pengeluaran&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>RK PPKD</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>15 Februari 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/II/2021</p>
-                        </td>
-                        <td>
-                        <p>RK-SKPD</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Kas di Kas Daerah&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><em><strong>(Penerimaan UP oleh Bendara Pengeluaran)&nbsp;</strong></em></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3</p>
-                        </td>
-                        <td>
-                        <p>6 Maret 2021&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/III/2021</p>
-                        </td>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Keluarga - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Jabatan - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>R25.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional Umum - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Beras - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp9.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>RK-PPKD&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp440.500.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>6 Maret 2021&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/III/2021</p>
-                        </td>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Keluarga&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Jabatan&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional&nbsp;&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>R25.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional Umum&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Beras&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp9.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Estimasi Perubahan SAL</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp440.500.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><em><strong>(Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS)&nbsp;</strong></em></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4</p>
-                        </td>
-                        <td>
-                        <p>11 April 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/IV/2021</p>
-                        </td>
-                        <td>
-                        <p>Studio Audio&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>RK-PPKD&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>11 April 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/IV/2021</p>
-                        </td>
-                        <td>
-                        <p>Belanja Modal Pengadaan Studio Audio&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Estimasi Perubahan SAL&nbsp;</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><strong><em>(Pembayaran Belanja Modal Pengadaan Studio Audio)&nbsp;</em></strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>5</p>
-                        </td>
-                        <td>
-                        <p>6 Mei 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/V/2021</p>
-                        </td>
-                        <td>
-                        <p>Persediaan Alat Tulis Kantor&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>RK-PPKD</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>6 Mei 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/V/2021</p>
-                        </td>
-                        <td>
-                        <p>Belanja Alat Tulis Kantor&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Estimasi Perubahan SAL&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><strong><em>(Pembayaran Belanja ATK SP2D-LS)</em></strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6</p>
-                        </td>
-                        <td>
-                        <p>13 Juni 2021&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/VI/2021</p>
-                        </td>
-                        <td>
-                        <p>RK-PPKD&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Pendapatan Retribusi Event Pariwisata&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>13 Juni 2021&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/VI/2021</p>
-                        </td>
-                        <td>
-                        <p>Estimasi Perubahan SAL&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Pendapatan Retribusi Event Pariwisata - LRA&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><em><strong>(Penerimaan Pendapatan Retribusi Kemudian di setor ke Kas Daerah)&nbsp;</strong></em></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>7</p>
-                        </td>
-                        <td>
-                        <p>15 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/VII/2021</p>
-                        </td>
-                        <td>
-                        <p>Honorarium Tenaga Ahli/Narasumber/Instruktur&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Kas di Bendahara Pengeluaran&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>15 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/VII/2021</p>
-                        </td>
-                        <td>
-                        <p>Honorarium Tenaga Ahli/Narasumber/Instruktur&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Estimasi Perubahan SAL</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><em><strong>(Pembayaran Honorarium Tenaga Profesional UP)</strong></em></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>8</p>
-                        </td>
-                        <td>
-                        <p>23 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/VIII/2021</p>
-                        </td>
-                        <td>
-                        <p>Honorarium Tenaga Ahli/Narasumber/Instruktur&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Kas di Bendahara Pengeluaran&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>23 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/VIII/2021</p>
-                        </td>
-                        <td>
-                        <p>Honorarium Tenaga Ahli/Narasumber/Instruktur&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Estimasi Perubahan SAL</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><em><strong>(Pembayaran Pengadaan Studio Audio Tahap 2)&nbsp;</strong></em></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>9</p>
-                        </td>
-                        <td>
-                        <p>5 Agustus 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/IX/2021</p>
-                        </td>
-                        <td>
-                        <p>Studio Audio&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Kas di Bendahara Pengeluaran&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>5 Agustus 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/IX/2021</p>
-                        </td>
-                        <td>
-                        <p>Belanja Modal Pengadaan Studio Audio&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Estimasi Perubahan SAL&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><em><strong>(Pembayaran Pengadaan Studio Audio Tahap 2)&nbsp;</strong></em></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>10</p>
-                        </td>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/X/2021</p>
-                        </td>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp135.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Keluarga - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp65.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Jabatan - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp75.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional Umum - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp40.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Beras - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp15.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan PPh/Tunjangan Khusus -LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp7.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>RK-PPKD&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp362.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/X/2021</p>
-                        </td>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp135.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Keluarga&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp65.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Jabatan&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp75.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional&nbsp;&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional Umum&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp40.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Beras&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp15.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan PPh/Tunjangan Khusus</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp7.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Estimasi Perubahan SAL</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp362.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><em><strong>(Pembayaran Belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D-LS)</strong></em></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>11</p>
-                        </td>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/XI/2021</p>
-                        </td>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp120.00.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Keluarga - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Jabatan - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional Umum - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Beras - LO&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp5.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan PPh/Tunjangan Khusus -LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp3.500.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>RK-PPKD&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp343.500.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>3&nbsp; Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>012/Dispar/XI/2021</p>
-                        </td>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp120.00.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Keluarga&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Jabatan&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional&nbsp;&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Fungsional Umum&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan Beras&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp5.000.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Tunjangan PPh/Tunjangan Khusus</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp3.500.000</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Estimasi Perubahan SAL</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp343.500.000.000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td colspan="4">
-                        <p><em><strong>(Pembayaran belanja gaji dan tunjangan bulan Desember 2020 dengan bukti SP2D-LS)</strong></em></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>',
-        'key_answer_4' => '<p>Nama Akun : Kas di Kas Daerah</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p>Tanggal</p>
-                        </td>
-                        <td>
-                        <p>Keterangan&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>Debit</p>
-                        </td>
-                        <td>
-                        <p>Kredit</p>
-                        </td>
-                        <td>
-                        <p>Saldo&nbsp;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp0.00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>15 Februari 2021</p>
-                        </td>
-                        <td>
-                        <p>Penerimaan UP Oleh Bendahara Pengeluaran</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp80,000,000.00</p>
-                        </td>
-                        <td>
-                        <p>Rp80,000,000.00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Kas di Bendahara Pengeluaran</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>9 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Penyetoran Utang Pajak Oleh Bendahara Pengeluaran Dinas Pariwisata</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp35.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>15 Februari 2021</p>
-                        </td>
-                        <td>
-                        <p>Penerimaan UP Oleh Bendahara Dinas Pariwisata</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp115.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>15 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Honorarium Tenaga Profesional UP</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp65.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>23 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Honorarium Tenaga Profesional Tambahan</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp5.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Persediaan Alat Tulis Kantor</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Mei 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Belanja ATK SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp275.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Penyesuaian Akhir Tahun</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp260.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp15.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : RK-SKPD</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>15 Februari 2021</p>
-                        </td>
-                        <td>
-                        <p>Penerimaan UP Oleh Bendahara Pengeluaran</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Tanah</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp600.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp600.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table> 
-            <p>&nbsp;</p>
-            <p>Nama Akun : Kendaraan</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp255.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp255.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Akumulasi Penyusutan Alat Angkutan Darat Bermotor</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Penyesuaian Akhir Tahun&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp51.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp51.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Bangunan&nbsp;</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp11.000.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp11.000.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Akumulasi Penyusutan Bangunan Gedung Tempat Kerja</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Penyesuaian Akhir Tahun</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp550.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp550.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Studio Audio</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>11 April 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Belanja Modal Pengadaan Studio Audio</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>5 Agustus 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Pengadaan Studio Audio Termin 2</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp750.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Utang Pihak Ketiga</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp150.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp150.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Utang Pihak PPh 21</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>9 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Penyetoran Utang Pajak Oleh Bendahara Pengeluaran</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>-Rp20.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Ekuitas&nbsp;</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp11.785.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp11.785.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Estimasi Perubahan SAL</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp440.500.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp440.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>11 April 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Belanja Modal Pengadaan Jalan Kota (Jalur Evakuasi)</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp890.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Mei 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Belanja ATK SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.140.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>13 Juni 2021</p>
-                        </td>
-                        <td>
-                        <p>Penerimaan Pendapatan Retribusi Kemudian disetor ke Kas Daerah</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp815.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>15 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Honorarium Tenaga Profesional UP</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp865.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>23 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Honorarium Tenaga Profesional Tambahan dengan Dana di Bendahara Pengeluaran</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp925.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>5 Agustus 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Pembangunan Jalan Kota Tahap 2</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.225.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp362.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.587.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp343.500.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.931.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :RK-PPKD</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>15 Februari 2021</p>
-                        </td>
-                        <td>
-                        <p>Penerimaan UP Oleh Bendahara Pengeluaran</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp440.500.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp520.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>11 April 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Belanja Modal Pengadaan Jalan Kota (Jalur Evakuasi)</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp970.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Mei 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Belanja ATK SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.220.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>13 Juni 2021</p>
-                        </td>
-                        <td>
-                        <p>Penerimaan Pendapatan Retribusi Kemudian disetor ke Kas Daerah</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp895.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>5 Agustus 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Pembangunan Jalan Kota Tahap 2</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.195.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp362.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.557.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp343.500.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.901.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :pengadaan Studio Audio - LRA</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>13 Juni 2021</p>
-                        </td>
-                        <td>
-                        <p>Penerimaan Pendapatan Retribusi Kemudian disetor ke Kas Daerah</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Gaji Pokok PNS/Uang Representasi</p> 
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp135.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp385.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp120.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp505.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Taunjangan Keluarga</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp65.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp145.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp175.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Tunjangan Jabatan</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp75.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp120.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp200.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Tunjangan Fungsional</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp95.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Tunjangan Fungsional Umum</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp40.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp70.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp130.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Tunjangan Beras</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp9.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp9.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp15.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp24.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp5.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp29.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Tunjangan PPh/Tunjangan Khusus</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.500.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp1.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp7.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp8.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp3.500.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp12.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Belanja Alat Tulis Kantor</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Mei 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Belanja ATK SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>15 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Honorarium Tenaga Profesional UP</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>23 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Honorarium Tenaga Profesional Tambahan dengan Dana di Bendahara Pengeluaran</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp110.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Pembayaran Belanja Modal Pengadaan Studio Audio</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>11 April 2021&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Belanja Modal Pengadaan Studio Audio</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp450.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>5 Agustus 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Pembangunan Studio Audio Tahap 2</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp750.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Pendapatan - Pengadaan Studio Audio -LRA</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>13 Juni 2021</p>
-                        </td>
-                        <td>
-                        <p>Penerimaan Pendapatan Retribusi Kemudian disetor ke Kas Daerah</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Gaji Pokok PNS/Uang Representasi</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp135.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp385.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp120.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp505.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Tunjangan Keluarga - LO</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp65.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp145.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp175.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Tunjangan Jabatan - LO</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp75.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp120.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp200.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun:Tunjangan Fungsional - LO;</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp25.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp45.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp95.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Tunjangan Fungsional Umum&nbsp; LO</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp30.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp40.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp70.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp130.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Tunjangan Beras - LO</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp9.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp9.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp15.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp24.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp5.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp29.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Tunjangan PPh/Tunjangan Khusus - LO</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>6 Maret 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.500.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp1.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>4 September 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp7.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp8.500.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>3 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp3.500.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp12.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun : Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>1 Januari 2021</p>
-                        </td>
-                        <td>
-                        <p>Saldo Awal</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp0,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>15 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Honorarium Tenaga Profesional UP</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp50.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>23 Juli 2021</p>
-                        </td>
-                        <td>
-                        <p>Pembayaran Honorarium Tenaga Profesional Tambahan dengan Dana di Bendahara Pengeluaran</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp60.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp110.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Beban Persediaan Alat Tulis Kantor</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Penyesuaian Akhir Tahun</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp260.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp260.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>0</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Beban Penyusutan Alat Angkutan Darat Bermotor</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Penyesuaian Akhir Tahun</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp51.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp51.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p>Nama Akun :Beban Penyusutan Bangunan Gedung Tempat Kerja</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan&nbsp;</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Saldo&nbsp;</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Penyesuaian Akhir Tahun</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp550.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp550.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                </tbody>
-            </table>',
-        'key_answer_5' => '<table>
-                <tbody>
-                    <tr>
-                        <td colspan="3" style="text-align:center">
-                        <p><strong>Dinas Pariwisata Kota Sembada</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" style="text-align:center">
-                        <p><strong>Neraca Saldo</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" style="text-align:center">
-                        <p><strong>per 31 Desember 2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">
-                        <p><strong>Keterangan</strong></p>
-                        </td>
-                        <td colspan="2">
-                        <p><strong>Saldo</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Kas di Bendahara Pengeluaran</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp5.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Persediaan Alat Tulis Kantor</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp275.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tanah</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp600.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Kendaraan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp255.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Bangunan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp11.000.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Studio Audio</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp750.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Utang Pihak Ketiga</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp150.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Utang PPh 21</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp20.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Ekuitas</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp11.785.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Estimasi Perubahan SAL</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp1.931.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>RK PPKD</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp1.901.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Pendapatan - Event Pariwisata - LRA</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp505.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Keluarga</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp175.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Jabatan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp200.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Fungsional</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp95.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Fungsional Umum</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp130.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Beras</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp29.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan PPh/Tunjangan Khusus</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp12.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Belanja Alat Tulis Kantor</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp110.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Belanja Modal Pengadaan Studio Audio</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp750.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Pendapatan - Event pariwisata - LO</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp505.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Keluarga-LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp175.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Jabatan-LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp200.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Fungsional-LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp95.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Fungsional Umum-LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp130.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Beras-LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp29.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan PPh/Tunjangan Khusus-LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp12.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp110.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">
-                        <p><strong>Rp16.417.000.000,00</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp16.417.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>',
-        'key_answer_6' => '<table>
-                <tbody>
-                    <tr>
-                        <td colspan="4" style="text-align:center">
-                        <p><strong>Dinas Pariwisata Kota Sembada</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="4" style="text-align:center">
-                        <p><strong>Jurnal Penyesuaian</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="4" style="text-align:center">
-                        <p><strong>per 31 Desember 2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Beban Persediaan Alat Tulis Kantor</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp260.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Persediaan Alat Tulis Kantor</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp260.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Beban Penyusutan Bangunan Gedung Tempat Kerja</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp550.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Akumulasi Penyusutan Bangunan Gedung Tempat Kerja</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp550.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Beban Penyusutan Alat Angkutan Darat Bermotor</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp51.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Akumulasi Penyusutan Alat Angkutan Darat Bermotor</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp51.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>Total</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp861.000.000,00</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp861.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>',
-        'key_answer_7' => '<table>
-                <thead>
-                    <tr>
-                        <th colspan="3" scope="col">
-                        <p>Dinas Pariwisata Kota Sembada</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th colspan="3" scope="col">
-                        <p>Neraca Saldo Setelah Disesuaikan</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th colspan="3" scope="col">
-                        <p>per 31 Desember 2021</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th rowspan="2" scope="col">
-                        <p>Keterangan</p>
-                        </th>
-                        <th colspan="2" scope="col">
-                        <p>Saldo</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th scope="col">
-                        <p>Debit</p>
-                        </th>
-                        <th scope="col">
-                        <p>Kredit</p>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                        <p>Kas di Bendahara Pengeluaran</p>
-                        </td>
-                        <td>
-                        <p>Rp5.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Persediaan Alat Tulis Kantor</p>
-                        </td>
-                        <td>
-                        <p>Rp15.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tanah</p>
-                        </td>
-                        <td>
-                        <p>Rp600.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Kendaraan</p>
-                        </td>
-                        <td>
-                        <p>Rp255.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Bangunan</p>
-                        </td>
-                        <td>
-                        <p>Rp11.000.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Studio Audio</p>
-                        </td>
-                        <td>
-                        <p>Rp750.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Utang Pihak Ketiga</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp51.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Utang PPh 21</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp550.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Ekuitas</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp150.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Estimasi Perubahan SAL</p>
-                        </td>
-                        <td>
-                        <p>Rp20.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>RK PPKD</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp11.785.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Pendapatan - Event Pariwisata - LRA</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp1.931.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp1.901.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Keluarga</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Jabatan</p>
-                        </td>
-                        <td>
-                        <p>Rp505.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Fungsional</p>
-                        </td>
-                        <td>
-                        <p>Rp175.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Fungsional Umum</p>
-                        </td>
-                        <td>
-                        <p>Rp200.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Beras</p>
-                        </td>
-                        <td>
-                        <p>Rp95.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan PPh/Tunjangan Khusus</p>
-                        </td>
-                        <td>
-                        <p>Rp130.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Belanja Alat Tulis Kantor</p>
-                        </td>
-                        <td>
-                        <p>Rp29.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
-                        </td>
-                        <td>
-                        <p>Rp12.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Belanja Modal Pengadaan Studio Audio</p>
-                        </td>
-                        <td>
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Pendapatan - Event pariwisata - LO</p>
-                        </td>
-                        <td>
-                        <p>Rp110.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Gaji Pokok PNS/Uang Representasi</p>
-                        </td>
-                        <td>
-                        <p>Rp750.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Keluarga-LO</p>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Jabatan-LO</p>
-                        </td>
-                        <td>
-                        <p>Rp505.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Fungsional-LO</p>
-                        </td>
-                        <td>
-                        <p>Rp175.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Fungsional Umum-LO</p>
-                        </td>
-                        <td>
-                        <p>Rp200.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan Beras-LO</p>
-                        </td>
-                        <td>
-                        <p>Rp95.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan PPh/Tunjangan Khusus-LO</p>
-                        </td>
-                        <td>
-                        <p>Rp130.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
-                        </td>
-                        <td>
-                        <p>Rp29.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tunjangan PPh/Tunjangan Khusus-LO</p>
-                        </td>
-                        <td>
-                        <p>Rp12.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Beban Persediaan Alat Tulis Kantor</p>
-                        </td>
-                        <td>
-                        <p>Rp260.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
-                        </td>
-                        <td>
-                        <p>Rp110.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Beban Penyusutan Alat Angkutan Darat Bermotor</p>
-                        </td>
-                        <td>
-                        <p>Rp51.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Beban Penyusutan Bangunan Gedung Tempat Kerja</p>
-                        </td>
-                        <td>
-                        <p>Rp550.000.000,00</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp17.018.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp17.018.000.000,00</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>',
-        'key_answer_8' => '<table>
-                <tbody>
-                    <tr>
-                        <td colspan="4" rowspan="3" style="text-align:center">
-                        <p><strong>Dinas Pariwisata Kota Sembada</strong></p>
-            
-                        <p><strong>Jurnal Penutup</strong></p>
-            
-                        <p><strong>per 31 Desember 2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                    </tr>
-                    <tr>
-                    </tr>
-                    <tr>
-                        <td colspan="4" style="text-align:center">
-                        <p><strong>Jurnal Penutup LRA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Apropriasi Belanja</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1,735,000,000.00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Estimasi Pendapatan</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp300,000,000.00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Estimasi Perubahan SAL</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp1,435,000,000.00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pendapatan - Retribusi Event Pariwisata - LRA</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Surplus/Defisit LRA</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.931.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Gaji Pokok PNS/Uang&nbsp; Representasi</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp505.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan Keluarga</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp175.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan Jabatan</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp200.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan Fungsional</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp95.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan Fungsional Umum</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp130.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan Beras</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp29.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan PPh/Tunjangan Khusus</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp12.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Belanja Alat Tulis Kantor</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp110.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Belanja Modal Pengadaan Jalan Kabupaten</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp750.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Estimasi Perubahan SAL</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.931.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Surplus/Defisit LRA</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp1.931.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td><br />
-                        <br />
-                        <br />
-                        <br />
-                        &nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td colspan="4">
-                        <p><strong>Jurnal Penutup LO</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Tanggal</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Keterangan</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Debit</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Kredit</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Pendapatan - Event Pariwisata - LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>Surplus/Defisit LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.792.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Gaji Pokok PNS/Uang Representasi</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp505.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan Keluarga-LO</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp175.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan Jabatan-LO</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp200.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan Fungsional-LO</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp95.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan Fungsional Umum-LO</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp130.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>&nbsp;</p>
-                        </td>
-                        <td>
-                        <p>&nbsp; Tunjangan Beras-LO</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp29.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Tunjangan PPh/Tunjangan Khusus-LO</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp12.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Belanja Alat Tulis Kantor</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp260.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp110.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Beban penyusutan Alat Angkutan Darat Bermotor</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp51.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Beban penyusutan Banguann Gedung Tempat Kerja</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp550.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>31 Desember 2021</p>
-                        </td>
-                        <td>
-                        <p>Ekuitas</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.792.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                        <p>&nbsp; Surplus/Defisit LO</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">
-                        <p>Rp1.792.000.000,0</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>',
-        'key_answer_9' => '<table>
-                <tbody>
-                    <tr>
-                        <td colspan="3" style="text-align:center">
-                        <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" style="text-align:center">
-                        <p><strong>DINAS PARIWISATA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" style="text-align:center">
-                        <p><strong>LAPORAN REALISASI ANGGARAN PENDAPATAN DAN BELANJA DAERAH</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" style="text-align:center">
-                        <p><strong>UNTUK TAHUN YANG BERAKHIR SAMPAI DENGAN 31 DESEMBER 2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:center">
-                        <p><strong>Uraian</strong></p>
-                        </td>
-                        <td style="text-align:center">
-                        <p><strong>Anggaran</strong></p>
-                        </td>
-                        <td style="text-align:center">
-                        <p><strong>Realisasi</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>PENDAPATAN - LRA</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>PENDAPATAN ASLI DAERAH (PAD) - LRA</p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Pendapatan Retribusi Daerah - LRA</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp300.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Jumlah Pendapatan</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp300.000.000,00</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp325.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>BELANJA</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>BELANJA OPERASI</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Belanja Pegawai</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp855.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.256.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Belanja Barang dan Jasa</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp250.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Jumlah Belanja Operasi</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp1.180.000.000,00</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp1.506.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>BELANJA MODAL</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Belanja Modal Jalan, Irigasi, Dan Jaringan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp555.000.000,00</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp750.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Jumlah Belanja Modal</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp555.000.000,00</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp750.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>JUMLAH BELANJA</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp1.735.000.000,00</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp2.256.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>SURPLUS DEFISIT</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>(Rp1.435.000.000,00)</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>(Rp1.931.000.000,00)</strong></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>DINAS PARIWISATA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>LAPORAN OPERASIONAL</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>UNTUK TAHUN YANG BERAKHIR SAMPAI DENGAN 31 DESEMBER 2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:center">
-                        <p><strong>Uraian</strong></p>
-                        </td>
-                        <td style="text-align:center">
-                        <p><strong>2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>PENDAPATAN - LRA</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>PENDAPATAN ASLI DAERAH (PAD) - LO</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Pendapatan Retribusi Daerah - LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp325.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>JUMLAH PENDAPATAN</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp325.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>BEBAN</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>BEBAN OPERASI - LO</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Beban Pegawai - LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.256.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Beban Barang dan Jasa</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp260.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Beban Penyusutan dan Amortisasi</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp601.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>JUMLAH BEBAN&nbsp;</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp2.117.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>SURPLUS (DEFISIT) - LO</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>(Rp1.792.000.000,00)</strong></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>DINAS PARIWISATA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>LAPORAN PERUBAHAN EKUITAS</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>UNTUK PERIODE YANG BERAKHIR SAMPAI DENGAN 31 DESEMBER 2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:center">
-                        <p><strong>Uraian</strong></p>
-                        </td>
-                        <td style="text-align:center">
-                        <p><strong>2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Ekuitas Awal</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp11,785,000,000.00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Surplus/Defisit - LO</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>(Rp1.792.000.000,00)</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Ekuitas Akhir&nbsp;</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp9.993.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>DINAS PARIWISATA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>LAPORAN POSISI KEUANGAN</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>Per 31 Desember 2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:center">
-                        <p><strong>Uraian</strong></p>
-                        </td>
-                        <td style="text-align:center">
-                        <p><strong>2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>ASET</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>ASET LANCAR</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Kas dan Setara Kas</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp5.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Persediaan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp15.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Jumlah Aset Lancar</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp20.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>ASET TETAP</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Tanah</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp600.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Peralatan dan Mesin</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp255.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Gedung dan Bangunan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp11.000.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Jalan, Irigasi, dan Jaringan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp750.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Akumulasi Penyusutan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>(Rp601.000.000,00)</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Jumlah Aset Tetap</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp12.004.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>JUMLAH ASET</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp12.024.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>KEWAJIBAN</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>KEWAJIBAN JANGKA PENDEK</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Utang Perhitungan Pihak Ketiga</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp150.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Estimasi Perubahan SAL</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>(Rp20.000.000,00)</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Jumlah Kewajiban Jangka Pendek</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp130.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>JUMLAH KEWAJIBAN</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp130.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>EKUITAS</strong></p>
-                        </td>
-                        <td style="text-align:right">&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Ekuitas</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp9.993.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Ekuitas untuk dikonsolidasikan</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp1.901.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Jumlah Ekuitas&nbsp;</p>
-                        </td>
-                        <td style="text-align:right">
-                        <p>Rp11.894.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>JUMLAH KEWAJIBAN DAN EKUITAS&nbsp;</strong></p>
-                        </td>
-                        <td style="text-align:right">
-                        <p><strong>Rp12.024.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>DINAS PARIWISATA</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>LAPORAN ARUS KAS</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                        <p><strong>Untuk Tahun Yang Berakhir Sampai Dengan 31 Desember 2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:center">
-                        <p><strong>Uraian</strong></p>
-                        </td>
-                        <td style="text-align:center">
-                        <p><strong>2021</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>ARUS KAS DARI AKTIVITAS OPERASI</strong></p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Arus Kas Keluar</strong></p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Pembayaran Barang dan Jasa</p>
-                        </td>
-                        <td>
-                        <p>Rp110.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Jumlah Arus Kas Keluar</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Rp110.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Jumlah Arus Kas Bersih dari Aktivitas Operasi</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>(Rp110.000.000,00)</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>ARUS KAS DARI AKTIVITAS TRANSITORIS</strong></p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Arus Kas Masuk</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Penerimaan Perhitungan Pihak Ketiga</p>
-                        </td>
-                        <td>
-                        <p>Rp80.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Jumlah Arus Kas Masuk</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Rp80.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Arus Kas Keluar</p>
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Pengeluaran Perhitungan Pihak Ketiga</p>
-                        </td>
-                        <td>
-                        <p>Rp45.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Jumlah Arus Keluar</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Rp45.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Jumlah Arus Kas Bersih dari Aktivitas Transitoris</p>
-                        </td>
-                        <td>
-                        <p>Rp35.000.000,00</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p>Kenaikan (Penurunan) Bersih Kas Selama Periode</p>
-                        </td>
-                        <td>
-                        <p>(Rp75.000.000,00)</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Saldo Awal Kas</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Rp80.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <p><strong>Saldo Akhir Kas</strong></p>
-                        </td>
-                        <td>
-                        <p><strong>Rp5.000.000,00</strong></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>',
+            'key_answer_1'  => '<table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1/Jan/21&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>Estimasi Pendapatan&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Estimasi Perubahan SAL&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.435.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; &nbsp; &nbsp; Apropriasi Belanja&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1.735.000.000</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'key_answer_2'  => '<table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1/Jan/21</p>
+                            </td>
+                            <td>
+                            <p>Kas di Bendahara Pengeluaran&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Persediaan&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tanah&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp600.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Bangunan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp11.000.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Kendaraan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp255.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; &nbsp; Utang PPh 21&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; &nbsp; Utang Pihak Ketiga&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp150.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>&nbsp; &nbsp; Ekuitas&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp11.785.000.000</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'key_answer_3'  => '<table>
+                    <thead>
+                        <tr>
+                            <th scope="col" style="text-align: center;">
+                            <p>No</p>
+                            </th>
+                            <th scope="col" style="text-align: center;">
+                            <p>Tanggal</p>
+                            </th>
+                            <th scope="col" style="text-align: center;">
+                            <p>Ref</p>
+                            </th>
+                            <th scope="col" style="text-align: center;">
+                            <p>Jurnal Transaksi&nbsp;</p>
+                            </th>
+                            <th scope="col" style="text-align: center;">
+                            <p>Debit&nbsp;</p>
+                            </th>
+                            <th scope="col" style="text-align: center;">
+                            <p>Kredit&nbsp;</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                            <p>1</p>
+                            </td>
+                            <td>
+                            <p>9 Januari 2021&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/I/2021</p>
+                            </td>
+                            <td>
+                            <p>Utang&nbsp; PPh 21&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Kas di Bendahara Pengeluaran&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><em><strong>(Penyetoran utang pajak oleh bendahara pengeluaran)</strong></em></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>2</p>
+                            </td>
+                            <td>
+                            <p>15 Februari 2021&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/II/2021</p>
+                            </td>
+                            <td>
+                            <p>Kas di Bendahara Pengeluaran&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>RK PPKD</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>15 Februari 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/II/2021</p>
+                            </td>
+                            <td>
+                            <p>RK-SKPD</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Kas di Kas Daerah&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><em><strong>(Penerimaan UP oleh Bendara Pengeluaran)&nbsp;</strong></em></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3</p>
+                            </td>
+                            <td>
+                            <p>6 Maret 2021&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/III/2021</p>
+                            </td>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Keluarga - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Jabatan - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>R25.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional Umum - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Beras - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp9.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>RK-PPKD&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp440.500.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>6 Maret 2021&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/III/2021</p>
+                            </td>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Keluarga&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Jabatan&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional&nbsp;&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>R25.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional Umum&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Beras&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp9.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp440.500.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><em><strong>(Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS)&nbsp;</strong></em></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4</p>
+                            </td>
+                            <td>
+                            <p>11 April 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/IV/2021</p>
+                            </td>
+                            <td>
+                            <p>Studio Audio&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000</p>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>RK-PPKD&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>11 April 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/IV/2021</p>
+                            </td>
+                            <td>
+                            <p>Belanja Modal Pengadaan Studio Audio&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Estimasi Perubahan SAL&nbsp;</p>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><strong><em>(Pembayaran Belanja Modal Pengadaan Studio Audio)&nbsp;</em></strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>5</p>
+                            </td>
+                            <td>
+                            <p>6 Mei 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/V/2021</p>
+                            </td>
+                            <td>
+                            <p>Persediaan Alat Tulis Kantor&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>RK-PPKD</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>6 Mei 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/V/2021</p>
+                            </td>
+                            <td>
+                            <p>Belanja Alat Tulis Kantor&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Estimasi Perubahan SAL&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><strong><em>(Pembayaran Belanja ATK SP2D-LS)</em></strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6</p>
+                            </td>
+                            <td>
+                            <p>13 Juni 2021&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/VI/2021</p>
+                            </td>
+                            <td>
+                            <p>RK-PPKD&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Pendapatan Retribusi Event Pariwisata&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>13 Juni 2021&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/VI/2021</p>
+                            </td>
+                            <td>
+                            <p>Estimasi Perubahan SAL&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Pendapatan Retribusi Event Pariwisata - LRA&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><em><strong>(Penerimaan Pendapatan Retribusi Kemudian di setor ke Kas Daerah)&nbsp;</strong></em></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>7</p>
+                            </td>
+                            <td>
+                            <p>15 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/VII/2021</p>
+                            </td>
+                            <td>
+                            <p>Honorarium Tenaga Ahli/Narasumber/Instruktur&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Kas di Bendahara Pengeluaran&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>15 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/VII/2021</p>
+                            </td>
+                            <td>
+                            <p>Honorarium Tenaga Ahli/Narasumber/Instruktur&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><em><strong>(Pembayaran Honorarium Tenaga Profesional UP)</strong></em></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>8</p>
+                            </td>
+                            <td>
+                            <p>23 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/VIII/2021</p>
+                            </td>
+                            <td>
+                            <p>Honorarium Tenaga Ahli/Narasumber/Instruktur&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Kas di Bendahara Pengeluaran&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>23 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/VIII/2021</p>
+                            </td>
+                            <td>
+                            <p>Honorarium Tenaga Ahli/Narasumber/Instruktur&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><em><strong>(Pembayaran Pengadaan Studio Audio Tahap 2)&nbsp;</strong></em></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>9</p>
+                            </td>
+                            <td>
+                            <p>5 Agustus 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/IX/2021</p>
+                            </td>
+                            <td>
+                            <p>Studio Audio&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Kas di Bendahara Pengeluaran&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>5 Agustus 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/IX/2021</p>
+                            </td>
+                            <td>
+                            <p>Belanja Modal Pengadaan Studio Audio&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Estimasi Perubahan SAL&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><em><strong>(Pembayaran Pengadaan Studio Audio Tahap 2)&nbsp;</strong></em></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>10</p>
+                            </td>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/X/2021</p>
+                            </td>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp135.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Keluarga - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp65.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Jabatan - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp75.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional Umum - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp40.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Beras - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp15.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan PPh/Tunjangan Khusus -LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp7.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>RK-PPKD&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp362.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/X/2021</p>
+                            </td>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp135.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Keluarga&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp65.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Jabatan&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp75.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional&nbsp;&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional Umum&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp40.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Beras&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp15.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan PPh/Tunjangan Khusus</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp7.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp362.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><em><strong>(Pembayaran Belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D-LS)</strong></em></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>11</p>
+                            </td>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/XI/2021</p>
+                            </td>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp120.00.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Keluarga - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Jabatan - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional Umum - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Beras - LO&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp5.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan PPh/Tunjangan Khusus -LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp3.500.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>RK-PPKD&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp343.500.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>3&nbsp; Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>012/Dispar/XI/2021</p>
+                            </td>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp120.00.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Keluarga&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Jabatan&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional&nbsp;&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Fungsional Umum&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan Beras&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp5.000.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Tunjangan PPh/Tunjangan Khusus</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp3.500.000</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp343.500.000.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="4">
+                            <p><em><strong>(Pembayaran belanja gaji dan tunjangan bulan Desember 2020 dengan bukti SP2D-LS)</strong></em></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'key_answer_4'  => '<p>Nama Akun : Kas di Kas Daerah</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Rp0.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>15 Februari 2021</p>
+                            </td>
+                            <td>
+                            <p>Penerimaan UP Oleh Bendahara Pengeluaran</p>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Rp80,000,000.00</p>
+                            </td>
+                            <td>
+                            <p>Rp80,000,000.00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Kas di Bendahara Pengeluaran</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>9 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Penyetoran Utang Pajak Oleh Bendahara Pengeluaran Dinas Pariwisata</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp35.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>15 Februari 2021</p>
+                            </td>
+                            <td>
+                            <p>Penerimaan UP Oleh Bendahara Dinas Pariwisata</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp115.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>15 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Honorarium Tenaga Profesional UP</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp65.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>23 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Honorarium Tenaga Profesional Tambahan</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp5.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Persediaan Alat Tulis Kantor</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Mei 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Belanja ATK SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp275.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Penyesuaian Akhir Tahun</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp260.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp15.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : RK-SKPD</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>15 Februari 2021</p>
+                            </td>
+                            <td>
+                            <p>Penerimaan UP Oleh Bendahara Pengeluaran</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Tanah</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp600.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp600.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Kendaraan</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp255.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp255.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Akumulasi Penyusutan Alat Angkutan Darat Bermotor</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Penyesuaian Akhir Tahun&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp51.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp51.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Bangunan&nbsp;</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp11.000.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp11.000.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Akumulasi Penyusutan Bangunan Gedung Tempat Kerja</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:center">
+                            <p><strong>Tanggal</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Debit</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Kredit</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Penyesuaian Akhir Tahun</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp550.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp550.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Studio Audio</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:center">
+                            <p><strong>Tanggal</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Debit</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Kredit</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>11 April 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Belanja Modal Pengadaan Studio Audio</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>5 Agustus 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Pengadaan Studio Audio Termin 2</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp750.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Utang Pihak Ketiga</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp150.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp150.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Utang Pihak PPh 21</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>9 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Penyetoran Utang Pajak Oleh Bendahara Pengeluaran</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>-Rp20.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Ekuitas&nbsp;</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp11.785.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp11.785.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Estimasi Perubahan SAL</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp440.500.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp440.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>11 April 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Belanja Modal Pengadaan Jalan Kota (Jalur Evakuasi)</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp890.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Mei 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Belanja ATK SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.140.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>13 Juni 2021</p>
+                            </td>
+                            <td>
+                            <p>Penerimaan Pendapatan Retribusi Kemudian disetor ke Kas Daerah</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp815.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>15 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Honorarium Tenaga Profesional UP</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp865.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>23 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Honorarium Tenaga Profesional Tambahan dengan Dana di Bendahara Pengeluaran</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp925.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>5 Agustus 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Pembangunan Jalan Kota Tahap 2</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.225.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp362.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.587.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp343.500.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.931.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :RK-PPKD</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>15 Februari 2021</p>
+                            </td>
+                            <td>
+                            <p>Penerimaan UP Oleh Bendahara Pengeluaran</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp440.500.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp520.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>11 April 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Belanja Modal Pengadaan Jalan Kota (Jalur Evakuasi)</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp970.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Mei 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Belanja ATK SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.220.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>13 Juni 2021</p>
+                            </td>
+                            <td>
+                            <p>Penerimaan Pendapatan Retribusi Kemudian disetor ke Kas Daerah</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp895.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>5 Agustus 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Pembangunan Jalan Kota Tahap 2</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.195.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp362.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.557.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp343.500.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.901.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :pengadaan Studio Audio - LRA</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>13 Juni 2021</p>
+                            </td>
+                            <td>
+                            <p>Penerimaan Pendapatan Retribusi Kemudian disetor ke Kas Daerah</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Gaji Pokok PNS/Uang Representasi</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp135.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp385.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp120.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp505.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Taunjangan Keluarga</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp65.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp145.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp175.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Tunjangan Jabatan</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp75.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp120.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp200.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Tunjangan Fungsional</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp95.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Tunjangan Fungsional Umum</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp40.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp70.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp130.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Tunjangan Beras</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp9.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp9.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp15.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp24.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp5.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp29.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Tunjangan PPh/Tunjangan Khusus</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.500.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp7.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp8.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp3.500.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp12.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Belanja Alat Tulis Kantor</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:center">
+                            <p><strong>Tanggal</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Debit</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Kredit</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Mei 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Belanja ATK SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>15 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Honorarium Tenaga Profesional UP</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>23 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Honorarium Tenaga Profesional Tambahan dengan Dana di Bendahara Pengeluaran</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp110.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Pembayaran Belanja Modal Pengadaan Studio Audio</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>11 April 2021&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Belanja Modal Pengadaan Studio Audio</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp450.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>5 Agustus 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Pembangunan Studio Audio Tahap 2</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp750.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Pendapatan - Pengadaan Studio Audio -LRA</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>13 Juni 2021</p>
+                            </td>
+                            <td>
+                            <p>Penerimaan Pendapatan Retribusi Kemudian disetor ke Kas Daerah</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Gaji Pokok PNS/Uang Representasi</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp135.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp385.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp120.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp505.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Tunjangan Keluarga - LO</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp65.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp145.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp175.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Tunjangan Jabatan - LO</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp75.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp120.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp200.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun:Tunjangan Fungsional - LO;</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp25.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp45.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp95.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Tunjangan Fungsional Umum&nbsp; LO</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp30.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp40.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp70.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp130.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Tunjangan Beras - LO</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp9.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp9.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp15.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp24.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp5.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp29.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Tunjangan PPh/Tunjangan Khusus - LO</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6 Maret 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Gaji dan Tunjangan Bulan Maret Th 2021 SP2D-LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.500.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4 September 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan September 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp7.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp8.500.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran belanja gaji dan tunjangan bulan Desember 2021 dengan bukti SP2D LS</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp3.500.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp12.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun : Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1 Januari 2021</p>
+                            </td>
+                            <td>
+                            <p>Saldo Awal</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp0,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>15 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Honorarium Tenaga Profesional UP</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp50.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>23 Juli 2021</p>
+                            </td>
+                            <td>
+                            <p>Pembayaran Honorarium Tenaga Profesional Tambahan dengan Dana di Bendahara Pengeluaran</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp60.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp110.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Beban Persediaan Alat Tulis Kantor</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Penyesuaian Akhir Tahun</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp260.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp260.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Beban Penyusutan Alat Angkutan Darat Bermotor</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Penyesuaian Akhir Tahun</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp51.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp51.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <p>Nama Akun :Beban Penyusutan Bangunan Gedung Tempat Kerja</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan&nbsp;</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Saldo&nbsp;</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Penyesuaian Akhir Tahun</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp550.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp550.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'key_answer_5'  => '<table>
+                    <tbody>
+                        <tr>
+                            <th colspan="3" style="text-align: center;">
+                            <p><strong>Dinas Pariwisata Kota Sembada</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="3" style="text-align: center;">
+                            <p><strong>Neraca Saldo</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="3" style="text-align: center;">
+                            <p><strong>per 31 Desember 2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th rowspan="2" style="text-align: center;">
+                            <p><strong>Keterangan</strong></p>
+                            </th>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>Saldo</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Kas di Bendahara Pengeluaran</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp5.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Persediaan Alat Tulis Kantor</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp275.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tanah</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp600.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Kendaraan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp255.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Bangunan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp11.000.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Studio Audio</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp750.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Utang Pihak Ketiga</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp150.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Utang PPh 21</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp20.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Ekuitas</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp11.785.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1.931.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>RK PPKD</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1.901.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Pendapatan - Event Pariwisata - LRA</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp505.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Keluarga</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp175.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Jabatan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp200.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Fungsional</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp95.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Fungsional Umum</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp130.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Beras</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp29.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan PPh/Tunjangan Khusus</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp12.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Belanja Alat Tulis Kantor</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp110.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Belanja Modal Pengadaan Studio Audio</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp750.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Pendapatan - Event pariwisata - LO</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp505.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Keluarga-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp175.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Jabatan-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp200.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Fungsional-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp95.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Fungsional Umum-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp130.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Beras-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp29.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan PPh/Tunjangan Khusus-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp12.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp110.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">
+                            <p><strong>Rp16.417.000.000,00</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp16.417.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'key_answer_6'  => '<table>
+                    <tbody>
+                        <tr>
+                            <th colspan="4" style="text-align: center;">
+                            <p><strong>Dinas Pariwisata Kota Sembada</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="4" style="text-align: center;">
+                            <p><strong>Jurnal Penyesuaian</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="4" style="text-align: center;">
+                            <p><strong>per 31 Desember 2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Beban Persediaan Alat Tulis Kantor</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp260.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Persediaan Alat Tulis Kantor</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp260.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Beban Penyusutan Bangunan Gedung Tempat Kerja</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp550.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Akumulasi Penyusutan Bangunan Gedung Tempat Kerja</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp550.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Beban Penyusutan Alat Angkutan Darat Bermotor</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp51.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Akumulasi Penyusutan Alat Angkutan Darat Bermotor</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp51.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align:center">
+                            <p><strong>Total</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp861.000.000,00</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp861.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'key_answer_7'  => '<table>
+                    <thead>
+                        <tr>
+                            <th colspan="3" scope="col" style="text-align: center;">
+                            <p>Dinas Pariwisata Kota Sembada</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="3" scope="col" style="text-align: center;">
+                            <p>Neraca Saldo Setelah Disesuaikan</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="3" scope="col" style="text-align: center;">
+                            <p>per 31 Desember 2021</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th rowspan="2" scope="col" style="text-align: center;">
+                            <p>Keterangan</p>
+                            </th>
+                            <th colspan="2" scope="col" style="text-align: center;">
+                            <p>Saldo</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th scope="col" style="text-align: center;">
+                            <p>Debit</p>
+                            </th>
+                            <th scope="col" style="text-align: center;">
+                            <p>Kredit</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                            <p>Kas di Bendahara Pengeluaran</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp5.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Persediaan Alat Tulis Kantor</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp15.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tanah</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp600.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Kendaraan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp255.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Bangunan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp11.000.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Studio Audio</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp750.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Utang Pihak Ketiga</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp51.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Utang PPh 21</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp550.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Ekuitas</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp150.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp20.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>RK PPKD</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp11.785.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Pendapatan - Event Pariwisata - LRA</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1.931.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1.901.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Keluarga</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Jabatan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp505.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Fungsional</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp175.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Fungsional Umum</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp200.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Beras</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp95.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan PPh/Tunjangan Khusus</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp130.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Belanja Alat Tulis Kantor</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp29.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp12.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Belanja Modal Pengadaan Studio Audio</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Pendapatan - Event pariwisata - LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp110.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Gaji Pokok PNS/Uang Representasi</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp750.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Keluarga-LO</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Jabatan-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp505.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Fungsional-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp175.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Fungsional Umum-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp200.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan Beras-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp95.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan PPh/Tunjangan Khusus-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp130.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp29.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tunjangan PPh/Tunjangan Khusus-LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp12.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Beban Persediaan Alat Tulis Kantor</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp260.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp110.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Beban Penyusutan Alat Angkutan Darat Bermotor</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp51.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Beban Penyusutan Bangunan Gedung Tempat Kerja</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp550.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp17.018.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp17.018.000.000,00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'key_answer_8'  => '<table>
+                    <tbody>
+                        <tr>
+                            <th colspan="4" rowspan="3" style="text-align: center;">
+                            <p><strong>Dinas Pariwisata Kota Sembada</strong></p>
+                
+                            <p><strong>Jurnal Penutup</strong></p>
+                
+                            <p><strong>per 31 Desember 2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                            <th colspan="4" style="text-align: center;">
+                            <p><strong>Jurnal Penutup LRA</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Apropriasi Belanja</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1,735,000,000.00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Estimasi Pendapatan</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp300,000,000.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1,435,000,000.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pendapatan - Retribusi Event Pariwisata - LRA</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Surplus/Defisit LRA</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.931.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Gaji Pokok PNS/Uang&nbsp; Representasi</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp505.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan Keluarga</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp175.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan Jabatan</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp200.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan Fungsional</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp95.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan Fungsional Umum</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp130.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan Beras</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp29.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan PPh/Tunjangan Khusus</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp12.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Belanja Alat Tulis Kantor</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp110.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Belanja Modal Pengadaan Jalan Kabupaten</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp750.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.931.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Surplus/Defisit LRA</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1.931.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><br />
+                            <br />
+                            <br />
+                            <br />
+                            &nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <th colspan="4" style="text-align: center;">
+                            <p><strong>Jurnal Penutup LO</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Tanggal</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Keterangan</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Debit</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>Kredit</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Pendapatan - Event Pariwisata - LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>Surplus/Defisit LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.792.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Gaji Pokok PNS/Uang Representasi</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp505.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan Keluarga-LO</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp175.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan Jabatan-LO</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp200.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan Fungsional-LO</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp95.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan Fungsional Umum-LO</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp130.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>&nbsp;</p>
+                            </td>
+                            <td>
+                            <p>&nbsp; Tunjangan Beras-LO</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp29.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Tunjangan PPh/Tunjangan Khusus-LO</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp12.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Belanja Alat Tulis Kantor</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp260.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Honorarium Tenaga Ahli/Narasumber/Instruktur</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp110.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Beban penyusutan Alat Angkutan Darat Bermotor</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp51.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Beban penyusutan Banguann Gedung Tempat Kerja</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp550.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>31 Desember 2021</p>
+                            </td>
+                            <td>
+                            <p>Ekuitas</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.792.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p>&nbsp; Surplus/Defisit LO</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">
+                            <p>Rp1.792.000.000,0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>',
+            'key_answer_9'  => '<table>
+                    <tbody>
+                        <tr>
+                            <td colspan="3" style="text-align:center">
+                            <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:center">
+                            <p><strong>DINAS PARIWISATA</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:center">
+                            <p><strong>LAPORAN REALISASI ANGGARAN PENDAPATAN DAN BELANJA DAERAH</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:center">
+                            <p><strong>UNTUK TAHUN YANG BERAKHIR SAMPAI DENGAN 31 DESEMBER 2021</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center">
+                            <p><strong>Uraian</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Anggaran</strong></p>
+                            </td>
+                            <td style="text-align:center">
+                            <p><strong>Realisasi</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>PENDAPATAN - LRA</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>PENDAPATAN ASLI DAERAH (PAD) - LRA</p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Pendapatan Retribusi Daerah - LRA</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp300.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Jumlah Pendapatan</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp300.000.000,00</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp325.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>BELANJA</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>BELANJA OPERASI</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Belanja Pegawai</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp855.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.256.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Belanja Barang dan Jasa</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp250.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Jumlah Belanja Operasi</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp1.180.000.000,00</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp1.506.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>BELANJA MODAL</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Belanja Modal Jalan, Irigasi, Dan Jaringan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp555.000.000,00</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp750.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Jumlah Belanja Modal</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp555.000.000,00</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp750.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>JUMLAH BELANJA</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp1.735.000.000,00</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp2.256.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>SURPLUS DEFISIT</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>(Rp1.435.000.000,00)</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>(Rp1.931.000.000,00)</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>DINAS PARIWISATA</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>LAPORAN OPERASIONAL</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>UNTUK TAHUN YANG BERAKHIR SAMPAI DENGAN 31 DESEMBER 2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Uraian</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>PENDAPATAN - LRA</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>PENDAPATAN ASLI DAERAH (PAD) - LO</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Pendapatan Retribusi Daerah - LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp325.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>JUMLAH PENDAPATAN</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp325.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>BEBAN</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>BEBAN OPERASI - LO</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Beban Pegawai - LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.256.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Beban Barang dan Jasa</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp260.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Beban Penyusutan dan Amortisasi</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp601.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>JUMLAH BEBAN&nbsp;</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp2.117.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>SURPLUS (DEFISIT) - LO</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>(Rp1.792.000.000,00)</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>DINAS PARIWISATA</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>LAPORAN PERUBAHAN EKUITAS</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>UNTUK PERIODE YANG BERAKHIR SAMPAI DENGAN 31 DESEMBER 2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Uraian</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Ekuitas Awal</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp11,785,000,000.00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Surplus/Defisit - LO</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>(Rp1.792.000.000,00)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Ekuitas Akhir&nbsp;</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp9.993.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>DINAS PARIWISATA</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>LAPORAN POSISI KEUANGAN</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>Per 31 Desember 2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Uraian</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>ASET</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>ASET LANCAR</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Kas dan Setara Kas</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp5.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Persediaan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp15.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Jumlah Aset Lancar</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp20.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>ASET TETAP</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Tanah</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp600.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Peralatan dan Mesin</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp255.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Gedung dan Bangunan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp11.000.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Jalan, Irigasi, dan Jaringan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp750.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Akumulasi Penyusutan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>(Rp601.000.000,00)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Jumlah Aset Tetap</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp12.004.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>JUMLAH ASET</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp12.024.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>KEWAJIBAN</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>KEWAJIBAN JANGKA PENDEK</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Utang Perhitungan Pihak Ketiga</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp150.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Estimasi Perubahan SAL</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>(Rp20.000.000,00)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Jumlah Kewajiban Jangka Pendek</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp130.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>JUMLAH KEWAJIBAN</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp130.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>EKUITAS</strong></p>
+                            </td>
+                            <td style="text-align:right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Ekuitas</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp9.993.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Ekuitas untuk dikonsolidasikan</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp1.901.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Jumlah Ekuitas&nbsp;</p>
+                            </td>
+                            <td style="text-align:right">
+                            <p>Rp11.894.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>JUMLAH KEWAJIBAN DAN EKUITAS&nbsp;</strong></p>
+                            </td>
+                            <td style="text-align:right">
+                            <p><strong>Rp12.024.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>&nbsp;</p>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>PEMERINTAH KOTA SEMBADA</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>DINAS PARIWISATA</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>LAPORAN ARUS KAS</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">
+                            <p><strong>Untuk Tahun Yang Berakhir Sampai Dengan 31 Desember 2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center;">
+                            <p><strong>Uraian</strong></p>
+                            </th>
+                            <th style="text-align: center;">
+                            <p><strong>2021</strong></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>ARUS KAS DARI AKTIVITAS OPERASI</strong></p>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Arus Kas Keluar</strong></p>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Pembayaran Barang dan Jasa</p>
+                            </td>
+                            <td>
+                            <p>Rp110.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Jumlah Arus Kas Keluar</strong></p>
+                            </td>
+                            <td>
+                            <p><strong>Rp110.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Jumlah Arus Kas Bersih dari Aktivitas Operasi</strong></p>
+                            </td>
+                            <td>
+                            <p><strong>(Rp110.000.000,00)</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>ARUS KAS DARI AKTIVITAS TRANSITORIS</strong></p>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Arus Kas Masuk</p>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Penerimaan Perhitungan Pihak Ketiga</p>
+                            </td>
+                            <td>
+                            <p>Rp80.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Jumlah Arus Kas Masuk</strong></p>
+                            </td>
+                            <td>
+                            <p><strong>Rp80.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Arus Kas Keluar</p>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Pengeluaran Perhitungan Pihak Ketiga</p>
+                            </td>
+                            <td>
+                            <p>Rp45.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Jumlah Arus Keluar</strong></p>
+                            </td>
+                            <td>
+                            <p><strong>Rp45.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Jumlah Arus Kas Bersih dari Aktivitas Transitoris</p>
+                            </td>
+                            <td>
+                            <p>Rp35.000.000,00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Kenaikan (Penurunan) Bersih Kas Selama Periode</p>
+                            </td>
+                            <td>
+                            <p>(Rp75.000.000,00)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Saldo Awal Kas</strong></p>
+                            </td>
+                            <td>
+                            <p><strong>Rp80.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p><strong>Saldo Akhir Kas</strong></p>
+                            </td>
+                            <td>
+                            <p><strong>Rp5.000.000,00</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>',
         ]);
     }
 }

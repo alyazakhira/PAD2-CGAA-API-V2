@@ -20,10 +20,10 @@ class MultipleChoiceSeeder extends Seeder
 
             <ul>
                 <li>
-                <p>Barang atau perlengkapan (supplies) yang digunakan dalam rangka kegiatan operasional pemerintah;</p>
+                <p>Barang atau perlengkapan (<em>supplies</em>) yang digunakan dalam rangka kegiatan operasional pemerintah;</p>
                 </li>
                 <li>
-                <p>Barang atau perlengkapan (supplies) yang digunakan dalam proses produksi;</p>
+                <p>Barang atau perlengkapan (<em>supplies</em>) yang digunakan dalam proses produksi;</p>
                 </li>
                 <li>
                 <p>Barang dalam proses produksi yang dimaksudkan untuk dijual atau diserahkan kepada masyarakat;</p>
@@ -74,7 +74,7 @@ class MultipleChoiceSeeder extends Seeder
             'question' => '<p>Apa yang dimaksud dengan penyusutan?&nbsp;</p>',
             'question_explanation' => '<p>Nilai penyusutan untuk masing-masing periode diakui sebagai pengurang nilai tercatat aset tetap dalam neraca dan beban penyusutan dalam laporan operasional</p>', 
             'answer_a' => '<p>Nilai buku aset yang dihitung dari biaya perolehan suatu aset setelah dikurangi akumulasi penyusutan</p>',
-            'answer_b' => '<p>Alokasi yang sistematis atas nilai suatu aset tetap yang dapat disusutkan (depreciable assets) selama masa manfaat aset yang bersangkutan</p>',
+            'answer_b' => '<p>Alokasi yang sistematis atas nilai suatu aset tetap yang dapat disusutkan (<em>depreciable assets</em>) selama masa manfaat aset yang bersangkutan</p>',
             'answer_c' => '<p>Jumlah neto yang diharapkan dapat diperoleh pada akhir masa manfaat suatu aset setelah dikurangi taksiran biaya pelepasan</p>',
             'answer_d' => '<p>Aset berwujud yang mempunyai masa manfaat lebih dari 12 (dua belas) bulan untuk digunakan, atau dimaksudkan untuk digunakan dalam kegiatan pemerintah atau dimanfaatkan oleh masyarakat umum</p>',
             'correct_answer' => 'b',
@@ -103,10 +103,10 @@ class MultipleChoiceSeeder extends Seeder
 
             <ol>
                 <li>
-                <p>Barang atau perlengkapan (supplies) yang digunakan dalam rangka kegiatan operasional pemerintah;</p>
+                <p>Barang atau perlengkapan (<em>supplies</em>) yang digunakan dalam rangka kegiatan operasional pemerintah;</p>
                 </li>
                 <li>
-                <p>Bahan atau perlengkapan (supplies) yang akan digunakan dalam proses produksi;</p>
+                <p>Bahan atau perlengkapan (<em>supplies</em>) yang akan digunakan dalam proses produksi;</p>
                 </li>
                 <li>
                 <p>Barang dalam proses produksi yang akan dimaksudkan untuk dijual atau diserahkan kepada masyarakat;&nbsp;</p>
@@ -128,10 +128,10 @@ class MultipleChoiceSeeder extends Seeder
 
             <ol>
                 <li>
-                <p>Biaya pengiriman awal (initial delivery) dan biaya simpan dan bongkar muat (handling cost);</p>
+                <p>Biaya pengiriman awal (<em>initial delivery</em>) dan biaya simpan dan bongkar muat (<em>handling cost</em>);</p>
                 </li>
                 <li>
-                <p>Biaya pemasangan (installation cost);</p>
+                <p>Biaya pemasangan (<em>installation cost</em>);</p>
                 </li>
                 <li>
                 <p>Biaya profesional seperti arsitek dan insinyur; dan&nbsp;</p>
@@ -186,7 +186,7 @@ class MultipleChoiceSeeder extends Seeder
             </ol>
             
             <p>Dari ketiga kelompok belanja tersebut masuk ke dalam sifat belanja&hellip;</p>',
-            'question_explanation' => '<p>Secara umum belanja pemerintah yang bersifat expandable berbeda dengan belanja yang bersifat intrakomptabel yang meliputi: 1) belanja pegawai, 2) belanja barang yang tidak menghasilkan BMN, 3) belanja bunga, 4) belanja subsidi, 5) belanja hibah, 6) belanja bantuan sosial yang tidak menghasilkan BMN, dan 7) transfer ke daerah dan dana desa.&nbsp;</p>',
+            'question_explanation' => '<p>Secara umum belanja pemerintah yang bersifat <em>expandable</em> berbeda dengan belanja yang bersifat intrakomptabel yang meliputi: 1) belanja pegawai, 2) belanja barang yang tidak menghasilkan BMN, 3) belanja bunga, 4) belanja subsidi, 5) belanja hibah, 6) belanja bantuan sosial yang tidak menghasilkan BMN, dan 7) transfer ke daerah dan dana desa.&nbsp;</p>',
             'answer_a' => '<p>Intrakomptabel</p>',
             'answer_b' => '<p>Belanja tunai&nbsp;</p>',
             'answer_c' => '<p>Belanja langsung&nbsp;</p>',
@@ -212,19 +212,19 @@ class MultipleChoiceSeeder extends Seeder
         MultipleChoice::create([
             'question_type' => 'pusat',
             'question' => '<p>Berikut merupakan arus kas masuk:&nbsp;<br />
-            a. Penerimaan perpajakan<br />
-            b. Pencairan dana cadangan&nbsp;<br />
-            c. Penerimaan dari utang obligasi<br />
-            d. Penerimaan hibah<br />
-            e. Penerimaan negara bukan pajak<br />
+            &nbsp; &nbsp;a. Penerimaan perpajakan<br />
+            &nbsp; &nbsp;b. Pencairan dana cadangan&nbsp;<br />
+            &nbsp; &nbsp;c. Penerimaan dari utang obligasi<br />
+            &nbsp; &nbsp;d. Penerimaan hibah<br />
+            &nbsp; &nbsp;e. Penerimaan negara bukan pajak<br />
             Dari poin-poin di atas, manakah yang termasuk kedalam arus kas masuk dari aktivitas operasi?</p>',
             'question_explanation' => '<p>Arus kas bersih aktivitas operasi merupakan indikator yang menunjukkan kemampuan operasi pemerintah dalam menghasilkan kas yang cukup untuk membiayai aktivitas operasionalnya di masa yang akan datang tanpa mengandalkan sumber pendanaan dari luar. Arus kas masuk dari aktivitas operasi terutama diperoleh dari:&nbsp;<br />
-            a. Penerimaan perpajakan;<br />
-            b. Penerimaan negara bukan pajak (PNBP);<br />
-            c. Penerimaan hibah;<br />
-            d. Penerimaan bagian laba perusahaan negara/daerah dan investasi lainnya;&nbsp;<br />
-            e. Penerimaan lain-lain/penerimaan dari pendapatan luar biasa; dan&nbsp;<br />
-            f. Penerimaan transfer.&nbsp;</p>',
+            &nbsp; &nbsp;a. Penerimaan perpajakan;<br />
+            &nbsp; &nbsp;b. Penerimaan negara bukan pajak (PNBP);<br />
+            &nbsp; &nbsp;c. Penerimaan hibah;<br />
+            &nbsp; &nbsp;d. Penerimaan bagian laba perusahaan negara/daerah dan investasi lainnya;&nbsp;<br />
+            &nbsp; &nbsp;e. Penerimaan lain-lain/penerimaan dari pendapatan luar biasa; dan&nbsp;<br />
+            &nbsp; &nbsp;f. Penerimaan transfer.&nbsp;</p>',
             'answer_a' => '<p>a), b), dan c)&nbsp;</p>',
             'answer_b' => '<p>a), d), dan c)</p>',
             'answer_c' => '<p>a), d), dan e)&nbsp;</p>',
@@ -263,7 +263,7 @@ class MultipleChoiceSeeder extends Seeder
                         <td>Rp 56.750.000</td>
                     </tr>
                     <tr>
-                        <td>Debit</td>
+                        <td>Kredit</td>
                         <td>Dicadangkan untuk belanja</td>
                         <td>Rp 329.110.000</td>
                     </tr>
@@ -355,19 +355,19 @@ class MultipleChoiceSeeder extends Seeder
                 <tbody>
                     <tr>
                         <td>&nbsp;</td>
-                        <td><strong>Buku Besar Akrual</strong></td>
+                        <td style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                        <td><strong>Buku Besar Kas</strong></td>
+                        <td style="text-align:center"><strong>Buku Besar Kas</strong></td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td>Uraian</td>
-                        <td>Ket</td>
+                        <td style="text-align:center">Uraian</td>
+                        <td style="text-align:center">Ket</td>
                         <td>&nbsp;</td>
-                        <td>Uraian</td>
-                        <td>Ket</td>
+                        <td style="text-align:center">Uraian</td>
+                        <td style="text-align:center">Ket</td>
                     </tr>
                     <tr>
                         <td>Db</td>
@@ -390,10 +390,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
             <tbody>
                 <tr>
-                    <td>Tanggal</td>
-                    <td>Keterangan</td>
-                    <td>Debit</td>
-                    <td>Kredit</td>
+                    <td style="text-align:center">Tanggal</td>
+                    <td style="text-align:center">Keterangan</td>
+                    <td style="text-align:center">Debit</td>
+                    <td style="text-align:center">Kredit</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -436,10 +436,10 @@ class MultipleChoiceSeeder extends Seeder
                 'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                 <tbody>
                     <tr>
-                        <td>Tanggal</td>
-                        <td>Keterangan</td>
-                        <td>Debit</td>
-                        <td>Kredit</td>
+                        <td style="text-align:center">Tanggal</td>
+                        <td style="text-align:center">Keterangan</td>
+                        <td style="text-align:center">Debit</td>
+                        <td style="text-align:center">Kredit</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -482,10 +482,10 @@ class MultipleChoiceSeeder extends Seeder
                 'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                 <tbody>
                     <tr>
-                        <td>Tanggal</td>
-                        <td>Keterangan</td>
-                        <td>Debit</td>
-                        <td>Kredit</td>
+                        <td style="text-align:center">Tanggal</td>
+                        <td style="text-align:center">Keterangan</td>
+                        <td style="text-align:center">Debit</td>
+                        <td style="text-align:center">Kredit</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -528,10 +528,10 @@ class MultipleChoiceSeeder extends Seeder
                 'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                 <tbody>
                     <tr>
-                        <td>Tanggal</td>
-                        <td>Keterangan</td>
-                        <td>Debit</td>
-                        <td>Kredit</td>
+                        <td style="text-align:center">Tanggal</td>
+                        <td style="text-align:center">Keterangan</td>
+                        <td style="text-align:center">Debit</td>
+                        <td style="text-align:center">Kredit</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -590,10 +590,10 @@ class MultipleChoiceSeeder extends Seeder
                 <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                     <tbody>
                         <tr>
-                            <td>Tanggal</td>
-                            <td>Keterangan</td>
-                            <td>Debit</td>
-                            <td>Kredit</td>
+                            <td style="text-align:center">Tanggal</td>
+                            <td style="text-align:center">Keterangan</td>
+                            <td style="text-align:center">Debit</td>
+                            <td style="text-align:center">Kredit</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -630,10 +630,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -671,10 +671,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -711,10 +711,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -742,7 +742,7 @@ class MultipleChoiceSeeder extends Seeder
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
-                                        <td>Akumulasi penyusutan aset tetap</td>
+                                        <td>Beban kerugian pelepasan aset</td>
                                         <td>&nbsp;</td>
                                         <td>Rp XX</td>
                                     </tr>
@@ -751,10 +751,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -797,10 +797,10 @@ class MultipleChoiceSeeder extends Seeder
                 <table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                     <tbody>
                         <tr>
-                            <td>Tanggal</td>
-                            <td>Keterangan</td>
-                            <td>Debit</td>
-                            <td>Kredit</td>
+                            <td style="text-align:center">Tanggal</td>
+                            <td style="text-align:center">Keterangan</td>
+                            <td style="text-align:center">Debit</td>
+                            <td style="text-align:center">Kredit</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -816,7 +816,7 @@ class MultipleChoiceSeeder extends Seeder
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
-                            <td>Ditagihkan ke entitas lain</td>
+                            <td>Ditagihkan ke Entitas Lain</td>
                             <td>&nbsp;</td>
                             <td>Rp XX</td>
                         </tr>
@@ -828,7 +828,7 @@ class MultipleChoiceSeeder extends Seeder
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
-                            <td>Aset tetap yang belum diregister</td>
+                            <td>Aset Tetap/Aset Lainnya yang Belum Diregister</td>
                             <td>&nbsp;</td>
                             <td>Rp XX</td>
                         </tr>
@@ -837,10 +837,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -907,10 +907,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -965,10 +965,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1035,10 +1035,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1141,10 +1141,10 @@ class MultipleChoiceSeeder extends Seeder
                 <table border="1" cellpadding="1" cellspacing="1">
                     <tbody>
                         <tr>
-                            <td>Tanggal</td>
-                            <td>Keterangan</td>
-                            <td>Debit</td>
-                            <td>Kredit</td>
+                            <td style="text-align:center">Tanggal</td>
+                            <td style="text-align:center">Keterangan</td>
+                            <td style="text-align:center">Debit</td>
+                            <td style="text-align:center">Kredit</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -1187,10 +1187,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1233,10 +1233,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1279,10 +1279,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1325,10 +1325,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1422,17 +1422,17 @@ class MultipleChoiceSeeder extends Seeder
         MultipleChoice::create([
             'question_type' => 'pusat',
             'question' => '<p>Mulai dari tahun 2021, apa metode penilaian persediaan yang digunakan oleh Pemerintah?&nbsp;</p>',
-            'question_explanation' => '<p>Metode First in First out merupakan metode dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar. Dengan metode ini saldo persediaan dihitung berdasarkan harga perolehan masing-masing. Penilaian persediaan menggunakan FIFO diterapkan mulai tahun 2021 secara prospektif, setelah Pemerintah menerapkan Metode Harga Perolehan Terakhir pada tahun-tahun sebelumnya.</p>',
+            'question_explanation' => '<p>Metode <em>First in First out</em> merupakan metode dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar. Dengan metode ini saldo persediaan dihitung berdasarkan harga perolehan masing-masing. Penilaian persediaan menggunakan FIFO diterapkan mulai tahun 2021 secara prospektif, setelah Pemerintah menerapkan Metode Harga Perolehan Terakhir pada tahun-tahun sebelumnya.</p>',
             'answer_a' => '<p>Harga pasar</p>',
-            'answer_b' => '<p>First in First out</p>',
-            'answer_c' => '<p>Weighted-Average</p>',
+            'answer_b' => '<p><em>First in First out</em></p>',
+            'answer_c' => '<p><em>Weighted-Average</em></p>',
             'answer_d' => '<p>Harga pembelian terakhir</p>',
             'correct_answer' => 'b',
         ]);
         MultipleChoice::create([
             'question_type' => 'pusat',
-            'question' => '<p>Apa yang dimaksud dengan metode penilaian persediaan First in First out?&nbsp;</p>',
-            'question_explanation' => '<p>Metode First in First out merupakan metode dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar. Dengan metode ini saldo persediaan dihitung berdasarkan harga perolehan masing-masing. Penilaian persediaan menggunakan FIFO diterapkan mulai tahun 2021 secara prospektif, setelah Pemerintah menerapkan Metode Harga Perolehan Terakhir pada tahun-tahun sebelumnya.&nbsp;</p>',
+            'question' => '<p>Apa yang dimaksud dengan metode penilaian persediaan <em>First in First out</em>?&nbsp;</p>',
+            'question_explanation' => '<p>Metode <em>First in First out</em> out merupakan metode dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar. Dengan metode ini saldo persediaan dihitung berdasarkan harga perolehan masing-masing. Penilaian persediaan menggunakan FIFO diterapkan mulai tahun 2021 secara prospektif, setelah Pemerintah menerapkan Metode Harga Perolehan Terakhir pada tahun-tahun sebelumnya.&nbsp;</p>',
             'answer_a' => '<p>Pencatatan persediaan yang dilakukan setiap terjadi transaksi yang mempengaruhi persediaan</p>',
             'answer_b' => '<p>Biaya langsung yang terkait dengan persediaan yang diproduksi dan biaya tidak langsung yang dialokasikan secara sistematis</p>',
             'answer_c' => '<p>Penilaian persediaan dimana barang yang masuk terlebih dahulu dianggap sebagai barang yang pertama kali keluar</p>',
@@ -1442,10 +1442,9 @@ class MultipleChoiceSeeder extends Seeder
         MultipleChoice::create([
             'question_type' => 'pusat',
             'question' => '<p>Dalam rangka penyajian beban persediaan pada Laporan Operasional, yang dikecualikan dari beban persediaan adalah sebagai berikut, kecuali&hellip;</p>',
-            'question_explanation' => '<p>Dalam rangka penyajian beban persediaan pada Laporan Operasional, Beban Persediaan dicatat sebesar pemakaian persediaan (use of goods). Dikecualikan dari Beban Persediaan adalah:&nbsp;<br />
-            Pemakaian barang persediaan untuk pemeliharaan yang dicatat sebagai Beban Pemeliharaan;</p>
-            
+            'question_explanation' => '<p>Dalam rangka penyajian beban persediaan pada Laporan Operasional, Beban Persediaan dicatat sebesar pemakaian persediaan (<em>use of goods</em>). Dikecualikan dari Beban Persediaan adalah:&nbsp;<br />
             <ol>
+                <li>Pemakaian barang persediaan untuk pemeliharaan yang dicatat sebagai Beban Pemeliharaan;</li>
                 <li>Penyerahan barang persediaan untuk dijual/diserahkan kepada masyarakat/pemda yang dicatat sebagai Beban Barang untuk Dijual/Diserahkan kepada Masyarakat/Pemda;</li>
                 <li>Penyerahan barang persediaan dalam rangka bantuan sosial yang dicatat sebagai Beban Bantuan Sosial; dan&nbsp;</li>
                 <li>Penyerahan barang persediaan untuk tujuan strategis/berjaga-jaga yang dicatat sebagai Beban Persediaan untuk Tujuan Strategis/Berjaga-jaga.&nbsp;</li>
@@ -1458,39 +1457,39 @@ class MultipleChoiceSeeder extends Seeder
         ]);
         MultipleChoice::create([
             'question_type' => 'pusat',
-            'question' => '<p>Pada 18 Mei 2020, diterima resume tagihan belanja yang bersifat expandable. Bagaimana jurnal yang tepat untuk mencatat transaksi tersebut?&nbsp;</p>',
+            'question' => '<p>Pada 18 Mei 2020, diterima resume tagihan belanja yang bersifat <em>expandable</em>. Bagaimana jurnal yang tepat untuk mencatat transaksi tersebut?&nbsp;</p>',
             'question_explanation' => '<p>Jurnal pada entitas akuntansi/pelaporan belanja atas resume tagihan belanja yang bersifat expandable adalah sebagai berikut:&nbsp;</p>
-                <table border="1" cellpadding="1" cellspacing="1">
-                    <tbody>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td colspan="2" rowspan="1">Buku Besar Akrual</td>
-                            <td>&nbsp;</td>
-                            <td>Buku Besar Kas</td>
-                        </tr>
-                        <tr>
-                            <td>Db</td>
-                            <td>Belanja/transfer yang masih harus dibayar (kewajiban)</td>
-                            <td>LO</td>
-                            <td>Db</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>Kr</td>
-                            <td>Ditagihkan ke entitas lain (ekuitas)&nbsp;</td>
-                            <td>NRC</td>
-                            <td>Kr</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                    </tbody>
-                </table>',
+            <table border="1" cellpadding="1" cellspacing="1">
+                <tbody>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td colspan="2" rowspan="1">Buku Besar Akrual</td>
+                        <td>&nbsp;</td>
+                        <td>Buku Besar Kas</td>
+                    </tr>
+                    <tr>
+                        <td>Db</td>
+                        <td>Beban (<em>expandable</em>)</td>
+                        <td>LO</td>
+                        <td>Db</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Kr</td>
+                        <td>Belanja/transfer yang masih harus dibayar (kewajiban)&nbsp;</td>
+                        <td>NRC</td>
+                        <td>Kr</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>',
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1500,7 +1499,7 @@ class MultipleChoiceSeeder extends Seeder
                                     </tr>
                                     <tr>
                                         <td>x/xx/xxxx</td>
-                                        <td>Belanja (expandable)</td>
+                                        <td>Belanja (<em>expandable</em>)</td>
                                         <td>x</td>
                                         <td>&nbsp;</td>
                                     </tr>
@@ -1515,10 +1514,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1528,7 +1527,7 @@ class MultipleChoiceSeeder extends Seeder
                                     </tr>
                                     <tr>
                                         <td>x/xx/xxxx</td>
-                                        <td>Beban (expandable)</td>
+                                        <td>Beban (<em>expandable</em>)</td>
                                         <td>x</td>
                                         <td>&nbsp;</td>
                                     </tr>
@@ -1543,10 +1542,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1571,10 +1570,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -1606,15 +1605,15 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                         </tr>
                         <tr>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
                         </tr>
                         <tr>
                             <td>Db</td>
@@ -1638,15 +1637,15 @@ class MultipleChoiceSeeder extends Seeder
                                 <tbody>
                                     <tr>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
                                     </tr>
                                     <tr>
                                         <td>Db</td>
@@ -1672,15 +1671,15 @@ class MultipleChoiceSeeder extends Seeder
                                 <tbody>
                                     <tr>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
                                     </tr>
                                     <tr>
                                         <td>Db</td>
@@ -1704,15 +1703,15 @@ class MultipleChoiceSeeder extends Seeder
                                 <tbody>
                                     <tr>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
                                     </tr>
                                     <tr>
                                         <td>Db</td>
@@ -1736,15 +1735,15 @@ class MultipleChoiceSeeder extends Seeder
                                 <tbody>
                                     <tr>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
                                     </tr>
                                     <tr>
                                         <td>Db</td>
@@ -1802,15 +1801,15 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                         </tr>
                         <tr>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
                         </tr>
                         <tr>
                             <td>Db</td>
@@ -1834,15 +1833,15 @@ class MultipleChoiceSeeder extends Seeder
                                 <tbody>
                                     <tr>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
                                     </tr>
                                     <tr>
                                         <td>Db</td>
@@ -1866,15 +1865,15 @@ class MultipleChoiceSeeder extends Seeder
                                 <tbody>
                                     <tr>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
                                     </tr>
                                     <tr>
                                         <td>Db</td>
@@ -1898,15 +1897,15 @@ class MultipleChoiceSeeder extends Seeder
                                 <tbody>
                                     <tr>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
                                     </tr>
                                     <tr>
                                         <td>Db</td>
@@ -1930,15 +1929,15 @@ class MultipleChoiceSeeder extends Seeder
                                 <tbody>
                                     <tr>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                                         <td colspan="1" rowspan="2">&nbsp;</td>
-                                        <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                        <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
-                                        <td><strong>Uraian</strong></td>
-                                        <td><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
+                                        <td style="text-align:center"><strong>Uraian</strong></td>
+                                        <td style="text-align:center"><strong>Ket</strong></td>
                                     </tr>
                                     <tr>
                                         <td>Db</td>
@@ -1969,15 +1968,15 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                         </tr>
                         <tr>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
                         </tr>
                         <tr>
                             <td>Db</td>
@@ -2000,10 +1999,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2029,10 +2028,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2057,10 +2056,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2085,10 +2084,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2120,15 +2119,15 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                         </tr>
                         <tr>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
                         </tr>
                         <tr>
                             <td>Db</td>
@@ -2167,10 +2166,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2195,10 +2194,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2235,10 +2234,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2263,10 +2262,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2310,13 +2309,13 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="1" rowspan="1"><strong>Jurnal Kas</strong></td>
+                            <td colspan="1" rowspan="1" style="text-align:center"><strong>Jurnal Kas</strong></td>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="1" rowspan="1"><strong>Jurnal Akrual</strong></td>
+                            <td colspan="1" rowspan="1 style="text-align:center""><strong>Jurnal Akrual</strong></td>
                         </tr>
                         <tr>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
                         </tr>
                         <tr>
                             <td>Db</td>
@@ -2335,10 +2334,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>Tanggal</td>
-                                    <td>Keterangan</td>
-                                    <td>Debit</td>
-                                    <td>Kredit</td>
+                                    <td style="text-align:center">Tanggal</td>
+                                    <td style="text-align:center">Keterangan</td>
+                                    <td style="text-align:center">Debit</td>
+                                    <td style="text-align:center">Kredit</td>
                                 </tr>
                                 <tr>
                                     <td>&nbsp;</td>
@@ -2381,10 +2380,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2409,10 +2408,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2455,10 +2454,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2490,15 +2489,15 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                         </tr>
                         <tr>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
                         </tr>
                         <tr>
                             <td>Db</td>
@@ -2521,10 +2520,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2549,10 +2548,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2577,10 +2576,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2605,10 +2604,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2660,15 +2659,15 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                             <td colspan="1" rowspan="2">&nbsp;</td>
-                            <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                            <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                         </tr>
                         <tr>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
-                            <td><strong>Uraian</strong></td>
-                            <td><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
+                            <td style="text-align:center"><strong>Uraian</strong></td>
+                            <td style="text-align:center"><strong>Ket</strong></td>
                         </tr>
                         <tr>
                             <td>Db</td>
@@ -2691,10 +2690,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2737,10 +2736,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2783,10 +2782,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2811,10 +2810,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2865,15 +2864,15 @@ class MultipleChoiceSeeder extends Seeder
                         <tbody>
                             <tr>
                                 <td colspan="1" rowspan="2">&nbsp;</td>
-                                <td colspan="2" rowspan="1"><strong>Buku Besar Akrual</strong></td>
+                                <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Akrual</strong></td>
                                 <td colspan="1" rowspan="2">&nbsp;</td>
-                                <td colspan="2" rowspan="1"><strong>Buku Besar Kas</strong></td>
+                                <td colspan="2" rowspan="1" style="text-align:center"><strong>Buku Besar Kas</strong></td>
                             </tr>
                             <tr>
-                                <td><strong>Uraian</strong></td>
-                                <td><strong>Ket</strong></td>
-                                <td><strong>Uraian</strong></td>
-                                <td><strong>Ket</strong></td>
+                                <td style="text-align:center"><strong>Uraian</strong></td>
+                                <td style="text-align:center"><strong>Ket</strong></td>
+                                <td style="text-align:center"><strong>Uraian</strong></td>
+                                <td style="text-align:center"><strong>Ket</strong></td>
                             </tr>
                             <tr>
                                 <td>Db</td>
@@ -2896,10 +2895,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -2942,10 +2941,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>   
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -3000,10 +2999,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -3058,10 +3057,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -3111,25 +3110,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -3170,10 +3169,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -3198,10 +3197,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -3226,10 +3225,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -3254,10 +3253,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                                 <tbody>
                                     <tr>
-                                        <td>Tanggal</td>
-                                        <td>Keterangan</td>
-                                        <td>Debit</td>
-                                        <td>Kredit</td>
+                                        <td style="text-align:center">Tanggal</td>
+                                        <td style="text-align:center">Keterangan</td>
+                                        <td style="text-align:center">Debit</td>
+                                        <td style="text-align:center">Kredit</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -3289,25 +3288,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -3348,16 +3347,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table>
                                 <tbody>
                                     <tr>
-                                        <td>
+                                        <td style="text-align:center">
                                         <p><strong>Tanggal</strong></p>
                                         </td>
-                                        <td>
+                                        <td style="text-align:center">
                                         <p><strong>Keterangan</strong></p>
                                         </td>
-                                        <td>
+                                        <td style="text-align:center">
                                         <p><strong>Debit</strong></p>
                                         </td>
-                                        <td>
+                                        <td style="text-align:center">
                                         <p><strong>Kredit</strong></p>
                                         </td>
                                     </tr>
@@ -3396,16 +3395,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table>
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -3444,16 +3443,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table>
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -3492,16 +3491,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table>
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -3547,25 +3546,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2 style="text-align:center"">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <t style="text-align:center"d>
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -3612,10 +3611,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>Tanggal</td>
-                                    <td>Keterangan</td>
-                                    <td>Debit</td>
-                                    <td>Kredit</td>
+                                    <td style="text-align:center">Tanggal</td>
+                                    <td style="text-align:center">Keterangan</td>
+                                    <td style="text-align:center">Debit</td>
+                                    <td style="text-align:center">Kredit</td>
                                 </tr>
                                 <tr>
                                     <td>&nbsp;</td>
@@ -3640,10 +3639,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>Tanggal</td>
-                                    <td>Keterangan</td>
-                                    <td>Debit</td>
-                                    <td>Kredit</td>
+                                    <td style="text-align:center">Tanggal</td>
+                                    <td style="text-align:center">Keterangan</td>
+                                    <td style="text-align:center">Debit</td>
+                                    <td style="text-align:center">Kredit</td>
                                 </tr>
                                 <tr>
                                     <td>&nbsp;</td>
@@ -3668,10 +3667,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>Tanggal</td>
-                                    <td>Keterangan</td>
-                                    <td>Debit</td>
-                                    <td>Kredit</td>
+                                    <td style="text-align:center">Tanggal</td>
+                                    <td style="text-align:center">Keterangan</td>
+                                    <td style="text-align:center">Debit</td>
+                                    <td style="text-align:center">Kredit</td>
                                 </tr>
                                 <tr>
                                     <td>&nbsp;</td>
@@ -3714,10 +3713,10 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>Tanggal</td>
-                                    <td>Keterangan</td>
-                                    <td>Debit</td>
-                                    <td>Kredit</td>
+                                    <td style="text-align:center">Tanggal</td>
+                                    <td style="text-align:center">Keterangan</td>
+                                    <td style="text-align:center">Debit</td>
+                                    <td style="text-align:center">Kredit</td>
                                 </tr>
                                 <tr>
                                     <td>&nbsp;</td>
@@ -3750,13 +3749,18 @@ class MultipleChoiceSeeder extends Seeder
                                 <li>Dana yang disisihkan pemerintah dalam rangka pelayanan masyarakat seperti bantuan modal kerja secara bergulir kepada kelompok masyarakat;</li>
                             </ol>
                             <p>Transaksi tersebut masuk kedalam kategori&hellip;</p>',
-            'question_explanation' => '<p>Investasi non permanen merupakan investasi jangka panjang yang kepemilikannya berjangka waktu lebih dari 12 bulan dimaksudkan untuk tidak dimiliki terus menerus/berkelanjutan atau ada niat untuk memperjualbelikan atau menarik kembali. Investasi non permanen dapat berupa:&nbsp;</p>
-                <ol>
-                    <li>Pembelian obligasi atau surat utang jangka panjang yang dimaksudkan untuk dimiliki sampai dengan tanggal jatuh tempo;</li>
-                    <li>Penanaman modal dalam proyek pembangunan yang dapat dialihkan kepada pihak ketiga;</li>
-                    <li>Dana yang disisihkan pemerintah dalam rangka pelayanan masyarakat seperti bantuan modal kerja secara bergulir kepada kelompok masyarakat;</li>
-                    <li>Investasi non permanen lainnya, yang sifatnya tidak dimaksudkan untuk dimiliki pemerintah secara berkelanjutan, seperti penyerahan modal yang dimaksudkan untuk penyehatan/penyelamatan perekonomian.&nbsp;</li>
-                </ol>',
+            'question_explanation' => '<p>Piutang tagihan TP/TGR diakui apabila telah memenuhi kriteria:&nbsp;</p>
+
+            <ol>
+                <li>Telah ditandatanganinya Surat Keterangan Tanggung Jawab Mutlak (SKTJM)</li>
+                <li>Telah diterbitkan:
+                <ul>
+                    <li>Surat keputusan pembebanan sementara kepada pihak yang dikenakan tuntutan perbendaharaan; atau&nbsp;</li>
+                    <li>Surat Keputusan Pembebanan Penggantian Kerugian Sementara (SKP2KS) kepada pihak yang dikenakan tuntutan ganti kerugian negara bukan bendahara; atau&nbsp;</li>
+                    <li>Telah ada putusan Lembaga Peradilan yang berkekuatan hukum tetap (in kracht van gewijsde) yang menghukum seseorang untuk membayar sejumlah uang kepada Pemerintah.&nbsp;</li>
+                </ul>
+                </li>
+            </ol>',
             'answer_a' => '<p>Investasi non permanen</p>',
             'answer_b' => '<p>Investasi permanen</p>',
             'answer_c' => '<p>Penyertaan modal negara</p>',
@@ -3878,7 +3882,7 @@ class MultipleChoiceSeeder extends Seeder
         MultipleChoice::create([
             'question_type' => 'pusat',
             'question' => '<p>Metode penyusutan aset tetap yang diterapkan pemerintah untuk mengalokasikan nilai/besaran aset yang dapat didepresiasikan secara sistematis sepanjang umur aset adalah&hellip;</p>',
-            'question_explanation' => '<p>Metode penyusutan aset tetap yang diterapkan pemerintah untuk mengalokasikan nilai/besaran aset yang dapat didepresiasikan secara sistematis sepanjang umur aset adalah metode garis lurus (straight line method). Metode garis lurus menetapkan tarif penyusutan untuk masing-masing periode dengan jumlah yang sama.</p>',
+            'question_explanation' => '<p>Metode penyusutan aset tetap yang diterapkan pemerintah untuk mengalokasikan nilai/besaran aset yang dapat didepresiasikan secara sistematis sepanjang umur aset adalah metode garis lurus (<em>straight line method</em>). Metode garis lurus menetapkan tarif penyusutan untuk masing-masing periode dengan jumlah yang sama.</p>',
             'answer_a' => '<p>Metode jumlah angka tahun</p>',
             'answer_b' => '<p>Metode saldo menurun</p>',
             'answer_c' => '<p>Metode depresiasi khusus</p>',
@@ -3911,25 +3915,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -4002,16 +4006,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4050,16 +4054,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4098,16 +4102,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4146,16 +4150,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4221,25 +4225,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -4280,16 +4284,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4328,16 +4332,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4376,16 +4380,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4424,16 +4428,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <t style="text-align:center"d>
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4479,25 +4483,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -4544,16 +4548,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4590,7 +4594,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -4620,16 +4624,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4668,16 +4672,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4714,7 +4718,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -4764,16 +4768,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4819,25 +4823,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -4906,16 +4910,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -4974,16 +4978,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5022,16 +5026,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5090,16 +5094,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5145,25 +5149,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -5210,16 +5214,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5256,7 +5260,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -5286,16 +5290,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5332,7 +5336,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -5382,16 +5386,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5428,7 +5432,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -5448,16 +5452,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5494,7 +5498,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -5551,25 +5555,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -5616,16 +5620,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5662,7 +5666,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -5692,16 +5696,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5738,7 +5742,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -5768,16 +5772,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5814,7 +5818,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -5864,16 +5868,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -5910,7 +5914,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -5947,25 +5951,25 @@ class MultipleChoiceSeeder extends Seeder
                     <tbody>
                         <tr>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Akrual</strong></p>
                             </td>
                             <td rowspan="2">&nbsp;</td>
-                            <td colspan="2">
+                            <td colspan="2" style="text-align:center">
                             <p><strong>Buku Besar Kas</strong></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Uraian</strong></p>
                             </td>
-                            <td>
+                            <td style="text-align:center">
                             <p><strong>Ket</strong></p>
                             </td>
                         </tr>
@@ -6006,16 +6010,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table>
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -6052,7 +6056,7 @@ class MultipleChoiceSeeder extends Seeder
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                    <p>Jurnal Kas</p>
+                                    <p><strong>Jurnal Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -6082,16 +6086,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -6130,16 +6134,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -6178,16 +6182,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Tanggal</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Keterangan</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Debit</strong></p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p><strong>Kredit</strong></p>
                                     </td>
                                 </tr>
@@ -6525,16 +6529,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -6565,16 +6569,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -6605,16 +6609,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -6645,16 +6649,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -6692,12 +6696,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LO dan Neraca</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LO dan Neraca</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>-</p>
+                                    <td style="text-align:center">
+                                    <p><strong>-</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -6734,12 +6738,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LO dan Neraca</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LO dan Neraca</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LRA</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LRA</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -6776,12 +6780,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LRA</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LRA</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LO dan Neraca</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LO dan Neraca</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -6818,12 +6822,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LO dan Neraca</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LO dan Neraca</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>-</p>
+                                    <td style="text-align:center">
+                                    <p><strong>-</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -6876,8 +6880,8 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal Finansial</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal Finansial</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>
@@ -6918,12 +6922,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal Finansial dan Anggaran</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal Finansial dan Anggaran</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal Anggaran</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal Anggaran</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -6964,8 +6968,8 @@ class MultipleChoiceSeeder extends Seeder
                                     <p>-</p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal Anggaran</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal Anggaran</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -7002,8 +7006,8 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal SKPD</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal SKPD</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>
@@ -7130,8 +7134,8 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LO dan Neraca</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LO dan Neraca</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>
@@ -7172,12 +7176,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LO dan Neraca</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LO dan Neraca</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LRA</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LRA</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -7218,8 +7222,8 @@ class MultipleChoiceSeeder extends Seeder
                                     <p>-</p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LRA</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LRA</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -7256,12 +7260,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LO dan Neraca</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LO dan Neraca</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Jurnal LRA</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Jurnal LRA</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -7323,16 +7327,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -7363,16 +7367,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -7403,16 +7407,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -7443,16 +7447,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -7496,7 +7500,7 @@ class MultipleChoiceSeeder extends Seeder
         ]);
         MultipleChoice::create([
             'question_type' => 'daerah',
-            'question' => '<p>Pajak Perdagangan Internasional adalah semua penerimaan negara yang bersumber dari&hellip;</p>',
+            'question' => '<p>Apa saja sumber penerimaan pajak perdagangan internasional?</p>',
             'question_explanation' => '<p>Pasal 1 ayat 5 mengungkapkan bahwa Pendapatan Pajak Perdagangan Internasional adalah semua penerimaan negara yang berasal dari pendapatan bea masuk dan pendapatan bea keluar</p>',
             'answer_a' => '<p>Pendapatan Hibah dan PAD&nbsp;</p>',
             'answer_b' => '<p>Pendapatan beas masuk dan pendapatan bea keluar&nbsp;</p>',
@@ -7576,7 +7580,7 @@ class MultipleChoiceSeeder extends Seeder
         ]);
         MultipleChoice::create([
             'question_type' => 'daerah',
-            'question' => '<p>Proses pencocokan data dan informasi keuangan Pemerintah Umum dengan sumber data counter party transaksi dan posisi keuangannya yang berasal dari sistem/subsistem yang berbeda disebut dengan proses&hellip;.</p>',
+            'question' => '<p>Proses pencocokan data dan informasi keuangan Pemerintah Umum dengan sumber data <em>counter party</em> transaksi dan posisi keuangannya yang berasal dari sistem/subsistem yang berbeda disebut dengan proses&hellip;.</p>',
             'question_explanation' => '<p>Pada Pasal 1 Ayat (1) &nbsp;Rekonsiliasi adalah proses pencocokan data dan informasi keuangan Pemerintah Umum dengan sumber data counterparty transaksi dan posisi keuangannya yang berasal dari sistem/subsistem yang berbeda.</p>',
             'answer_a' => '<p>Pemeriksaan&nbsp;</p>',
             'answer_b' => '<p>Rekonsiliasi&nbsp;</p>',
@@ -7597,7 +7601,7 @@ class MultipleChoiceSeeder extends Seeder
         MultipleChoice::create([
             'question_type' => 'daerah',
             'question' => '<p>Catatan atas Laporan Keuangan akan menyajikan sejumlah hal, kecuali&hellip;</p>',
-            'question_explanation' => '<p>Pada bagian Catatan Atas Laporan Keuangan menyatakan bahwa Catatan atas &nbsp;Laporan Keuangan mengungkapkan/menyajikan/menyediakan hal-hal sebagai &nbsp;berikut: Mengungkapkan informasi Umum tentang Entitas Pelaporan dan Entitas Akuntansi, Menyajikan ikhtisar pencapaian target keuangan selama tahun pelaporan berikut kendala dan hambatan yang dihadapi dalam pencapaian target, Menyajikan informasi tentang kebijakan fiskal/keuangan dan ekonomi makro, Menyajikan rincian dan penjelasan masing-masing pos yang disajikan pada &nbsp;lembar muka laporan keuangan</p>',
+            'question_explanation' => '<p>Pada bagian Catatan Atas Laporan Keuangan menyatakan bahwa Catatan atas &nbsp;Laporan Keuangan mengungkapkan/menyajikan/menyediakan hal-hal sebagai &nbsp;berikut: Mengungkapkan informasi Umum tentang Entitas Pelaporan dan Entitas Akuntansi, Menyajikan ikhtisar pencapaian target keuangan selama tahun pelaporan berikut kendala dan hambatan yang dihadapi dalam pencapaian target, <strong>Menyajikan informasi tentang kebijakan fiskal/keuangan dan ekonomi makro</strong>, Menyajikan rincian dan penjelasan masing-masing pos yang disajikan pada &nbsp;lembar muka laporan keuangan</p>',
             'answer_a' => '<p>Mengungkapkan informasi Umum tentang Entitas Pelaporan dan Entitas Akuntansi</p>',
             'answer_b' => '<p>Menyajikan ikhtisar pencapaian target keuangan selama tahun pelaporan berikut kendala dan hambatan yang dihadapi dalam pencapaian target</p>',
             'answer_c' => '<p>Menyajikan informasi tentang kebijakan fiskal/keuangan dan ekonomi mikro&nbsp;</p>',
@@ -7731,7 +7735,7 @@ class MultipleChoiceSeeder extends Seeder
         ]); 
         MultipleChoice::create([
             'question_type' => 'daerah',
-            'question' => '<p>Metode penilaian investasi pemenrintah dengan metode ekuitas jika kepemilikan pemerintah ada pada presentase...</p>',
+            'question' => '<p>Dalam menjalankan penilaian investasi pemerintah melalui metode ekuitas, Berapa persentase kepemilikan pemerintah disana ?</p>',
             'question_explanation' => '<p>Bagian Keempat, Metode Penilaian Investasi, Pasal 10</p>
 
                 <ol>
@@ -7761,7 +7765,7 @@ class MultipleChoiceSeeder extends Seeder
         ]); 
         MultipleChoice::create([
             'question_type' => 'daerah',
-            'question' => '<p>Akuntansi pengeluaran kas pada SKPD meliputi akuntansi untuk belanja yang dapat melalui mekanisme, antara lain, kecuali...</p>',
+            'question' => '<p>Apa saja yang termasuk dalam akuntansi pengeluaran kas di SKPD, kecuali...</p>',
             'question_explanation' => '<p>Akuntansi pengeluaran kas pada SKPD meliputi serangkaian proses, baik manual maupun terkomputerisasi, mulai dari pencatatan, penggolongan, sampai peringkasan transaksi dan/atau kejadian keuangan serta pelaporan keuangan yang berkaitan dengan pengeluaran kas belanja SKPD. Akuntansi pengeluaran kas pada SKPD meliputi akuntansi untuk belanja melalui mekanisme Uang Persediaan (UP)/Ganti Uang (GU)/Tambah Uang (TU) dan belanja langsung (LS) dimana bendahara pengeluaran menerima kas untuk pengeluaran belanja tersebut.</p>',
             'answer_a' => '<p>Uang Persediaan (UP)</p>',
             'answer_b' => '<p>Ganti Uang (GU)/Tambah Uang (TU)</p>',
@@ -7776,16 +7780,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -7816,16 +7820,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -7856,16 +7860,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -7896,16 +7900,16 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Tanggal</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -7988,13 +7992,13 @@ class MultipleChoiceSeeder extends Seeder
             'answer_a' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -8021,13 +8025,13 @@ class MultipleChoiceSeeder extends Seeder
             'answer_b' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -8054,13 +8058,13 @@ class MultipleChoiceSeeder extends Seeder
             'answer_c' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -8087,13 +8091,13 @@ class MultipleChoiceSeeder extends Seeder
             'answer_d' => '<table border="1" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Keterangan</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Debit</p>
                                     </td>
-                                    <td>
+                                    <td style="text-align:center">
                                     <p>Kredit</p>
                                     </td>
                                 </tr>
@@ -8200,12 +8204,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Buku Besar Kas</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Buku Besar Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Buku Besar Akrual</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Buku Besar Akrual</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -8242,12 +8246,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Buku Besar Kas</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Buku Besar Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Buku Besar Akrual</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Buku Besar Akrual</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -8284,12 +8288,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Buku Besar Kas</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Buku Besar Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Buku Besar Akrual</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Buku Besar Akrual</strong></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -8326,12 +8330,12 @@ class MultipleChoiceSeeder extends Seeder
                             <tbody>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Buku Besar Kas</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Buku Besar Kas</strong></p>
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td>
-                                    <p>Buku Besar Akrual</p>
+                                    <td style="text-align:center">
+                                    <p><strong>Buku Besar Akrual</strong></p>
                                     </td>
                                 </tr>
                                 <tr>

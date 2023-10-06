@@ -29,84 +29,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reset Password</title>
-    <style>
-        body{
-            margin: 0.5rem;
-        }
-        .box-top{
-            width: 100%;
-            border-radius: 0.5rem 0.5rem 0 0;
-            height: 3rem;
-            background-color: #c7cbfa;
-        }
-        .box-bottom{
-            width: 100%;
-            border-radius: 0 0 0.5rem 0.5rem;
-            height: 3rem;
-            background-color: #c7cbfa;
-        }
-        img{
-            width: 15%;
-            height: 20%;
-        }
-        .body-email{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
-            align-items: center;
-            background-color: white;
-            margin: 1rem 0 1rem 0;
-        }
-        h3{
-            font-weight: bold;
-        }
-        .desc{
-            width: 75%;
-            text-align: center;
-        }
-        a#btn_reset{
-            background-color: #3b46bf; 
-            color: white; 
-            padding: 0.4rem; 
-            text-decoration: none;
-            border-radius: 0.5rem;
-        }
-        .rule{
-            height: 1px;
-            background-color: #2c348f;
-            margin-bottom: 0.5rem;
-        }
-        .cp{
-            font-size: smaller;
-            text-align: center;
-        }
-        .footer{
-            width: 75%;
-            display: flex;
-            flex-direction: column;
-            margin-top: 3rem;
-        }
-        .in-footer{
-            display: flex;
-            justify-content: space-between;
-        }
-        .nav{
-            display: flex;
-            flex-wrap: wrap;
-            padding-left: 0;
-            margin-bottom: 0;
-            list-style: none;
-        }
-        li{
-            margin-left: 1rem;
-        }
-        ul, .cp{
-            margin-top: 0;
-        }
-    </style>
 </head>
-<body>
+{{-- <body>
     <div class="box-top"></div>
     <div class="body-email">
         <h3>Selamat Datang!</h3>
@@ -138,5 +62,20 @@
         </div>
     </div>
     <div class="box-bottom"></div>
+</body> --}}
+
+<body >
+    <center>
+        <div style="background-color: #c7cbfa; padding: 1rem; border-radius: 10px; width: 75%;">
+            <center><b><h3>Selamat Datang!</h3></b></center>
+            <center><p>Tekan tombol di bawah ini untuk mengubah password Anda</p></center>
+            <center>
+                <a style="background-color: #3b46bf;  color: white; padding: 0.5rem; text-decoration: none; border-radius: 0.5rem;" href="{{ route('reset.pass.form', ['token'=>$token, 'email'=>$email]) }}" type="button">
+                    Reset Password
+                </a>
+            </center>
+        </div>
+    </center>
 </body>
+
 </html>

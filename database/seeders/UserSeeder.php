@@ -15,36 +15,26 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         User::create([
-            'name'          => 'Alya Zakhira',
-            'gender'        => 'female',
-            'date_of_birth' => '2002-12-24',
-            'occupation'    => 'Penjelajah Alam',
-            'institution'   => 'NASA',
-            'email'         => 'zakhiralya@gmail.com',
-            'password'      => Hash::make('12345'),
+            'name'          => 'Admin CGAA',
+            'gender'        => 'male',
+            'date_of_birth' => '2003-01-01',
+            'occupation'    => 'Admin',
+            'institution'   => 'Universitas Gadjah Mada',
+            'email'         => 'simulasi-cgaa@hotmail.com',
+            'password'      => Hash::make('.eL!D;oK8r)D'),
             'is_admin'      => true,
         ]);
 
         User::create([
-            'name'          => 'Luthfia Nisa',
+            'name'          => 'Tester',
             'gender'        => 'female',
-            'date_of_birth' => '2003-03-27',
+            'date_of_birth' => '2003-01-01',
             'occupation'    => 'Mahasiswa',
             'institution'   => 'Universitas Gadjah Mada',
             'study_program' => 'Software Engineering',
             'generation'    => 2021,
-            'email'         => 'luthfianisa02@gmail.com',
-            'password'      => Hash::make('12345'),
-        ]);
-
-        User::create([
-            'name'          => 'Elyra Dina',
-            'gender'        => 'female',
-            'date_of_birth' => '2003-10-19',
-            'occupation'    => 'Editor Handal',
-            'institution'   => 'Akasa',
             'email'         => 'elyra.dina.oktaviani@gmail.com',
-            'password'      => Hash::make('12345'),
+            'password'      => Hash::make('+d4nK~3p+b=m'),
         ]);
     }
 }

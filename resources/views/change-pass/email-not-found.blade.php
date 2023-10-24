@@ -86,8 +86,8 @@
             </div>
             <div class="box rounded-4 p-4 align-self-center">
                 <div class="d-flex flex-column text-center">
-                    <p class="title fw-semibold mb-1">Email terkirim!</p>
-                    <p class="mb-4">Silakan periksa kotak masuk email Anda.</p>
+                    <p class="title fw-semibold mb-1">Email tidak ditemukan!</p>
+                    <p class="mb-4">Silakan mendaftarkan email Anda.</p>
                 </div>
             </div>
             <!-- Box Shadow -->

@@ -89,14 +89,21 @@ class AuthController extends Controller
             return ResourceWrapper::make(false, 400, 'Data invalid!', null);
         }
 
-        $token = Str::random(64);
         $email = $request->email;
+        if (DB::table('users')->where('email', $email)->doesntExist()) {
+            return view('change-pass.email-not-found');
+        }
 
-        DB::table('password_reset_tokens')->insert([
-            'email'         => $email,
-            'token'         => $token,
-            'created_at'    => Carbon::now(),
-        ]);
+        if (DB::table('password_reset_tokens')->where('email', $email)->exists()) {
+            $token = DB::table('password_reset_tokens')->where('email', $email)->get('token');
+        } else {
+            $token = Str::random(64);
+            DB::table('password_reset_tokens')->insert([
+                'email'         => $email,
+                'token'         => $token,
+                'created_at'    => Carbon::now(),
+            ]);
+        }
 
         Mail::send('change-pass.forget-pass', ['token' => $token, 'email' => $email], function ($message) use ($request) {
             $message->to($request->email);

@@ -95,7 +95,7 @@ class AuthController extends Controller
         }
 
         if (DB::table('password_reset_tokens')->where('email', $email)->exists()) {
-            $token = DB::table('password_reset_tokens')->where('email', $email)->get('token');
+            $token = DB::table('password_reset_tokens')->where('email', $email)->first()->token;
         } else {
             $token = Str::random(64);
             DB::table('password_reset_tokens')->insert([
@@ -105,7 +105,7 @@ class AuthController extends Controller
             ]);
         }
 
-        Mail::send('change-pass.forget-pass', ['token' => $token, 'email' => $email], function ($message) use ($request) {
+        Mail::send('change-pass.forget-pass', ['email' => $email, 'token' => $token], function ($message) use ($request) {
             $message->to($request->email);
             $message->subject('Reset Password');
         });
